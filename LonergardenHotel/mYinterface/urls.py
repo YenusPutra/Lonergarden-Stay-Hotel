@@ -3,7 +3,8 @@ from . import views
 
 urlpatterns = [
     path("booking/", views.booking, name="booking"),
-    path("payment/notification/", views.midtrans_notification, name="midtrans_notification"),
+    path("payment/", views.midtrans_notification, name="midtrans_notification"),
+    path("payment/finish/", views.payment_finish, name="payment_finish"),
     path('', views.render_page, {'page': 'index'}, name='index'),
     path('rooms/', views.room_list, name='room_list'),
     path('contact/', views.contact, name='contact'),

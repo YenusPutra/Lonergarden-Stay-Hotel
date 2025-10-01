@@ -61,13 +61,13 @@ class BookingSystem(models.Model):
     accommodation_type = models.CharField(
         max_length=50,
         choices=[
-            ("classic", "Classic Room"),
-            ("premium", "Premium Room"),
-            ("junior-suite", "Junior Suite"),
-            ("luxury-suite", "Luxury Suite"),
-            ("penthouse", "Penthouse Suite"),
+            ("Deluxe", "Deluxe Ocean Suite"),
+            ("Standard", "Standard City Room"),
+            ("Romantic", "Romantic Honeymoon Suite"),
+            ("Family", "Family Garden Room"),
+            ("Executive", "Executive Business Suite"),
+            ("Premium", "Premium Ocean View"),
         ],
-        null=True
     )
     additional_notes = models.TextField(blank=True, null=True)
     # Guest info

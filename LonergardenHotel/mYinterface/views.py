@@ -15,12 +15,6 @@ from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
-ALLOWED_TEMPLATES = [
-    'about', 'amenities', 'booking', '404', 'contact', 'events', 'gallery',
-    'index', 'location', 'offers', 'privacy', 'restaurant', 'room-details',
-    'rooms', 'starter-page', 'terms', 'login',
-]
-
 def contact(request):
     form = ContactForm(request.POST or None)
     if request.method == 'POST' and form.is_valid():
@@ -107,6 +101,8 @@ def room_list(request):
 
 def booking(request):
     if request.method == "POST":
+        # Check if this is an AJAX request (from your JavaScript fetch)
+        
         # ✅ Collect form data
         arrival = request.POST.get("arrival_date")
         departure = request.POST.get("departure_date")
@@ -118,12 +114,46 @@ def booking(request):
         email = request.POST.get("contact_email")
         phone = request.POST.get("contact_phone")
 
-
         # ✅ Example price calculation (adjust as needed)
-        total_price = int(room) * 500000  # e.g., 500k per room
+        roomtype_price = {
+            "Deluxe" : 289.00,
+            "Standard" : 129.00,
+            "Romantic" : 349.00,
+            "Family" : 159.00,
+            "Executive" : 199.00,
+            "Premium" : 259.00,
+            }
+        from datetime import datetime
+        try:
+            arrival_date = datetime.strptime(arrival, "%Y-%m-%d")
+            departure_date = datetime.strptime(departure, "%Y-%m-%d")
+        except ValueError:
+            # If dates are invalid, return error instead of crashing
+            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+                return JsonResponse({'error': 'Invalid date format'}, status=400)
+            else:
+                messages.error(request, 'Invalid date format')
+                return redirect('/booking/')  # Or wherever
+        nights = (departure_date - arrival_date).days
+        if nights <= 0:
+            # Departure before arrival? Error!
+            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+                return JsonResponse({'error': 'Departure must be after arrival'}, status=400)
+            else:
+                messages.error(request, 'Departure must be after arrival')
+                return redirect('/booking/')
+        RoomType = roomtype_price.get(accommodation_type)
+        if not accommodation_type:
+            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+                return JsonResponse({'error': 'Please select an accommodation type'}, status=400)
+            else:
+                messages.error(request, 'Please select an accommodation type')
+                return redirect('/booking/')
+            
+        total_price = int(room) * RoomType * nights
 
         # Generate unique order_id
-        order_id = f"BOOK-{uuid.uuid4().hex[:10]}"
+        unique_order_id = f"BOOK-{uuid.uuid4().hex[:10]}"
 
         # Save booking to DB
         booking_obj = BookingSystem.objects.create(
@@ -136,7 +166,7 @@ def booking(request):
             primary_guest=name,
             contact_email=email,
             contact_phone=phone,
-            order_id=order_id,
+            order_id=unique_order_id,
             amount=total_price
         )
 
@@ -146,9 +176,11 @@ def booking(request):
             server_key=settings.MIDTRANS_SERVER_KEY
         )
 
-        transaction = snap.create_transaction({
+        from midtransclient.error_midtrans import MidtransAPIError
+        try:
+            transaction = snap.create_transaction({
             "transaction_details": {
-                "order_id": f"ORDER-{name}-{guest}",
+                "order_id": f"ORDER-{name}-{guest}-{unique_order_id}",
                 "gross_amount": total_price,
             },
             "customer_details": {
@@ -159,27 +191,47 @@ def booking(request):
             "item_details": [{
             "id": "room-booking",
             "price": total_price,
-            "quantity": 1,
-            "name": f"{accommodation_type or 'Standard'} Room"
+            "quantity": room,
+            "name": f"{accommodation_type} Room"
             }],
             "arrivals": f"Arrival: {arrival}",
             "departures": f"Departure: {departure}",
             "custom_field3": f"Notes: {additional_notes or '-'}",
-        })
-        
+            "callbacks": {
+            "finish": request.build_absolute_uri("/payment/finish/")
+            }
+            })
+        except MidtransAPIError as e:
+            # Handle the error nicely
+            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+                return JsonResponse({'error': 'Payment setup failed, try again'}, status=500)
+            else:
+                messages.error(request, 'Payment setup failed, try again')
+                return redirect('/booking/')
 
         # Save snap token
         snap_token = transaction['token']
         booking_obj.snap_token = snap_token
         booking_obj.save()
 
-        return render(request, "mYinterface/payment.html", {
-            "snap_token": snap_token,
-            "client_key": settings.MIDTRANS_CLIENT_KEY,
-            "total_price": total_price
-        })
-
+        # Check if this is an AJAX request (from JavaScript)
+        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+            # Return JSON for JavaScript to call snap.pay()
+            return JsonResponse({'snap_token': snap_token})
+        else:
+            # Normal form submit: show the payment page
+            return render(request, "mYinterface/payment.html", {
+                "snap_token": snap_token,
+                "client_key": settings.MIDTRANS_CLIENT_KEY,
+                "total_price": total_price
+            })
+    else: 
+        return render(request, "mYinterface/booking.html")
+    
+    
+def payment_finish(request):
     return render(request, "mYinterface/booking.html")
+
 
 @csrf_exempt  # Midtrans can't send CSRF token, so we disable it for this endpoint
 def midtrans_notification(request):
@@ -213,8 +265,12 @@ def midtrans_notification(request):
     return JsonResponse({"status": "invalid method"}, status=405)
 
 
-
 # Custom 404 view for catch-all pattern !!Must be put at the very last line!!
+ALLOWED_TEMPLATES = [
+    'about', 'amenities', 'booking', '404', 'contact', 'events', 'gallery',
+    'index', 'location', 'offers', 'privacy', 'restaurant', 'room-details',
+    'rooms', 'starter-page', 'terms', 'login',
+]
 def render_page(request, page):
     if page not in ALLOWED_TEMPLATES:
         raise Http404("Page not found")

@@ -184,13 +184,13 @@
                     <h4>Room Preferences</h4>
                     <div class="form-group">
                       <label for="accommodation-type" class="form-label">Accommodation Type</label>
-                      <select class="form-select" id="accommodation-type" name="accommodation_type">
+                      <select class="form-select" id="accommodation-type" name="accommodation_type" required="">
                         <option value="">No preference</option>
-                        <option value="classic">Classic Room</option>
-                        <option value="premium">Premium Room</option>
-                        <option value="junior-suite">Junior Suite</option>
-                        <option value="luxury-suite">Luxury Suite</option>
-                        <option value="penthouse">Penthouse Suite</option>
+                        <option value="Standard">Standard City Room</option>
+                        <option value="Premium">Premium Ocean View</option>
+                        <option value="Deluxe">Deluxe Ocean Suite</option>
+                        <option value="Executive">Executive Business Suite</option>
+                        <option value="Romantic">Romantic Honeymoon Suite</option>
                       </select>
                     </div>
                     <div class="form-group">
@@ -428,7 +428,8 @@
         method: "POST",
         body: formData,
         headers: {
-            "X-CSRFToken": "{{ csrf_token }}"
+            "X-CSRFToken": "{{ csrf_token }}",
+            "X-Requested-With": "XMLHttpRequest"
         }
     });
 
