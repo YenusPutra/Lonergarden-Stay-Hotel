@@ -1,0 +1,71 @@
+        <div class="rooms-grid" data-aos="fade-up" data-aos-delay="300">
+          <div class="row g-4">
+            {% for room in rooms %}
+              <div class="col-xl-4 col-lg-6">
+                <div class="room-card">
+                  <div class="room-image">
+                    <img src="{{ room.image.url }}" alt="{{ room.name }}" class="img-fluid">
+                    <div class="room-features">
+                      {% if room.tag_ocean_view %}<span class="feature-badge ocean">Ocean View</span>{% endif %}
+                      {% if room.tag_garden_view %}<span class="feature-badge garden">Garden View</span>{% endif %}
+                      {% if room.tag_city_view %}<span class="feature-badge city">City View</span>{% endif %}
+                      {% if room.tag_mountain_view %}<span class="feature-badge mountain">Mountain View</span>{% endif %}
+                      {% if room.tag_pool_view %}<span class="feature-badge pool">Pool View</span>{% endif %}
+                      {% if room.tag_popular %}<span class="feature-badge popular">Popular</span>{% endif %}
+                      {% if room.tag_business %}<span class="feature-badge business">Business</span>{% endif %}
+                      {% if room.tag_family_friendly %}<span class="feature-badge family">Family Friendly</span>{% endif %}
+                      {% if room.tag_romantic %}<span class="feature-badge romantic">Romantic</span>{% endif %}
+                      {% if room.tag_premium %}<span class="feature-badge premium">Premium</span>{% endif %}
+                      {% if room.tag_luxury %}<span class="feature-badge luxury">Luxury</span>{% endif %}
+                    </div>
+                  </div>
+
+                  <div class="room-content">
+                    <div class="room-header">
+                      <h3>{{ room.name }}</h3>
+                      <div class="room-rating">
+                        {% for i in "12345" %}
+                          {% if forloop.counter <= room.rating %}
+                            <i class="bi bi-star-fill"></i>
+                          {% elif room.rating|floatformat:1 == forloop.counter0|stringformat:"s.5" %}
+                            <i class="bi bi-star-half"></i>
+                          {% else %}
+                            <i class="bi bi-star"></i>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+
+                    <p class="room-description">{{ room.description }}</p>
+
+                    <div class="room-amenities">
+                      <span><i class="bi bi-people"></i> Up to {{ room.capacity }} guests</span>
+                      {% if room.has_wifi %}<span><i class="bi bi-wifi"></i> Free WiFi</span>{% endif %}
+                      {% if room.has_tv %}<span><i class="bi bi-tv"></i> Smart TV</span>{% endif %}
+                      {% if room.has_workspace %}<span><i class="bi bi-laptop"></i> Work Desk</span>{% endif %}
+                      {% if room.has_kitchen %}<span><i class="bi bi-cup-hot"></i> Mini Kitchen</span>{% endif %}
+                      {% if room.has_game_console %}<span><i class="bi bi-controller"></i> Game Console</span>{% endif %}
+                      {% if room.has_parking %}<span><i class="bi bi-car-front"></i> Parking</span>{% endif %}
+                      {% if room.has_jacuzzi %}<span><i class="bi bi-droplet"></i> Jacuzzi</span>{% endif %}
+                      {% if room.has_coffeemachine %}<span><i class="bi bi-cup"></i> Coffee Machine</span>{% endif %}
+                      {% if room.has_kingsize_bed %}<span><i class="bi bi-moon"></i> King Size Bed</span>{% endif %}
+                      {% if room.has_secure %}<span><i class="bi bi-safe"></i>Safe</span>{% endif %}
+                      {% if room.has_bussinessphone %}<span><i class="bi bi-telephone"></i> Business Phone</span>{% endif %}
+                    </div>
+
+                    <div class="room-footer">
+                      <div class="room-price">
+                        <span class="price-from">From</span>
+                        <span class="price-amount">${{ room.price }}</span>
+                        <span class="price-period">/ night</span>
+                      </div>
+                      <a href="{% url 'render-page' page='room-details' %}?room_id={{ room.id }}" class="btn-room-details">View Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% empty %}
+              <p class="text-center">No rooms found matching your filters.</p>
+            {% endfor %}
+          </div>
+        </div>
