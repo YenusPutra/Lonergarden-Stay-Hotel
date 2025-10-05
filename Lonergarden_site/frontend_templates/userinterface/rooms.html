@@ -29,7 +29,6 @@
   <!-- Main CSS File -->
   <link href="{% static 'css/main.css' %}" rel="stylesheet">
 
-
 </head>
 
 <body class="rooms-page">
@@ -183,15 +182,17 @@
         <div id="rooms-container">
             {% include 'userinterface/rooms-grid.html' %}
         </div>
-
-        <div class="load-more-section" data-aos="fade-up" data-aos-delay="400">
+        
+        {% if has_more %}
+        <div class="load-more-section" id= "load-more-section" data-aos="fade-up" data-aos-delay="400">
           <div class="text-center">
-            <button class="btn-load-more">
+            <button class="btn-load-more" data-offset="{{ next_offset }}" type="button">
               <i class="bi bi-arrow-down-circle"></i>
               Load More Rooms
             </button>
           </div>
         </div>
+        {% endif %}
 
       </div>
 
@@ -314,7 +315,56 @@
       const searchInput = document.getElementById('room-search');           // Step 1: Get references to our search input and the container that holds room cards
       const roomsContainer = document.getElementById('rooms-container');
       const searchContainer = document.querySelector('.search-container');
+      const loadMoreBtn = document.querySelector('.btn-load-more');
       let searchTimeout;                                                    // This will store our delay timer
+
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', function() {
+            const offset = loadMoreBtn.getAttribute('data-offset');
+            const searchQuery = searchInput ? searchInput.value : '';
+
+            const currentParams = new URLSearchParams(window.location.search); // Get current URL parameters to preserve filters
+            currentParams.set('offset', offset);
+            if (searchQuery) {
+            currentParams.set('search', searchQuery);
+            }
+
+            fetch(`/rooms/?${currentParams.toString()}`, {
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                const roomsContainer = document.getElementById('rooms-container');
+                const roomsRow = roomsContainer.querySelector('.row');
+
+                // Create a temporary div to parse the new HTML
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = data.html;
+                const newRoomCards = tempDiv.querySelectorAll('.col-xl-4');
+
+                // Append each new room card
+                newRoomCards.forEach(card => {
+                    roomsRow.appendChild(card);
+                });
+                
+                // Update offset for next load
+                loadMoreBtn.setAttribute('data-offset', data.next_offset);
+                
+                // Hide button if no more rooms
+                if (!data.has_more) {
+                    document.getElementById('load-more-section').style.display = 'none';
+                }
+                
+                // Refresh AOS animations
+                if (typeof AOS !== 'undefined') {
+                    AOS.refreshHard();
+                }                
+            })
+            .catch(error => console.error('Error loading more rooms:', error));
+        });
+      }
 
       searchInput.addEventListener('input', function() {      // Step 2: Listen for typing in the search box
           const searchTerm = this.value.trim();               // Get what the user typed and remove extra spaces

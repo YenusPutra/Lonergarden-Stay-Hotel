@@ -1,7 +1,7 @@
         <div class="rooms-grid" data-aos="fade-up" data-aos-delay="300">
           <div class="row g-4">
             {% for room in rooms %}
-              <div class="col-xl-4 col-lg-6">
+              <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="{% cycle '100' '200' '300' '100' '200' '300' %}">
                 <div class="room-card">
                   <div class="room-image">
                     <img src="{{ room.image.url }}" alt="{{ room.name }}" class="img-fluid">

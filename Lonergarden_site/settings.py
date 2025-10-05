@@ -59,7 +59,7 @@ ROOT_URLCONF = 'Lonergarden_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'Lonergarden_site' / 'frontend_templates' / 'userinterface'],
+        'DIRS': [BASE_DIR / 'Lonergarden_site' / 'frontend_templates' ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,6 +70,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'Lonergarden_site.wsgi.application'
 

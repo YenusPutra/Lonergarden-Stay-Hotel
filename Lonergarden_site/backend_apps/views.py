@@ -13,6 +13,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.template.loader import render_to_string
 
+
 # Create your views here.
 
 def contact(request):
@@ -50,14 +51,16 @@ def room_list(request):
     # Start with all rooms
     rooms = Room.objects.all()
     search_query = request.GET.get('search', '')
-
     price_range = request.GET.get('price_range', '').lower()
     guest_capacity = request.GET.get('guest_capacity')
     view_type = request.GET.get('view_type', '')
     sort_by = request.GET.get('sort_by')
     guest_capacity_str = request.GET.get('guest_capacity') # Store the string value
+    offset = int(request.GET.get('offset', 0))      # Get the offset (which set of rooms to show, e.g., 0 for first 6, 6 for next 6)
+
 
     # --- Filtering ---
+
     #live-search filtering
     from django.db.models import Q #import OR filtering
     if search_query:
@@ -68,43 +71,27 @@ def room_list(request):
             term_query |= Q(name__icontains=term)             # Basic text search
             term_query |= Q(description__icontains=term)
             feature_mapping = {             # Feature tags search
-                'ocean': 'tag_ocean_view',
-                'garden': 'tag_garden_view', 
-                'city': 'tag_city_view',
-                'mountain': 'tag_mountain_view',
-                'pool': 'tag_pool_view',
-                'popular': 'tag_popular',
-                'business': 'tag_business',
-                'family': 'tag_family_friendly',
-                'friendly': 'tag_family_friendly',
-                'romantic': 'tag_romantic',
-                'premium': 'tag_premium',
-                'luxury': 'tag_luxury',
+                'ocean': 'tag_ocean_view', 'garden': 'tag_garden_view', 
+                'city': 'tag_city_view', 'mountain': 'tag_mountain_view',
+                'pool': 'tag_pool_view', 'popular': 'tag_popular',
+                'business': 'tag_business', 'family': 'tag_family_friendly',
+                'friendly': 'tag_family_friendly', 'romantic': 'tag_romantic',
+                'premium': 'tag_premium', 'luxury': 'tag_luxury',
             }
             for keyword, field in feature_mapping.items():            # Check feature mapping
                 if keyword in term.lower():
                     term_query |= Q(**{f'{field}': True})
 
             amenity_mapping = {             # Amenities search
-                'wifi': 'has_wifi',
-                'tv': 'has_tv',
-                'television': 'has_tv',
-                'workspace': 'has_workspace',
-                'work': 'has_workspace',
-                'desk': 'has_workspace',
-                'kitchen': 'has_kitchen',
-                'mini': 'has_kitchen',
-                'game': 'has_game_console',
-                'console': 'has_game_console',
-                'parking': 'has_parking',
-                'jacuzzi': 'has_jacuzzi',
-                'coffee': 'has_coffeemachine',
-                'machine': 'has_coffeemachine',
-                'king': 'has_kingsize_bed',
-                'bed': 'has_kingsize_bed',
-                'safe': 'has_secure',
-                'secure': 'has_secure',
-                'phone': 'has_bussinessphone',
+                'wifi': 'has_wifi', 'tv': 'has_tv',
+                'television': 'has_tv', 'workspace': 'has_workspace',
+                'work': 'has_workspace', 'desk': 'has_workspace',
+                'kitchen': 'has_kitchen', 'mini': 'has_kitchen',
+                'game': 'has_game_console', 'console': 'has_game_console',
+                'parking': 'has_parking', 'jacuzzi': 'has_jacuzzi',
+                'coffee': 'has_coffeemachine', 'machine': 'has_coffeemachine',
+                'king': 'has_kingsize_bed', 'bed': 'has_kingsize_bed',
+                'safe': 'has_secure', 'secure': 'has_secure', 'phone': 'has_bussinessphone',
             }
             for keyword, field in amenity_mapping.items():            # Check amenity mapping  
                 if keyword in term.lower():
@@ -158,11 +145,31 @@ def room_list(request):
     elif sort_by == 'room_size':
         rooms = rooms.order_by('-capacity')
 
-    if request.headers.get('x-requested-with') == 'XMLHttpRequest':     # Check if this is an AJAX request (live search)
-        html = render_to_string('userinterface/rooms-grid.html', {'rooms': rooms})         # Render only the rooms grid HTML
-        return JsonResponse({'html': html})    
+    #room load per 6 cards
+    rooms_per_page = 6
+    rooms_to_display = rooms[offset:offset + rooms_per_page]    # Get only the 6 rooms we want to show
+    has_more = len(rooms) > offset + rooms_per_page    # Check if there are more rooms to load
 
-    return render(request, 'userinterface/rooms.html', {'rooms': rooms})
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':     # Check if this is an AJAX request (live search)
+        html = render_to_string('userinterface/rooms-grid.html', {'rooms': rooms_to_display})         # Render only the rooms grid HTML with only 6 rooms
+        return JsonResponse({
+            'html': html,
+            'has_more': has_more,
+            'next_offset': offset + rooms_per_page,
+            })   
+     
+    context = {
+            'rooms': rooms_to_display,
+            'has_more': has_more,
+            'next_offset': offset + rooms_per_page,
+            'search_query': search_query,   # Pass search query for the template
+            'price_range': price_range,          # Add these
+            'guest_capacity': guest_capacity_str, # Add these
+            'view_type': view_type,              # Add these
+            'sort_by': sort_by,
+            }
+    
+    return render(request, 'userinterface/rooms.html', context)
 
     
 
@@ -297,7 +304,7 @@ def booking(request):
     
     
 def payment_finish(request):
-    return render(request, "userinterface/booking.html")
+    return render(request, "userinterface/payment_success.html")
 
 
 @csrf_exempt  # Midtrans can't send CSRF token, so we disable it for this endpoint
