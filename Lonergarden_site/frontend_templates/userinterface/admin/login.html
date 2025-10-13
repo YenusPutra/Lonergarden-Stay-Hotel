@@ -1,10 +1,11 @@
+{% load i18n %} {% load static %} 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login Admin (Staff Only)</title>
+    <title>{% trans "Login Admin (Staff Only)" %}</title>
 	<meta name="author" content="David Grzyb">
     <meta name="description" content="">
 
@@ -27,6 +28,56 @@
         .text-color:hover {
             color: #32453f;
         }
+        /* Bouncy Animations */
+        @keyframes bounceInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(100px) scale(0.3);
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(-10px) scale(1.05);
+            }
+            70% {
+                transform: translateX(5px) scale(0.95);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0) scale(1);
+            }
+        }
+
+        @keyframes bounceOutRight {
+            0% {
+                opacity: 1;
+                transform: translateX(0) scale(1);
+            }
+            20% {
+                opacity: 1;
+                transform: translateX(-10px) scale(1.05);
+            }
+            100% {
+                opacity: 0;
+                transform: translateX(100px) scale(0.3);
+            }
+        }
+
+        .animate-bounce-in {
+            animation: bounceInRight 0.6s ease-out forwards;
+        }
+
+        .animate-bounce-out {
+            animation: bounceOutRight 0.6s ease-in forwards;
+        }
+
+        /* Hide original errors */
+        .errorlist {
+            display: none !important;
+        }
+
+        #toast {
+            transform-origin: center;
+        }
     </style>
 </head>
 <body class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif;">
@@ -38,12 +89,12 @@
 
     <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
         <section>
-            <h3 class="font-bold text-2xl">Welcome to Admin(site)</h3>
-            <p class="text-gray-600 pt-2">Sign in to your account.</p>
+            <h3 class="font-bold text-2xl">{% trans 'Welcome to Admin(site)' %}</h3>
+            <p class="text-gray-600 pt-2">{% trans "Sign in to your account." %}</p>
         </section>
 
         <section class="mt-10">
-            <form class="flex flex-col" method="POST" action="#">
+            <form class="flex flex-col" method="POST" action="">
                 {% csrf_token %}
                 {% if form.non_field_errors %} <!-- Show errors if login fails -->
                     <div class="errorlist">
@@ -53,34 +104,133 @@
                     </div>
                 {% endif %}
                 <div class="mb-6 pt-3 rounded bg-gray-200">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
+                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">{% trans "Email" %}</label>
                     <input type="text" id="id_username" name="username" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3" required>
                     {{ form.username.errors }}
                 </div>
                 <div class="mb-6 pt-3 rounded bg-gray-200">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Password</label>
+                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">{% trans "Password" %}</label>
                     <input type="password" id="id_password" name="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3" required>
                     {{ form.password.errors }}
                     <input type="hidden" name="next" value="{{ next }}"> 
                 </div>
                 <div class="flex justify-end">
-                    <a href="#" class="text-sm text-color hover:underline mb-6">Forgot your password?</a>
+                    <a href="#" class="text-sm text-color hover:underline mb-6">{% trans "Forgot your password?" %}</a>
                 </div>
-                <button class="btn-custom-bg text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">Sign In</button>
+                <button class="btn-custom-bg text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">{% trans "Sign In" %}</button>
             </form>
         </section>
     </main>
 
         {% if not user.is_authenticated %}
     <div class="max-w-lg mx-auto text-center mt-12 mb-6">
-        <p class="text-white">Don't have an account? <a href="#" class="font-bold hover:underline">Contact Administrator</a>.</p>
+        <p class="text-white">{% trans "Don't have an account?" %}<a href="#" class="font-bold hover:underline">{% trans "Contact Administrator" %}</a>.</p>
     </div>
     {% endif %}
 
     <footer class="max-w-lg mx-auto flex justify-center text-white">
-        <a href="#" class="hover:underline">Contact</a>
+        <a href="#" class="hover:underline">{% trans "Contact" %}</a>
         <span class="mx-3">•</span>
-        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">{% trans "Privacy" %}</a>
     </footer>
+
+<!-- Bouncy Toast Notification -->
+<div id="toast" class="hidden fixed top-4 right-4 z-50">
+    <div class="bg-red-500 text-white px-6 py-4 rounded-xl shadow-2xl border-l-4 border-red-700 transform transition-all duration-500 animate-bounce-in">
+        <div class="flex items-center space-x-3">
+            <div class="flex-shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </div>
+            <div class="flex-1">
+                <p class="text-sm font-medium">❕ Wrong account, you sure you're staff :/</p>
+            </div>
+            <button onclick="hideToast()" class="flex-shrink-0 ml-4 text-white hover:text-gray-200 transition-colors duration-200 focus:outline-none transform hover:scale-110">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Progress bar -->
+        <div class="mt-2 w-full bg-red-600 rounded-full h-1">
+            <div id="progress-bar" class="bg-white h-1 rounded-full w-full transition-all duration-5000 ease-linear"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let toastTimeout;
+    let progressInterval;
+
+    function showToast() {
+        const toast = document.getElementById('toast');
+        const progressBar = document.getElementById('progress-bar');
+        
+        // Clear any existing timeouts
+        clearTimeout(toastTimeout);
+        clearInterval(progressInterval);
+        
+        // Remove any existing animation classes
+        toast.classList.remove('hidden', 'animate-bounce-out');
+        
+        // Show toast with bounce-in animation
+        toast.classList.add('animate-bounce-in');
+        
+        // Reset and animate progress bar
+        progressBar.style.width = '100%';
+        progressBar.style.transition = 'none';
+        
+        // Force reflow
+        void progressBar.offsetWidth;
+        
+        // Start progress bar animation
+        progressBar.style.transition = 'width 5s linear';
+        progressBar.style.width = '0%';
+        
+        // Auto hide after 5 seconds
+        toastTimeout = setTimeout(hideToast, 5000);
+    }
+
+    function hideToast() {
+        const toast = document.getElementById('toast');
+        const progressBar = document.getElementById('progress-bar');
+        
+        clearTimeout(toastTimeout);
+        clearInterval(progressInterval);
+        
+        // Switch to bounce-out animation
+        toast.classList.remove('animate-bounce-in');
+        toast.classList.add('animate-bounce-out');
+        
+        // Hide after animation completes
+        setTimeout(() => {
+            toast.classList.add('hidden');
+            toast.classList.remove('animate-bounce-out');
+            progressBar.style.width = '100%';
+        }, 600);
+    }
+
+    // Check for form errors on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const hasErrors = document.querySelector('.errorlist') !== null;
+        
+        if (hasErrors) {
+            // Show toast after a small delay to ensure DOM is ready
+            setTimeout(showToast, 300);
+        }
+    });
+
+    // Close toast when clicking the X button (already handled in onclick)
+    // Also close when clicking anywhere on the toast except the button
+    document.getElementById('toast')?.addEventListener('click', function(e) {
+        if (e.target === this || e.target.closest('.flex-1')) {
+            hideToast();
+        }
+    });
+</script>
+
+
 </body>
 </html>

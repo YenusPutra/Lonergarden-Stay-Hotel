@@ -1,34 +1,56 @@
-<script type="text/javascript"
-    src="https://app.sandbox.midtrans.com/snap/snap.js"
-    data-client-key="{{ client_key }}"></script>
+<script type="text/javascript" src="https://app.sandbox.midtrans.com/snap/snap.js"
+  data-client-key="{{ client_key }}"></script>
 
-<h1>Booking Confirmation and Payment</h1>
+<h1>{% trans "Booking Confirmation and Payment" %}</h1>
 <p>Room: {{ booking.room.name }}</p>
 <p>Total: {{ booking.total_price }}</p>
 
-<button id="pay-button">Complete Payment</button>
+<button id="pay-button">{% trans "Complete Payment" %}</button>
 
 <script type="text/javascript">
-  document.getElementById('pay-button').onclick = function(){
+  document.getElementById('pay-button').onclick = function () {
     // SnapToken acquired from the server
     snap.pay('{{ snap_token }}', {
-      onSuccess: function(result){
+      onSuccess: function (result) {
         /* You may want to redirect to a 'Success' page here */
         console.log('Payment success:', result);
         alert("Payment success!");
       },
-      onPending: function(result){
+      onPending: function (result) {
         console.log('Payment pending:', result);
         alert("Waiting for payment!");
       },
-      onError: function(result){
+      onError: function (result) {
         console.log('Payment error:', result);
         alert("Payment failed!");
       },
-      onClose: function(){
+      onClose: function () {
         /* You may want to redirect to a 'Back to Booking' page here */
         alert('You closed the payment popup without finishing the payment');
       }
     });
   };
 </script>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+<script src="{% static 'vendor/aos/aos.js' %}"></script>
+<script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+
+<!-- Main JS File -->
+<script src="{% static 'js/main.js' %}"></script>
+
+<!-- refer to js/language-dropdown.js -->
+<script src="{% static 'js/language-dropdown.js' %}"></script>

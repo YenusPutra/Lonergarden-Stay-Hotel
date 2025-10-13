@@ -1,22 +1,30 @@
+        {% load static %}
+        {% load i18n %}
         <div class="rooms-grid" data-aos="fade-up" data-aos-delay="300">
           <div class="row g-4">
             {% for room in rooms %}
               <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="{% cycle '100' '200' '300' '100' '200' '300' %}">
                 <div class="room-card">
                   <div class="room-image">
-                    <img src="{{ room.image.url }}" alt="{{ room.name }}" class="img-fluid">
+                    {% if room.image %}
+                        <img src="{{ room.image.url }}" alt="{{ room.name }}" class="img-fluid">
+                    {% else %}
+                        <div class="no-image-placeholder" style="background: #f0f0f0; height: 200px; display: flex; align-items: center; justify-content: center; color: #666;">
+                            <span>No Image Available</span>
+                        </div>
+                    {% endif %}
                     <div class="room-features">
-                      {% if room.tag_ocean_view %}<span class="feature-badge ocean">Ocean View</span>{% endif %}
-                      {% if room.tag_garden_view %}<span class="feature-badge garden">Garden View</span>{% endif %}
-                      {% if room.tag_city_view %}<span class="feature-badge city">City View</span>{% endif %}
-                      {% if room.tag_mountain_view %}<span class="feature-badge mountain">Mountain View</span>{% endif %}
-                      {% if room.tag_pool_view %}<span class="feature-badge pool">Pool View</span>{% endif %}
-                      {% if room.tag_popular %}<span class="feature-badge popular">Popular</span>{% endif %}
-                      {% if room.tag_business %}<span class="feature-badge business">Business</span>{% endif %}
-                      {% if room.tag_family_friendly %}<span class="feature-badge family">Family Friendly</span>{% endif %}
-                      {% if room.tag_romantic %}<span class="feature-badge romantic">Romantic</span>{% endif %}
-                      {% if room.tag_premium %}<span class="feature-badge premium">Premium</span>{% endif %}
-                      {% if room.tag_luxury %}<span class="feature-badge luxury">Luxury</span>{% endif %}
+                      {% if room.tag_ocean_view %}<span class="feature-badge ocean">{% trans "Ocean View" %}</span>{% endif %}
+                      {% if room.tag_garden_view %}<span class="feature-badge garden">{% trans "Garden View" %}</span>{% endif %}
+                      {% if room.tag_city_view %}<span class="feature-badge city">{% trans "City View" %}</span>{% endif %}
+                      {% if room.tag_mountain_view %}<span class="feature-badge mountain">{% trans "Mountain View" %}</span>{% endif %}
+                      {% if room.tag_pool_view %}<span class="feature-badge pool">{% trans "Pool View" %}</span>{% endif %}
+                      {% if room.tag_popular %}<span class="feature-badge popular">{% trans "Popular" %}</span>{% endif %}
+                      {% if room.tag_business %}<span class="feature-badge business">{% trans "Business" %}</span>{% endif %}
+                      {% if room.tag_family_friendly %}<span class="feature-badge family">{% trans "Family Friendly" %}</span>{% endif %}
+                      {% if room.tag_romantic %}<span class="feature-badge romantic">{% trans "Romantic" %}</span>{% endif %}
+                      {% if room.tag_premium %}<span class="feature-badge premium">{% trans "Premium" %}</span>{% endif %}
+                      {% if room.tag_luxury %}<span class="feature-badge luxury">{% trans "Luxury" %}</span>{% endif %}
                     </div>
                   </div>
 
@@ -35,37 +43,52 @@
                         {% endfor %}
                       </div>
                     </div>
-
-                    <p class="room-description">{{ room.description }}</p>
-
+                    {% get_current_language as CURR_LANG %}
+                      {% with base_lang=CURR_LANG|lower|slice:":2" %}
+                        <p class="room-description">
+                          {% if base_lang == "ja" %}
+                            {{ room.description_ja|default:room.description_en|default:room.description }}
+                          {% elif base_lang == "id" %}
+                            {{ room.description_id|default:room.description_en|default:room.description }}
+                          {% elif base_lang == "fr" %}
+                            {{ room.description_fr|default:room.description_en|default:room.description }}
+                          {% elif base_lang == "de" %}
+                            {{ room.description_de|default:room.description_en|default:room.description }}
+                          {% elif base_lang == "es" %}
+                            {{ room.description_es|default:room.description_en|default:room.description }}
+                          {% else %}
+                            {{ room.description_en|default:room.description }}
+                          {% endif %}
+                        </p>
+                      {% endwith %}
                     <div class="room-amenities">
                       <span><i class="bi bi-people"></i> Up to {{ room.capacity }} guests</span>
-                      {% if room.has_wifi %}<span><i class="bi bi-wifi"></i> Free WiFi</span>{% endif %}
-                      {% if room.has_tv %}<span><i class="bi bi-tv"></i> Smart TV</span>{% endif %}
-                      {% if room.has_workspace %}<span><i class="bi bi-laptop"></i> Work Desk</span>{% endif %}
-                      {% if room.has_kitchen %}<span><i class="bi bi-cup-hot"></i> Mini Kitchen</span>{% endif %}
-                      {% if room.has_game_console %}<span><i class="bi bi-controller"></i> Game Console</span>{% endif %}
-                      {% if room.has_parking %}<span><i class="bi bi-car-front"></i> Parking</span>{% endif %}
-                      {% if room.has_jacuzzi %}<span><i class="bi bi-droplet"></i> Jacuzzi</span>{% endif %}
-                      {% if room.has_coffeemachine %}<span><i class="bi bi-cup"></i> Coffee Machine</span>{% endif %}
-                      {% if room.has_kingsize_bed %}<span><i class="bi bi-moon"></i> King Size Bed</span>{% endif %}
-                      {% if room.has_secure %}<span><i class="bi bi-safe"></i>Safe</span>{% endif %}
-                      {% if room.has_bussinessphone %}<span><i class="bi bi-telephone"></i> Business Phone</span>{% endif %}
+                      {% if room.has_wifi %}<span><i class="bi bi-wifi"></i>{% trans "Free WiFi" %}</span>{% endif %}
+                      {% if room.has_tv %}<span><i class="bi bi-tv"></i>{% trans "Smart TV" %}</span>{% endif %}
+                      {% if room.has_workspace %}<span><i class="bi bi-laptop"></i>{% trans "Work Desk" %}</span>{% endif %}
+                      {% if room.has_kitchen %}<span><i class="bi bi-cup-hot"></i>{% trans "Mini Kitchen" %}</span>{% endif %}
+                      {% if room.has_game_console %}<span><i class="bi bi-controller"></i>{% trans "Game Console" %}</span>{% endif %}
+                      {% if room.has_parking %}<span><i class="bi bi-car-front"></i>{% trans "Parking" %}</span>{% endif %}
+                      {% if room.has_jacuzzi %}<span><i class="bi bi-droplet"></i>{% trans "Jacuzzi" %}</span>{% endif %}
+                      {% if room.has_coffeemachine %}<span><i class="bi bi-cup"></i>{% trans "Coffee Machine" %}</span>{% endif %}
+                      {% if room.has_kingsize_bed %}<span><i class="bi bi-moon"></i>{% trans "King Size Bed" %}</span>{% endif %}
+                      {% if room.has_secure %}<span><i class="bi bi-safe"></i>{% trans "Safe" %}</span>{% endif %}
+                      {% if room.has_bussinessphone %}<span><i class="bi bi-telephone"></i>{% trans "Business Phone" %}</span>{% endif %}
                     </div>
 
                     <div class="room-footer">
                       <div class="room-price">
-                        <span class="price-from">From</span>
+                        <span class="price-from">{% trans "From" %}</span>
                         <span class="price-amount">${{ room.price }}</span>
-                        <span class="price-period">/ night</span>
+                        <span class="price-period">{% trans "/ night" %}</span>
                       </div>
-                      <a href="{% url 'render-page' page='room-details' %}?room_id={{ room.id }}" class="btn-room-details">View Details</a>
+                      <a href="{% url 'render-page' page='room-details' %}?room_id={{ room.id }}" class="btn-room-details">{% trans "View Details" %}</a>
                     </div>
                   </div>
                 </div>
               </div>
             {% empty %}
-              <p class="text-center">No rooms found matching your filters.</p>
+              <p class="text-center">{% trans "No rooms found matching your filters." %}</p>
             {% endfor %}
           </div>
         </div>

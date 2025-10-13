@@ -1,0 +1,4665 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 12:03+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:8
+msgid "404 - Lonergarden Stay"
+msgstr "404 - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:40
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:40
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:40
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:49
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:40
+msgid "lonergarden@gmail.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:161
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:544
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:297
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:215
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:401
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:281
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1346
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:424
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:258
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:50
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:248
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:357
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:416
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:200
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:42
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:142
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:264
+msgid "+1 5589 55488 55"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:58
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:156
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:539
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:284
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:58
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:292
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:210
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:396
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:276
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:58
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:419
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:58
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:253
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:243
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:352
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:411
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:195
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:59
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:137
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:58
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:259
+msgid "Lonergarden"
+msgstr "ローナーガーデン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:63
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:104
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:169
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:552
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:297
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:63
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:104
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:305
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:223
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:409
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:63
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1354
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:432
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:63
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:104
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:266
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:256
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:365
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:424
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:115
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:208
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:150
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:63
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:104
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:272
+msgid "Home"
+msgstr "ホーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:64
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:64
+msgid "About"
+msgstr "当ホテルについて"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:281
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:282
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:120
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:253
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:254
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:65
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:116
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:65
+msgid "Rooms"
+msgstr "客室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:121
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:507
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:508
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:66
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:66
+msgid "Amenities"
+msgstr "アメニティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:130
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:67
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:272
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:67
+msgid "Location"
+msgstr "ロケーション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:68
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:69
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:68
+msgid "Pages"
+msgstr "ページ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:70
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:70
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:70
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:70
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:70
+msgid "Room Details"
+msgstr "客室詳細"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:71
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:71
+msgid "Restaurant"
+msgstr "レストラン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:741
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:742
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:72
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:101
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:81
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:72
+msgid "Offers"
+msgstr "オファー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:916
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:917
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:73
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:82
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:73
+msgid "Events"
+msgstr "イベント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:74
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:74
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:101
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:75
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:84
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:75
+msgid "Booking"
+msgstr "予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:76
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:85
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:76
+msgid "Terms Page"
+msgstr "利用規約ページ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:77
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:86
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:77
+msgid "Privacy Page"
+msgstr "プライバシーページ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:78
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:87
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:78
+msgid "404 Page"
+msgstr "404ページ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:79
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:88
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:80
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:79
+msgid "Starter Page"
+msgstr "スターターページ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:82
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:81
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:82
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:106
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:82
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:156
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:82
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:91
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:82
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:101
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:105
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:121
+msgid "404"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:123
+msgid "Oops! Page Not Found"
+msgstr "おっと、ページが見つかりません"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:125
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
+"お探しのページは、削除されたか、名前が変更されたか、一時的に利用できなくなっ"
+"ている可能性があります。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:139
+msgid "Back to Home"
+msgstr "ホームに戻る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:159
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:542
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:287
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:295
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:213
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:399
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:279
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1344
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:422
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:256
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:246
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:355
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:414
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:198
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:140
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:262
+msgid "A108 Adam Street"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:160
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:543
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:288
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:296
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:214
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:400
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:280
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1345
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:423
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:247
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:356
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:415
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:199
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:141
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:263
+msgid "New York, NY 535022"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:161
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:544
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:297
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:215
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:401
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:281
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1346
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:424
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:258
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:248
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:357
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:416
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:200
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:142
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:264
+msgid "Phone:"
+msgstr "電話番号:"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:162
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:545
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:290
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:298
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:216
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:402
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:282
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1347
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:425
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:259
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:225
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:249
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:358
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:417
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:201
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:143
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:265
+msgid "Email:"
+msgstr "メール:"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:162
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:545
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:290
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:298
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:216
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:402
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:282
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1347
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:425
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:259
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:249
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:358
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:417
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:201
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:143
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:265
+msgid "info@example.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:167
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:550
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:295
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:303
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:221
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:407
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:287
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1352
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:430
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:264
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:254
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:363
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:422
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:206
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:148
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:270
+msgid "Useful Links"
+msgstr "役立つリンク"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:170
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:553
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:298
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:306
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:224
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:410
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:290
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1355
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:433
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:267
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:366
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:425
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:209
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:151
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:273
+msgid "About us"
+msgstr "当ホテルについて"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:171
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:554
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:299
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:307
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:225
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:411
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:291
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1356
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:434
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:268
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:258
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:367
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:275
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:426
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:210
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:152
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:274
+msgid "Services"
+msgstr "サービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:172
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:555
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:300
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:308
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:226
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:412
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:292
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1357
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:435
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:269
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:259
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:368
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:427
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:211
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:153
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:275
+msgid "Terms of service"
+msgstr "利用規約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:173
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:556
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:301
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:309
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:227
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:413
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:293
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1358
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:436
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:270
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:260
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:369
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:428
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:212
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:154
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:276
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:178
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:561
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:306
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:314
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:232
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:418
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:298
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1363
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:441
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:275
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:265
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:374
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:433
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:217
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:159
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:281
+msgid "Our Services"
+msgstr "当ホテルのサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:180
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:563
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:308
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:316
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:234
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:420
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:300
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1365
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:443
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:277
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:267
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:376
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:435
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:219
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:161
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:283
+msgid "Web Design"
+msgstr "ウェブデザイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:181
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:564
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:309
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:317
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:235
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:421
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:301
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1366
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:444
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:278
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:268
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:377
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:436
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:220
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:162
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:284
+msgid "Web Development"
+msgstr "ウェブ開発"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:182
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:565
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:310
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:318
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:236
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:422
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:302
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1367
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:445
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:279
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:269
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:378
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:437
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:221
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:163
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:285
+msgid "Product Management"
+msgstr "プロダクトマネジメント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:183
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:566
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:311
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:319
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:237
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:423
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:303
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1368
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:446
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:280
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:270
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:379
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:438
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:222
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:164
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:286
+msgid "Marketing"
+msgstr "マーケティング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:184
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:567
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:312
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:320
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:238
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:424
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:304
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1369
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:447
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:281
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:271
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:380
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:439
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:223
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:165
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:287
+msgid "Graphic Design"
+msgstr "グラフィックデザイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:189
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:572
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:317
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:325
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:243
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:429
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:309
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1374
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:452
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:286
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:276
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:385
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:444
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:228
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:170
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:292
+msgid "Hic solutasetp"
+msgstr "此処に解決の糸口あり"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:191
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:574
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:319
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:327
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:245
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:431
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:311
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1376
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:454
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:288
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:278
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:387
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:446
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:230
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:172
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:294
+msgid "Molestiae accusamus iure"
+msgstr "迷惑な告発と公正な裁き"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:192
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:575
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:320
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:328
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:246
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:432
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:312
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1377
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:455
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:279
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:388
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:447
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:231
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:173
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:295
+msgid "Excepturi dignissimos"
+msgstr "例外的なる尊厳と名誉"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:193
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:576
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:321
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:329
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:247
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:433
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:313
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1378
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:456
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:290
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:280
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:389
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:448
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:232
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:174
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:296
+msgid "Suscipit distinctio"
+msgstr "受容される明確な違い"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:194
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:577
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:322
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:330
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:248
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:434
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:314
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1379
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:457
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:291
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:281
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:390
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:449
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:233
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:175
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:297
+msgid "Dilecta"
+msgstr "ディレクタ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:195
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:578
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:323
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:331
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:249
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:435
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:315
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1380
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:458
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:292
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:282
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:391
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:450
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:234
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:176
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:298
+msgid "Sit quas consectetur"
+msgstr "座する智恵のあり方"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:200
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:583
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:328
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:336
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:254
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:440
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:320
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1385
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:463
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:297
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:287
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:396
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:455
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:239
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:181
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:303
+msgid "Nobis illum"
+msgstr "私たちに光を"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:202
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:585
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:330
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:338
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:256
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:442
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:322
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1387
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:465
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:299
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:398
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:457
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:241
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:183
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:305
+msgid "Ipsam"
+msgstr "イプサム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:203
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:586
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:331
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:339
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:443
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:323
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1388
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:466
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:300
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:290
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:399
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:458
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:242
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:184
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:306
+msgid "Laudantium dolorum"
+msgstr "賞賛すべき苦痛"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:204
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:587
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:332
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:340
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:258
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:444
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:324
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1389
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:467
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:301
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:291
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:400
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:459
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:243
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:185
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:307
+msgid "Dinera"
+msgstr "ディネラ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:205
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:588
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:333
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:341
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:259
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:445
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:325
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1390
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:468
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:302
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:292
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:401
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:460
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:244
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:186
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:308
+msgid "Trodelas"
+msgstr "トロデラス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:206
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:589
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:334
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:342
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:260
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:446
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:326
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1391
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:469
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:303
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:293
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:402
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:461
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:245
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:187
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:309
+msgid "Flexo"
+msgstr "フレクソ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:218
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:601
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:346
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:354
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:272
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:458
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:338
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1403
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:481
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:315
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:305
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:414
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:473
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:199
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:321
+msgid "© Copyright"
+msgstr "© 著作権"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:218
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:601
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:346
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:354
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:272
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:458
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:338
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1403
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:481
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:315
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:305
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:414
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:473
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:199
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:321
+msgid "MyWebsite"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:218
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:601
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:346
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:354
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:272
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:458
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:338
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1403
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:481
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:315
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:305
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:414
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:473
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:257
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:199
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:321
+msgid ". All Rights Reserved"
+msgstr ". 著作権所有"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:223
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:606
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:351
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:359
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:277
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:463
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:343
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1408
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:486
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:320
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:310
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:419
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:478
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:262
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:204
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:326
+msgid "Designed by"
+msgstr "デザイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\404.html:223
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:606
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:351
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:359
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:277
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:463
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:343
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1408
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:486
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:320
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:310
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:419
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:478
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:262
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:204
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:326
+msgid "BootstrapMade"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:8
+msgid "About - Lonergarden Stay"
+msgstr "当ホテルについて - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:126
+msgid "5-Star Excellence"
+msgstr "5つ星の卓越性"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:127
+msgid "Rated #1 Luxury Resort"
+msgstr "No.1ラグジュアリーリゾートに認定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:139
+msgid "Est. 1923"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:142
+msgid "Where Timeless Elegance Meets Modern Luxury"
+msgstr "永遠のエレガンスとモダンなラグジュアリーが出会う場所"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:144
+msgid ""
+"Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia "
+"deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste "
+"natus error sit voluptatem accusantium."
+msgstr ""
+"このダミーテキストは、プレースホルダーとして利用されます。文章構成の確認やデ"
+"ザイン調整のために配置されており、特別な意味はありません。日本語の文字の配置"
+"を確かめるために利用されます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:146
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore "
+"eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing "
+"elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+"吾輩は猫である。名前はまだない。どこで生まれたかとんと見当がつかぬ。にゃんこ"
+"が通り、コンセクトを試す。新しい日本語テキストです。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:150
+msgid "1923"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:152
+msgid "Grand Opening"
+msgstr "グランドオープン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:153
+msgid "Founded as exclusive mountain retreat"
+msgstr "高級マウンテンリトリートとして設立"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:157
+msgid "1987"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:159
+msgid "Major Renovation"
+msgstr "大規模な改装"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:160
+msgid "Modern amenities while preserving heritage"
+msgstr "遺産を保護しつつモダンなアメニティを導入"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:164
+msgid "2019"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:166
+msgid "Spa &amp; Wellness"
+msgstr "スパ &amp; 健康維持"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:167
+msgid "Award-winning wellness center addition"
+msgstr "受賞歴のあるウェルネスセンターの追加"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:174
+msgid "Explore Our Heritage"
+msgstr "当ホテルの遺産を探る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:176
+msgid "Watch Story"
+msgstr "物語を見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:185
+msgid "Exceptional Hospitality Redefined"
+msgstr "再定義された格別なホスピタリティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:186
+msgid "Discover the amenities and services that make your stay unforgettable"
+msgstr "忘れられない滞在を創り出すアメニティとサービスをご覧ください"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:203
+msgid "World-Class Spa"
+msgstr "ワールドクラスのスパ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:204
+msgid "Rejuvenating treatments in our award-winning wellness sanctuary"
+msgstr "受賞歴のあるウェルネス・サンクチュアリでの若返りトリートメント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:219
+msgid "Gourmet Dining"
+msgstr "グルメダイニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:220
+msgid "Michelin-starred cuisine crafted by renowned executive chefs"
+msgstr "有名なエグゼクティブシェフが作るミシュラン星付き料理"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:235
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:125
+msgid "Prime Location"
+msgstr "最高のロケーション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:236
+msgid "Nestled in the heart of the city with breathtaking panoramic views"
+msgstr "息をのむようなパノラマビューを望む街の中心部に佇む"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:249
+msgid "Luxury Suites"
+msgstr "ラグジュアリー・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:253
+#, python-format
+msgid "%%"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:254
+msgid "Satisfaction Rate"
+msgstr "満足度"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:260
+msgid "International Awards"
+msgstr "国際的な受賞歴"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:266
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:214
+msgid "Years of Excellence"
+msgstr "卓越した長年の実績"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:283
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:255
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:509
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:643
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:743
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:918
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1064
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:180
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:119
+msgid ""
+"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur "
+"velit"
+msgstr ""
+"必要不可欠なのは、彼による結果、そこから逃れること、そして確かに心のこもった"
+"誠実さである"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:294
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:266
+msgid "Presidential"
+msgstr "プレジデンシャル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:300
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:272
+msgid "6 Guests"
+msgstr "6名様"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:304
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:276
+msgid "180m²"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:308
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:280
+msgid "Top Floor"
+msgstr "最上階"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:315
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:287
+msgid "Grand Presidential Suite"
+msgstr "グランド・プレジデンシャル・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:324
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:296
+msgid "5.0 Excellence"
+msgstr "5.0の卓越性"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:327
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:299
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore "
+"veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+msgstr ""
+"しかし、すべての過ちの生まれはどこにあるのか、また真実と準建築家を考案した彼"
+"自身から開かれた全体像はどこにあるのかという理由で、誰もが苦痛を負わずに、自"
+"分の場所を見つける。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:331
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:303
+msgid "Premium WiFi"
+msgstr "プレミアムWiFi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:335
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:307
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:45
+msgid "Smart TV"
+msgstr "スマートテレビ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:339
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:311
+msgid "Coffee Bar"
+msgstr "コーヒーバー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:343
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:315
+msgid "Climate Control"
+msgstr "温度調節"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:349
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:321
+msgid "649"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:350
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:322
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:765
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:792
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:819
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:133
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:160
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:158
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:390
+msgid "per night"
+msgstr "一泊あたり"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:352
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:324
+msgid "Reserve Suite"
+msgstr "スイートを予約する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:368
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:340
+msgid "Executive Business Room"
+msgstr "エグゼクティブ・ビジネスルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:369
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:341
+msgid ""
+"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, "
+"sed quia consequuntur magni dolores."
+msgstr ""
+"誰も、快楽そのものを愛するがゆえに、快楽を追求するがゆえに、あるいは快楽を得"
+"たいがゆえに、快楽を拒絶する者はいない。なぜなら、それは大きな苦痛につながる"
+"からである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:371
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:343
+msgid "Work Space"
+msgstr "ワークスペース"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:372
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:344
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:548
+msgid "City Views"
+msgstr "シティビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:375
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:396
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:417
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:441
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:463
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:485
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:507
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:347
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:368
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:389
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:413
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:435
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:457
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:479
+msgid "/night"
+msgstr "／泊"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:376
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:397
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:418
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:348
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:369
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:390
+msgid "Book"
+msgstr "予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:389
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:361
+msgid "Garden View Deluxe"
+msgstr "ガーデンビュー・デラックス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:390
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:362
+msgid ""
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis "
+"praesentium voluptatum deleniti atque."
+msgstr ""
+"しかし、真実と、甘いものをそぐことができる高貴な人を非難し、彼らを汚職から守"
+"る公正な憎しみがある。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:392
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:364
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:11
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:152
+msgid "Garden View"
+msgstr "ガーデンビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:393
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:365
+msgid "Private Terrace"
+msgstr "プライベートテラス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:410
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:382
+msgid "Family Comfort Suite"
+msgstr "ファミリー・コンフォートスイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:411
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:383
+msgid ""
+"Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus "
+"saepe eveniet ut et voluptates."
+msgstr ""
+"しかし、時として、職務または事業上の必要性によって、頻繁に発生すること、また"
+"は快楽が拒否されることは、ある種の苦痛をもたらす。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:413
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:385
+msgid "Family Space"
+msgstr "ファミリーススペース"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:414
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:386
+msgid "Kids Area"
+msgstr "キッズエリア"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:440
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:412
+msgid "Classic Double"
+msgstr "クラシック・ダブル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:462
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:434
+msgid "Superior King"
+msgstr "スーペリア・キング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:484
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:172
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:456
+msgid "Premium Ocean View"
+msgstr "プレミアム・オーシャンビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:506
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:478
+msgid "Luxury Penthouse"
+msgstr "ラグジュアリー・ペントハウス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\about.html:521
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:493
+msgid "Explore All Accommodations"
+msgstr "全ての宿泊施設を見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:7
+msgid "Login Admin (Staff Only)"
+msgstr "管理者ログイン（スタッフ専用）"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:41
+msgid "Welcome to Admin(site)"
+msgstr "管理者サイトへようこそ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:42
+msgid "Sign in to your account."
+msgstr "アカウントにサインインしてください。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:56
+msgid "Email"
+msgstr "Eメール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:61
+msgid "Password"
+msgstr "パスワード"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:67
+msgid "Forgot your password?"
+msgstr "パスワードをお忘れですか？"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:69
+msgid "Sign In"
+msgstr "サインイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:76
+msgid "Don't have an account?"
+msgstr "アカウントをお持ちではありませんか？"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:76
+msgid "Contact Administrator"
+msgstr "管理者に連絡する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\admin\login.html:83
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:102
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:106
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:8
+msgid "Amenities - Lonergarden Stay"
+msgstr "アメニティ - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:125
+msgid "Infinity Pool &amp; Sun Deck"
+msgstr "インフィニティプールとサンデッキ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:126
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation."
+msgstr ""
+"こんにちは、これはダミーの日本語テキストです。文字の配置とデザインの確認のた"
+"めに使用されます。吾輩は猫である、名前はまだない。どの文章も同じ内容で意味は"
+"ありません。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:128
+msgid "Open 6 AM - 10 PM"
+msgstr "午前6時 - 午後10時 営業"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:129
+msgid "Heated pool year-round"
+msgstr "一年中利用可能な温水プール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:130
+msgid "Poolside bar service"
+msgstr "プールサイドのバーサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:142
+msgid "Luxury Spa &amp; Wellness"
+msgstr "高級スパ＆養生"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:143
+msgid ""
+"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut "
+"aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in "
+"voluptate velit esse cillum."
+msgstr ""
+"最小限の訓練から、労働の努力から、結果として生じる利益のために、誰がエクササ"
+"イズを行うのか。彼は、その責任において、あるいは快楽の欲求において、苦痛を感"
+"じるべきである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:145
+msgid "Book treatments online"
+msgstr "オンラインでトリートメントを予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:146
+msgid "Couples massage rooms"
+msgstr "カップルマッサージルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:147
+msgid "Organic spa products"
+msgstr "オーガニックのスパ製品"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:159
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:601
+msgid "Signature Restaurant"
+msgstr "シグネチャーレストラン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:160
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore "
+"veritatis."
+msgstr ""
+"しかし、すべての過ちの生まれはどこにあるのか、また真実を発明した彼自身から開"
+"かれた全体像はどこにあるのかという理由で、誰もが苦痛を負わずに、自分の場所を"
+"見つける。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:162
+msgid "Michelin-starred chef"
+msgstr "ミシュラン星付きシェフ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:163
+msgid "Award-winning wine cellar"
+msgstr "受賞歴のあるワインセラー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:164
+msgid "Open Tuesday - Sunday"
+msgstr "火曜日 - 日曜日 営業"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:176
+msgid "24/7 Fitness Center"
+msgstr "24時間営業のフィットネスセンター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:177
+msgid ""
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis "
+"praesentium voluptatum deleniti atque corrupti quos dolores et quas "
+"molestias excepturi."
+msgstr ""
+"しかし、真実と、甘いものをそぐことができる高貴な人を非難し、彼らを汚職から守"
+"る公正な憎しみがある。それは、欲望によって盲目にされ、苦痛を伴う場合を除い"
+"て、何者も受け入れないからである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:179
+msgid "State-of-the-art equipment"
+msgstr "最新鋭の機器"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:180
+msgid "Personal trainers available"
+msgstr "パーソナルトレーナーが利用可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:181
+msgid "Complimentary towels"
+msgstr "無料のタオル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:192
+msgid "Additional Hotel Services"
+msgstr "その他のホテルサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:199
+msgid "Free Wi-Fi"
+msgstr "無料Wi-Fi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:200
+msgid "High-speed internet throughout the property"
+msgstr "施設全体で高速インターネットをご利用いただけます"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:208
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:242
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:116
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:563
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1190
+msgid "Valet Parking"
+msgstr "バレーパーキング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:209
+msgid "Complimentary valet service for all guests"
+msgstr "全てのお客様に無料のバレーサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:217
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:253
+msgid "Airport Shuttle"
+msgstr "空港シャトル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:218
+msgid "Scheduled transfers to major airports"
+msgstr "主要空港への定期送迎"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:226
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:325
+msgid "Concierge"
+msgstr "コンシェルジュ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:227
+msgid "24/7 assistance for reservations and tours"
+msgstr "予約やツアーに関する24時間年中無休のサポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:235
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:329
+msgid "Room Service"
+msgstr "ルームサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:236
+msgid "Gourmet dining delivered to your room"
+msgstr "お部屋にお届けするグルメダイニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:244
+msgid "Safe Deposit"
+msgstr "セーフティデポジット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:245
+msgid "Secure storage for your valuables"
+msgstr "貴重品を安全に保管"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:253
+msgid "Multilingual Staff"
+msgstr "多言語対応スタッフ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:254
+msgid "Service in English, Spanish, French, and more"
+msgstr "英語、スペイン語、フランス語などでサービスを提供"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:262
+msgid "Pet Friendly"
+msgstr "ペットフレンドリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\amenities.html:263
+msgid "Welcome amenities for your furry friends"
+msgstr "ペットへのおもてなしアメニティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:8
+msgid "Booking - Lonergarden Stay"
+msgstr "予約 - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:40
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:41
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:41
+msgid "contact@example.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:120
+msgid "Reserve Your Stay"
+msgstr "ご滞在を予約する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:121
+msgid "Experience unmatched hospitality with our streamlined booking process"
+msgstr "合理化された予約プロセスで、比類のないホスピタリティを体験してください"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:131
+msgid "Booking Details"
+msgstr "予約詳細"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:134
+msgid "Arrival Date"
+msgstr "到着日"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:138
+msgid "Departure Date"
+msgstr "出発日"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:142
+msgid "Total Guests"
+msgstr "合計ゲスト数"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:144
+msgid "Choose guests"
+msgstr "ゲストを選択"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:145
+msgid "1 Guest"
+msgstr "1名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:146
+msgid "2 Guests"
+msgstr "2名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:147
+msgid "3 Guests"
+msgstr "3名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:148
+msgid "4 Guests"
+msgstr "4名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:149
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:143
+msgid "5+ Guests"
+msgstr "5名以上"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:153
+msgid "Total Rooms"
+msgstr "合計客室数"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:155
+msgid "Choose rooms"
+msgstr "客室を選択"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:156
+msgid "1 Room"
+msgstr "1室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:157
+msgid "2 Rooms"
+msgstr "2室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:158
+msgid "3 Rooms"
+msgstr "3室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:159
+msgid "4+ Rooms"
+msgstr "4室以上"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:166
+msgid "Room Preferences"
+msgstr "客室の希望"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:168
+msgid "Accommodation Type"
+msgstr "宿泊タイプ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:170
+msgid "No preference"
+msgstr "希望なし"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:171
+msgid "Standard City Room"
+msgstr "スタンダード・シティルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:173
+msgid "Deluxe Ocean Suite"
+msgstr "デラックス・オーシャン・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:174
+msgid "Executive Business Suite"
+msgstr "エグゼクティブ・ビジネス・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:175
+msgid "Romantic Honeymoon Suite"
+msgstr "ロマンチック・ハネムーン・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:179
+msgid "Additional Requirements"
+msgstr "追加の要件"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:185
+msgid "Guest Information"
+msgstr "ゲスト情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:188
+msgid "Primary Guest Name"
+msgstr "代表ゲスト名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:192
+msgid "Email Address"
+msgstr "Eメールアドレス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:196
+msgid "Contact Number"
+msgstr "連絡先番号"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:204
+msgid "Submit Reservation Request"
+msgstr "予約リクエストを送信する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:217
+msgid "Why Choose Our Hotel"
+msgstr "当ホテルを選ぶ理由"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:224
+msgid "Premium Connectivity"
+msgstr "プレミアム接続"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:225
+msgid "High-speed internet access in all areas"
+msgstr "全エリアで高速インターネットアクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:233
+msgid "24/7 Service"
+msgstr "24時間年中無休のサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:234
+msgid "Round-the-clock assistance and support"
+msgstr "終日対応のサポートと支援"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:243
+msgid "Complimentary parking with valet service"
+msgstr "バレーサービス付きの無料駐車場"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:251
+msgid "Wellness Center"
+msgstr "ウェルネスセンター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:252
+msgid "Full-service spa and fitness facilities"
+msgstr "フルサービスのスパとフィットネス施設"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:261
+msgid "Secure Booking"
+msgstr "安全な予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:265
+msgid "Flexible Cancellation"
+msgstr "柔軟なキャンセル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\booking.html:269
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:375
+msgid "24/7 Support"
+msgstr "24時間年中無休のサポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:8
+msgid "Contact - Lonergarden Stay"
+msgstr "お問い合わせ - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:131
+msgid "482 Pine Street, Seattle, Washington 98101"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:142
+msgid "Phone &amp; Email"
+msgstr "電話 & メール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:143
+msgid "+1 (206) 555-0192"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:144
+msgid "connect@example.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:155
+msgid "Send a Message"
+msgstr "メッセージを送る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\contact.html:184
+msgid "SEND MESSAGE"
+msgstr "メッセージを送信"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:8
+msgid "Events - Lonergarden Stay"
+msgstr "イベント - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:118
+msgid "Exceptional Events &amp; Celebrations"
+msgstr "特別なイベント&amp;お祝い"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:119
+msgid ""
+"Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget "
+"consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget "
+"tincidunt nibh pulvinar a."
+msgstr ""
+"レオの入り口はコングで、マレスアダになる。生きているマグナは公正であり、それ"
+"は今や座っている知恵であり、それは合意されたものである。マウリスは高貴な人を"
+"非難し、それはティンシダン・ニブによって引き起こされる。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:130
+msgid "Grand Ballroom"
+msgstr "グランドボールルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:131
+msgid "Up to 400 guests"
+msgstr "最大400名様"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:144
+msgid "Rooftop Terrace"
+msgstr "ルーフトップテラス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:145
+msgid "Up to 200 guests"
+msgstr "最大200名様"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:158
+msgid "Conference Suite"
+msgstr "会議スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:159
+msgid "Up to 80 guests"
+msgstr "最大80名様"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:172
+msgid "World-Class Event Facilities"
+msgstr "ワールドクラスのイベント施設"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:173
+msgid ""
+"Pellentesque habitant morbi tristique senectus et netus et malesuada fames "
+"ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, "
+"tempor sit amet."
+msgstr ""
+"ペレエンテスクは、老齢とネットゥス、そして貧困と飢餓の悲しい習慣に住んでい"
+"る。トーチャーがどのように、その人生を、そしてその獲得したものを恐れるのか。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:181
+msgid "Advanced Audio/Visual"
+msgstr "高度なオーディオ/ビジュアル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:182
+msgid "State-of-the-art sound systems and projection equipment"
+msgstr "最新鋭の音響システムとプロジェクション機器"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:191
+msgid "High-Speed Connectivity"
+msgstr "高速接続"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:192
+msgid "Complimentary high-speed internet throughout all venues"
+msgstr "すべての会場で無料の高速インターネット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:201
+msgid "Premium Catering"
+msgstr "プレミアムケータリング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:202
+msgid "Exceptional culinary experiences with customizable menus"
+msgstr "カスタマイズ可能なメニューで格別な料理体験を"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:229
+msgid "Tailored Event Packages"
+msgstr "オーダーメイドのイベントパッケージ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:230
+msgid ""
+"Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie "
+"malesuada. Proin eget tortor risus."
+msgstr ""
+"マグナはクラの通り、ライグーラは門によって語られる。ドネックはマレスアダを乱"
+"すようにソリシチュディンする。プロインはトーチャー自身によって引き起こされ"
+"る。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:241
+msgid "Corporate Meetings"
+msgstr "企業ミーティング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:242
+msgid ""
+"Professional meeting spaces with all essential amenities for productive "
+"business events and conferences."
+msgstr ""
+"生産的なビジネスイベントや会議に必要なすべての設備を備えた専門的な会議スペー"
+"ス。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:244
+msgid "Meeting rooms"
+msgstr "会議室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:245
+msgid "AV equipment"
+msgstr "AV機器"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:246
+msgid "Catering options"
+msgstr "ケータリングオプション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:248
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:269
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:289
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:309
+msgid "Starting from"
+msgstr "〜から"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:250
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:271
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:291
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:311
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:189
+msgid "Learn More"
+msgstr "詳細はこちら"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:257
+msgid "Most Popular"
+msgstr "最も人気"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:262
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:934
+msgid "Wedding Celebrations"
+msgstr "ウェディングのお祝い"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:263
+msgid ""
+"Unforgettable wedding experiences with elegant venues, exquisite dining, and "
+"personalized service for your special day."
+msgstr ""
+"特別な日のためのエレガントな会場、絶妙なダイニング、そしてパーソナライズされ"
+"たサービスによる忘れられない結婚式の体験。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:265
+msgid "Bridal suite"
+msgstr "ブライダルスイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:266
+msgid "Ceremony setup"
+msgstr "挙式セットアップ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:267
+msgid "Reception dinner"
+msgstr "披露宴ディナー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:282
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:976
+msgid "Special Occasions"
+msgstr "特別な機会"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:283
+msgid ""
+"Celebrate milestones and special moments with customized party packages "
+"designed to create lasting memories."
+msgstr ""
+"永続的な思い出を作るために設計されたカスタマイズされたパーティパッケージで、"
+"マイルストーンと特別な瞬間を祝う。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:285
+msgid "Custom decor"
+msgstr "カスタム装飾"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:286
+msgid "Entertainment"
+msgstr "エンターテイメント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:287
+msgid "Photography"
+msgstr "写真撮影"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:302
+msgid "Social Gatherings"
+msgstr "社交的な集まり"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:303
+msgid ""
+"Intimate social events with flexible arrangements, perfect for family "
+"reunions, anniversaries, and casual celebrations."
+msgstr ""
+"家族の再会、記念日、カジュアルな祝賀会に最適な、柔軟な手配を備えた親密な社交"
+"イベント。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:305
+msgid "Flexible seating"
+msgstr "柔軟な座席配置"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:306
+msgid "Bar service"
+msgstr "バーサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:307
+msgid "Live music"
+msgstr "ライブミュージック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:323
+msgid "Complete Event Planning"
+msgstr "包括的なイベントプランニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:324
+msgid ""
+"Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet "
+"quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh."
+msgstr ""
+"ヌラは、リベロのマレスアダを欠いているために、ロレムを望んでいる。彼は、どの"
+"車両が要素に座っているのかを恐れる。彼は、ヌブに座っているレクタスを運ぶ。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:325
+msgid "Contact Our Team"
+msgstr "当チームに連絡する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:335
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:980
+msgid "Event Coordination"
+msgstr "イベントコーディネーション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:336
+msgid "Dedicated coordinators to manage every detail"
+msgstr "あらゆる細部を管理する専任コーディネーター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:343
+msgid "Decoration &amp; Styling"
+msgstr "装飾とスタイリング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:344
+msgid "Custom themes and elegant decoration packages"
+msgstr "カスタムテーマとエレガントな装飾パッケージ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:351
+msgid "Photography &amp; Video"
+msgstr "写真と動画"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:352
+msgid "Professional documentation of your special moments"
+msgstr "特別な瞬間のプロによる記録"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:359
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:310
+msgid "Transportation"
+msgstr "交通手段"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:360
+msgid "Convenient shuttle and transportation arrangements"
+msgstr "便利なシャトルと交通手段の手配"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:367
+msgid "Guest Amenities"
+msgstr "ゲスト向けアメニティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:368
+msgid "Welcome packages and accommodation assistance"
+msgstr "ウェルカムパッケージと宿泊サポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\events.html:376
+msgid "Round-the-clock assistance during your event"
+msgstr "イベント中の終日サポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:8
+msgid "Gallery - Lonergarden Stay"
+msgstr "ギャラリー - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:119
+msgid "All Photos"
+msgstr "全ての写真"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:122
+msgid "Dining"
+msgstr "ダイニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\gallery.html:123
+msgid "Exterior"
+msgstr "外観"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:8
+msgid "Lonelia Project Web Desing"
+msgstr "ロネリア・プロジェクト ウェブデザイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:107
+msgid "Comfy and Relaxing in Every Stay"
+msgstr "どの滞在でも快適でリラックス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:108
+msgid ""
+"Experience unparalleled comfort and sophistication at our premium hotel. "
+"From elegant suites to world-class amenities, every moment of your stay is "
+"crafted to perfection."
+msgstr ""
+"当ホテルでは、比類のない快適さと洗練された雰囲気をお楽しみいただけます。優雅"
+"なスイートルームから世界クラスのアメニティまで、お客様の滞在の一瞬一瞬が完璧"
+"に作り上げられています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:112
+msgid "Complimentary WiFi"
+msgstr "無料WiFi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:120
+msgid "24/7 Room Service"
+msgstr "24時間年中無休のルームサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:124
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:772
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:174
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:140
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:167
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:160
+msgid "Book Now"
+msgstr "今すぐ予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:125
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:220
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:889
+msgid "View Rooms"
+msgstr "客室を見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:143
+msgid "Exceptional Experience"
+msgstr "格別な体験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:144
+msgid ""
+"\"Absolutely stunning hotel! The service was impeccable and the views "
+"breathtaking.\""
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:147
+msgid "Sarah Johnson"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:160
+msgid "150"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:161
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:206
+msgid "Luxury Rooms"
+msgstr "ラグジュアリーな客室"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:167
+msgid "Star Rating"
+msgstr "星評価"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:173
+msgid "Hour Service"
+msgstr "時間サービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:179
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:210
+msgid "Guest Satisfaction"
+msgstr "ゲスト満足度"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:198
+msgid "Welcome to Lonergarden Resort"
+msgstr "ローナーガーデンリゾートへようこそ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:199
+msgid "Where luxury meets tranquility in the heart of nature's paradise."
+msgstr "自然の楽園の中心で、贅沢と静寂が調和する場所。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:200
+msgid ""
+"Nestled among rolling hills and pristine landscapes, Grandview Resort has "
+"been offering exceptional hospitality for over three decades. Our commitment "
+"to excellence and attention to detail creates an unforgettable experience "
+"for discerning travelers seeking both comfort and adventure."
+msgstr ""
+"なだらかな丘陵と手つかずの風景に囲まれたグランドビューリゾートは、30年以上に"
+"わたり卓越したおもてなしを提供してまいりました。卓越性へのこだわりと細部への"
+"注意深い配慮により、快適さと冒険の両方を求める洗練された旅行者に忘れられない"
+"体験を創出します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:201
+msgid ""
+"From our elegantly appointed suites to our world-class amenities, every "
+"aspect of your stay is designed to exceed expectations. Discover "
+"breathtaking views, exquisite dining, and personalized service that makes "
+"every moment special."
+msgstr ""
+"優雅に設えられたスイートルームから世界クラスのアメニティまで、お客様のご滞在"
+"のあらゆる側面が期待を超えるように設計されています。息をのむような景色、洗練"
+"されたダイニング、そしてすべての瞬間を特別にするパーソナライズされたサービス"
+"をご体験ください"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:205
+msgid "185"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:209
+#, python-format
+msgid "98%%"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:219
+msgid "Our Story"
+msgstr "私たちの物語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:235
+msgid "30+"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:236
+msgid "Years"
+msgstr "年"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:236
+msgid "Experience"
+msgstr "経験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:525
+msgid "High-Speed Internet"
+msgstr "高速インターネット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:526
+msgid ""
+"Complimentary wireless internet access throughout the hotel premises with "
+"enterprise-grade security and unlimited bandwidth for all your connectivity "
+"needs."
+msgstr ""
+"エンタープライズグレードのセキュリティと無制限の帯域幅を備えた、ホテル全体で"
+"の無料のワイヤレスインターネットアクセスで、すべての接続ニーズに対応します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:528
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:275
+msgid "24/7 Available"
+msgstr "24時間利用可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:529
+msgid "High Speed"
+msgstr "高速"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:544
+msgid "Rooftop Pool"
+msgstr "ルーフトッププール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:545
+msgid ""
+"Luxurious rooftop swimming pool with breathtaking city skyline views. "
+"Features heated water, poolside service, and premium lounging areas for "
+"ultimate relaxation."
+msgstr ""
+"息をのむような街のスカイラインの景色を望む豪華な屋上スイミングプール。究極の"
+"リラクゼーションのための温水、プールサイドサービス、そしてプレミアムラウンジ"
+"エリアを備えています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:547
+msgid "Heated Pool"
+msgstr "温水プール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:564
+msgid ""
+"Premium valet parking service with secure underground facility. Professional "
+"attendants ensure your vehicle is safely parked and readily available upon "
+"request."
+msgstr ""
+"安全な地下施設を備えたプレミアムバレーパーキングサービス。プロの係員が、お客"
+"様の車両が安全に駐車され、リクエストに応じてすぐにご利用いただけるようにしま"
+"す。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:566
+msgid "Secure"
+msgstr "安全"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:567
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:218
+msgid "Valet Service"
+msgstr "バレーサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:582
+msgid "Modern Fitness Center"
+msgstr "モダンフィットネスセンター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:583
+msgid ""
+"Cutting-edge fitness facility featuring premium equipment, personal training "
+"services, and wellness programs designed to maintain your health routine "
+"while traveling."
+msgstr ""
+"プレミアムな機器、パーソナルトレーニングサービス、そして旅行中の健康習慣を維"
+"持するために設計されたウェルネスプログラムを備えた最先端のフィットネス施設。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:585
+msgid "24/7 Access"
+msgstr "24時間アクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:586
+msgid "Personal Training"
+msgstr "パーソナルトレーニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:602
+msgid ""
+"Award-winning culinary experience featuring international cuisine crafted by "
+"renowned chefs. Elegant atmosphere with extensive wine selection and "
+"impeccable service."
+msgstr ""
+"有名なシェフによって作られた国際料理を特徴とする受賞歴のある料理体験。豊富な"
+"ワインセレクションと非の打ちどころのないサービスを備えたエレガントな雰囲気。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:604
+msgid "Fine Dining"
+msgstr "上質なダイニング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:605
+msgid "Wine Selection"
+msgstr "ワインセレクション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:620
+msgid "Luxury Spa"
+msgstr "ラグジュアリースパ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:621
+msgid ""
+"Tranquil sanctuary offering therapeutic treatments, rejuvenating massages, "
+"and holistic wellness experiences. Escape the everyday stress in our serene "
+"environment."
+msgstr ""
+"治療トリートメント、若返りマッサージ、そしてホリスティックウェルネス体験を提"
+"供する静かな聖域。私たちの穏やかな環境で日常のストレスから逃れましょう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:623
+msgid "Full Service"
+msgstr "フルサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:624
+msgid "Wellness Programs"
+msgstr "ウェルネスプログラム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:641
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:642
+msgid "Testimonials"
+msgstr "お客様の声"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:659
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae "
+"erat consequat auctor eu in elit."
+msgstr ""
+"ダミーテキスト。言葉の並びを確認するためだけに使われます。日本語の文字で書か"
+"れています。意味は特にありません。吾輩は猫である、名前はまだない。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:664
+msgid "Robert Johnson"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:665
+msgid "Chief Executive Officer"
+msgstr "最高経営責任者"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:678
+msgid ""
+"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum "
+"suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. "
+"Maecen aliquam, risus at semper."
+msgstr ""
+"アイアクリスは、セム・キュア・ディグニ・シムによって、エンタム・サスピト・ロ"
+"ンカスを運ぶ。非難は、それが取得したどのように、他のものではない。マエケン"
+"は、常にリスを許容する。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:683
+msgid "Sarah Williams"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:684
+msgid "Marketing Director"
+msgstr "マーケティングディレクター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:697
+msgid ""
+"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla "
+"quem veniam duis minim tempor labore quem eram duis noster aute amet eram "
+"fore quis sint minim."
+msgstr ""
+"いかなる労働も輸出の対象とならず、偉大なる力の源は無に帰す。最小限の時間を費"
+"やした努力すらも、我々の魂と信念の前に立つことは許されない。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:702
+msgid "Michael Davis"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:703
+msgid "Product Manager"
+msgstr "プロダクトマネージャー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:716
+msgid ""
+"Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export "
+"minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt "
+"elit fore quem dolore labore."
+msgstr ""
+"逃避する心、それは内なる苦痛と虚無感から生まれ、多くの輸出と最小限の希望を求"
+"める。最小限の欲望が偉大なる精神を太陽のように輝かせ、労働の苦悩の前に立ち尽"
+"くす。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:721
+msgid "Emily Thompson"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:722
+msgid "Design Lead"
+msgstr "デザインリード"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:753
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:150
+#, python-format
+msgid "25%% OFF"
+msgstr "25%% オフ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:759
+msgid "Weekend Getaway"
+msgstr "週末の休暇"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:760
+msgid ""
+"Escape the ordinary with our exclusive weekend package. Includes "
+"complimentary breakfast and late checkout until 2 PM."
+msgstr ""
+"私たちの特別な週末パッケージで日常から逃れましょう。無料の朝食と午後2時までの"
+"レイトチェックアウトが含まれます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:769
+msgid "Valid until Dec 31, 2024"
+msgstr "2024年12月31日まで有効"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:780
+msgid "BEST VALUE"
+msgstr "ベストバリュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:786
+msgid "Extended Stay Deal"
+msgstr "長期滞在プラン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:787
+msgid ""
+"Stay 5 nights or more and enjoy significant savings. Perfect for business "
+"travelers and extended vacations with premium amenities."
+msgstr ""
+"5泊以上のご滞在で大幅な節約をお楽しみください。出張者やプレミアムアメニティを"
+"備えた長期休暇に最適です。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:796
+msgid "Book by Jan 15, 2025"
+msgstr "2025年1月15日までに予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:799
+msgid "Reserve Today"
+msgstr "今日予約する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:807
+msgid "EARLY BIRD"
+msgstr "早割"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:813
+msgid "Advance Booking"
+msgstr "事前予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:814
+msgid ""
+"Plan ahead and save more! Book your stay 30 days in advance and enjoy "
+"exclusive rates with free cancellation up to 7 days."
+msgstr ""
+"事前に計画してさらに節約しましょう！ご滞在の30日前にご予約いただくと、7日前ま"
+"での無料キャンセル付きの特別料金をお楽しみいただけます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:823
+msgid "Available year-round"
+msgstr "年中利用可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:826
+msgid "Book Early"
+msgstr "早めに予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:839
+msgid "Limited Time Offer"
+msgstr "期間限定オファー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:840
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in "
+"reprehenderit."
+msgstr ""
+"日本語ダミーテキストです。この文章は、文字の並びの確認とデザイン調整のために"
+"利用されます。特に意味はありません。労働と大きな痛みがある。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:848
+msgid "Days"
+msgstr "日"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:852
+msgid "Hours"
+msgstr "時間"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:856
+msgid "Minutes"
+msgstr "分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:859
+msgid "Claim Offer"
+msgstr "オファーを請求する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:879
+msgid "Experience Luxury Like Never Before"
+msgstr "これまでにない贅沢な体験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:880
+msgid ""
+"Immerse yourself in unparalleled comfort and sophistication at our premium "
+"hotel. From elegantly appointed rooms to world-class amenities, every detail "
+"is crafted to exceed your expectations. Book your extraordinary stay today "
+"and create unforgettable memories."
+msgstr ""
+"私たちのプレミアムホテルで、比類のない快適さと洗練さに身を浸してください。エ"
+"レガントに整えられた客室から世界クラスの設備まで、すべての詳細がお客様の期待"
+"を超えるように作り上げられています。今日、非日常的なご滞在を予約し、忘れられ"
+"ない思い出を作りましょう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:882
+msgid "Complimentary breakfast and Wi-Fi"
+msgstr "無料の朝食とWi-Fi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:883
+msgid "24/7 concierge and room service"
+msgstr "24時間年中無休のコンシェルジュとルームサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:884
+msgid "State-of-the-art spa and fitness center"
+msgstr "最新鋭のスパとフィットネスセンター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:885
+msgid "Prime location with stunning city views"
+msgstr "素晴らしい街の景色を望む最高のロケーション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:888
+msgid "Book Your Stay"
+msgstr "ご滞在を予約する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:899
+msgid "Special Offer"
+msgstr "特別オファー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:900
+#, python-format
+msgid "Save 30%%"
+msgstr "30%% 割引"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:935
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor"
+msgstr ""
+"日本語ダミーです。文字配置の確認とデザイン調整のために使います。コンセクトの"
+"アディピシング。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:937
+msgid "Premium Venues"
+msgstr "プレミアム会場"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:938
+msgid "Full Catering"
+msgstr "フルケータリング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:940
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:961
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:982
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1003
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1024
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1045
+msgid "Explore Details"
+msgstr "詳細を見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:955
+msgid "Business Conferences"
+msgstr "ビジネス会議"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:956
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+msgstr ""
+"しかし、すべての過ちの生まれはどこにあるのか、また真実を発明した彼自身から開"
+"かれた全体像はどこにあるのかという理由で、誰もが苦痛を負わずに、自分の場所を"
+"見つける。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:958
+msgid "Modern Tech"
+msgstr "モダンな技術"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:959
+msgid "WiFi Access"
+msgstr "WiFiアクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:977
+msgid "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi"
+msgstr ""
+"我々は最小限の訓練から逃れず、労働の厳しさを経験し、鍛錬を怠らないことを誓"
+"う。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:979
+msgid "Custom Setup"
+msgstr "カスタム設定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:997
+msgid "Corporate Retreats"
+msgstr "企業向けリトリート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:998
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
+msgstr ""
+"彼は、その責任において、あるいは快楽の欲求において、苦痛を感じるべきである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1000
+msgid "Team Building"
+msgstr "チームビルディング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1001
+msgid "Outdoor Activities"
+msgstr "アウトドアアクティビティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1018
+msgid "Entertainment Events"
+msgstr "エンターテイメントイベント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1019
+msgid ""
+"Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia"
+msgstr ""
+"彼は、その責任において、あるいは快楽の欲求において、苦痛を感じるべきである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1021
+msgid "Live Music"
+msgstr "ライブミュージック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1022
+msgid "Dance Floor"
+msgstr "ダンスフロア"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1039
+msgid "VIP Gatherings"
+msgstr "VIPの集まり"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1040
+msgid ""
+"Mollit anim id est laborum at vero eos et accusamus et iusto odio dignissimos"
+msgstr ""
+"モールリットはアニムであり、真実と、甘いものをそぐことができる高貴な人を非難"
+"する公正な憎しみがある。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1042
+msgid "Exclusive Access"
+msgstr "独占アクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1043
+msgid "Premium Service"
+msgstr "プレミアムサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1062
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1063
+msgid "Location &amp; Activities"
+msgstr "ロケーション＆アクティビティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1078
+msgid "2 min walk"
+msgstr "徒歩2分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1082
+msgid "Entertainment Quarter"
+msgstr "エンターテイメント・クォーター"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1083
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia "
+"odio vitae vestibulum."
+msgstr ""
+"時間の経過と共に、労働と大きな苦痛があり、最小限の訓練から、誰もが試練を行"
+"う。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1085
+msgid "Open 24/7"
+msgstr "24時間営業"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1086
+msgid "4.8 Rating"
+msgstr "4.8評価"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1098
+msgid "5 min drive"
+msgstr "車で5分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1102
+msgid "Waterfront Marina"
+msgstr "ウォーターフロント・マリーナ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1103
+msgid ""
+"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim "
+"ad minim veniam."
+msgstr ""
+"吾輩は猫である、名前はまだ無い。どこで生まれたか見当もつかない、この日本語の"
+"文章は意味のないダミーです。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1105
+msgid "Scenic Views"
+msgstr "景色の良い眺め"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1106
+msgid "Photo Spot"
+msgstr "写真スポット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1118
+msgid "10 min walk"
+msgstr "徒歩10分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1122
+msgid "Historic Quarter"
+msgstr "歴史地区"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1123
+msgid ""
+"Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+"consequat duis aute."
+msgstr ""
+"誰がエクササイズを行うのか、その結果として生じる利益のために、誰がエクササイ"
+"ズを行うのか、彼はその責任において、苦痛を感じるべきである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1125
+msgid "Guided Tours"
+msgstr "ガイド付きツアー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1126
+msgid "Bike Friendly"
+msgstr "自転車フレンドリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1138
+msgid "3 min walk"
+msgstr "徒歩3分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1142
+msgid "Premium Shopping Plaza"
+msgstr "プレミアムショッピングプラザ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1143
+msgid ""
+"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia "
+"deserunt mollit."
+msgstr ""
+"彼は、その責任において、あるいは快楽の欲求において、苦痛を感じるべきである。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1145
+msgid "Tax Free"
+msgstr "免税"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1146
+msgid "Cafés Inside"
+msgstr "館内のカフェ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1160
+msgid "Prime Location Benefits"
+msgstr "最高のロケーションの利点"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1161
+msgid ""
+"Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue."
+msgstr ""
+"万象全てが織り成す静謐なる調和。この世界に自由無き人生は存在し得ない、されど"
+"幻影の先に希望は宿る。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1170
+msgid "Public Transport Hub"
+msgstr "公共交通機関のハブ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1171
+msgid "Metro station 200m away"
+msgstr "地下鉄駅まで200m"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1180
+msgid "Airport Connection"
+msgstr "空港接続"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1181
+msgid "Direct shuttle every 30 min"
+msgstr "30分ごとの直行シャトル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1191
+msgid "Complimentary for guests"
+msgstr "ゲストは無料"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1200
+msgid "City Center Access"
+msgstr "市内中心部へのアクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1201
+msgid "Walking distance to main attractions"
+msgstr "主要な観光スポットまで徒歩圏内"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1207
+msgid "View Full Location Guide"
+msgstr "完全なロケーションガイドを見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1325
+msgid "Discover Our Full Gallery"
+msgstr "全ギャラリーを見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\index.html:1341
+msgid "Lonergarden Stay"
+msgstr "ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:12
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:15
+msgid "English"
+msgstr "英語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:16
+msgid "Indonesia"
+msgstr "インドネシア語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:17
+msgid "Japanese"
+msgstr "日本語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:18
+msgid "French"
+msgstr "フランス語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:19
+msgid "Deutsch"
+msgstr "ドイツ語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\language.html:20
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:8
+msgid "Location - Lonergarden Stay"
+msgstr "ロケーション - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:127
+msgid "Luxury Downtown Experience"
+msgstr "豪華なダウンタウン体験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:128
+msgid ""
+"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere "
+"cubilia curae. Donec rutrum congue leo eget malesuada. Proin eget tortor "
+"risus cras ultricies ligula sed magna dictum porta."
+msgstr ""
+"我々は今、最も崇高なる場所に鎮座し、古の知恵と未来への礎を築く。万巻の書が示"
+"す如く、大いなる門を通じて、確固たる信念が世界に伝播するのだ。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:136
+msgid "Address"
+msgstr "住所"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:137
+msgid "789 Madison Street"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:137
+msgid "Chicago, IL 60601"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:146
+msgid "Airport Access"
+msgstr "空港アクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:147
+msgid "O'Hare - 35 min"
+msgstr "オヘア空港 - 35分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:147
+msgid "Midway - 25 min"
+msgstr "ミッドウェイ空港 - 25分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:157
+msgid "+1 (555) 876-5432"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:157
+msgid "reservations@example.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:166
+msgid "Check-in"
+msgstr "チェックイン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:167
+msgid "3:00 PM - 11:00 PM"
+msgstr "午後3時 - 午後11時"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:167
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:284
+msgid "Check-out: 11:00 AM"
+msgstr "チェックアウト: 午前11時"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:173
+msgid "View on Map"
+msgstr "地図で見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:185
+msgid "Grand Luxury Hotel"
+msgstr "グランド・ラグジュアリーホテル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:197
+msgid "Getting Here is Easy"
+msgstr "アクセスは簡単"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:198
+msgid "Multiple convenient transportation options to reach our hotel"
+msgstr "当ホテルへのアクセスには複数の便利な交通手段があります"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:211
+msgid "By Car"
+msgstr "車で"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:212
+msgid "Most Convenient"
+msgstr "最も便利"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:216
+msgid ""
+"Complimentary valet service available. Premium parking garage with direct "
+"hotel access and EV charging stations."
+msgstr ""
+"無料のバレーサービスをご利用いただけます。ホテルに直結した高級駐車場とEV充電"
+"ステーションを完備しています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:219
+msgid "EV Charging"
+msgstr "EV充電"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:232
+msgid "By Metro"
+msgstr "地下鉄で"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:233
+msgid "5 min walk"
+msgstr "徒歩5分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:237
+msgid ""
+"State Street Station directly connects to all major lines. Blue line to "
+"airports, Red line to suburbs and entertainment districts."
+msgstr ""
+"ステートストリート駅は、すべての主要路線に直結しています。ブルーラインは空港"
+"へ、レッドラインは郊外およびエンターテイメント地区へ接続します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:239
+msgid "Blue Line"
+msgstr "ブルーライン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:240
+msgid "Red Line"
+msgstr "レッドライン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:254
+msgid "Every 30 min"
+msgstr "30分ごと"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:258
+msgid ""
+"Luxury shuttle service to both major airports. Premium comfort with WiFi, "
+"refreshments, and luggage assistance included."
+msgstr ""
+"主要な両空港への豪華シャトルサービスを提供しています。Wi-Fi、軽食、および荷物"
+"のお手伝いを含む、プレミアムな快適さをご利用いただけます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:260
+msgid "WiFi"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:261
+msgid "Refreshments"
+msgstr "軽食"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:274
+msgid "Ride Share"
+msgstr "ライドシェア"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:279
+msgid ""
+"Dedicated pickup zones for all ride-sharing services. Professional concierge "
+"assistance for booking and special requests."
+msgstr ""
+"すべてのライドシェアリングサービスのための専用の乗車ゾーンを設けています。ご"
+"予約や特別なおリクエストには、専門のコンシェルジュがお手伝いいたします。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:281
+msgid "Concierge Help"
+msgstr "コンシェルジュのサポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:282
+msgid "Express Pickup"
+msgstr "エクスプレス・ピックアップ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:295
+msgid "Explore the Neighborhood"
+msgstr "近隣を探索"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:296
+msgid "World-class attractions and entertainment right at your doorstep"
+msgstr "ワールドクラスの観光スポットとエンターテイメントがすぐそばに"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:308
+msgid "2 blocks"
+msgstr "2ブロック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:312
+msgid "Millennium Park"
+msgstr "ミレニアム・パーク"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:313
+msgid "8 minute walk"
+msgstr "徒歩8分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:314
+msgid ""
+"Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie "
+"malesuada. Experience iconic Cloud Gate sculpture."
+msgstr ""
+"偉大なる知識の門がここに開かれ、混沌とした悪意は静かに鎮圧される。象徴的な"
+"「クラウド・ゲート」の彫刻を体験せよ。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:325
+msgid "4 blocks"
+msgstr "4ブロック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:329
+msgid "Art Institute"
+msgstr "シカゴ美術館"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:330
+msgid "12 minute walk"
+msgstr "徒歩12分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:331
+msgid ""
+"Pellentesque habitant morbi tristique senectus et netus et malesuada fames "
+"ac turpis egestas world-renowned collection."
+msgstr ""
+"ペレエンテスクは、老齢とネットゥス、そして貧困と飢餓の悲しい習慣に住んでい"
+"る。世界的に有名なコレクション。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:342
+msgid "1.2 miles"
+msgstr "1.2マイル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:346
+msgid "Navy Pier"
+msgstr "ネイビー・ピア"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:347
+msgid "18 minute walk"
+msgstr "徒歩18分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:348
+msgid ""
+"Vivamus magna justo lacinia eget consectetur sed convallis at tellus. "
+"Entertainment, dining, and stunning lake views."
+msgstr ""
+"偉大なる生命は公正に裁き、知恵に従い和解する。エンターテイメント、食事、そし"
+"て息をのむような湖の景色をお楽しみください。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:359
+msgid "3 blocks"
+msgstr "3ブロック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:363
+msgid "Theater District"
+msgstr "シアター・ディストリクト"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:364
+msgid "10 minute walk"
+msgstr "徒歩10分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:365
+msgid ""
+"Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Broadway shows and "
+"world-class performances nightly."
+msgstr ""
+"ショーと世界クラスの公演が毎晩開催されます。高貴なる精神が静かに息づき、全て"
+"の才能はそこから生まれる。ブロードウェイの"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:376
+msgid "1 block"
+msgstr "1ブロック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:380
+msgid "Magnificent Mile"
+msgstr "マグニフィセント・マイル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:381
+msgid "5 minute walk"
+msgstr "徒歩5分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:382
+msgid ""
+"Donec rutrum congue leo eget malesuada. Premium shopping, luxury brands, and "
+"upscale dining experiences."
+msgstr ""
+"偉大なる王の道は、権威と支配を伴って完成する。プレミアムなショッピング、高級"
+"ブランド、そして洗練されたダイニング体験をご提供します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:393
+msgid "6 blocks"
+msgstr "6ブロック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:397
+msgid "Lake Michigan Shore"
+msgstr "ミシガン湖岸"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:398
+msgid "15 minute walk"
+msgstr "徒歩15分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\location.html:399
+msgid ""
+"Sed porttitor lectus nibh mauris blandit aliquet elit. Beach access, "
+"recreational trails, and scenic waterfront dining."
+msgstr ""
+"選ばれし者たちの道が開かれ、高貴なる精神が光輝を放つ。ビーチへのアクセス、レ"
+"クリエーション用の遊歩道、そして景色の良い水辺での食事をお楽しみいただけま"
+"す。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:8
+msgid "Offers - Lonergarden Stay"
+msgstr "オファー - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:123
+#, python-format
+msgid "30%% OFF"
+msgstr "30%% オフ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:127
+msgid "Luxury Weekend Getaway"
+msgstr "豪華な週末の休暇"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:128
+msgid ""
+"Indulge in a perfect weekend escape with our exclusive package. Enjoy "
+"premium accommodations, complimentary breakfast, and access to our world-"
+"class spa facilities."
+msgstr ""
+"当ホテル限定のパッケージで、完璧な週末の逃避をご堪能ください。プレミアムな宿"
+"泊施設、無料の朝食、そして世界クラスのスパ施設へのアクセスをご利用いただけま"
+"す。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:137
+msgid "Valid until March 31, 2024"
+msgstr "2024年3月31日まで有効"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:154
+msgid "Business Travel Package"
+msgstr "ビジネストラベルパッケージ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:155
+msgid ""
+"Perfect for the modern business traveler. Includes high-speed WiFi, meeting "
+"room access, late checkout, and complimentary airport shuttle service."
+msgstr ""
+"現代のビジネス旅行者に最適なプランです。高速Wi-Fi、会議室の利用、レイトチェッ"
+"クアウト、および無料の空港シャトルサービスが含まれています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:164
+msgid "Valid until April 15, 2024"
+msgstr "2024年4月15日まで有効"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:177
+msgid "FREE"
+msgstr "無料"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:181
+msgid "Spa Day Experience"
+msgstr "スパデー体験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:182
+msgid "Complimentary spa session with any 3-night stay booking."
+msgstr "3泊以上のご予約で無料のスパセッションをプレゼント。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:186
+msgid "Limited time offer"
+msgstr "期間限定オファー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:199
+#, python-format
+msgid "50%% OFF"
+msgstr "50%% オフ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:203
+msgid "Romantic Dinner"
+msgstr "ロマンチックディナー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:204
+msgid "Special discount on our signature dining experience for couples."
+msgstr "カップル向けのシグネチャーダイニング体験の特別割引。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:208
+msgid "Weekends only"
+msgstr "週末限定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:211
+msgid "Reserve Table"
+msgstr "テーブルを予約する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:221
+#, python-format
+msgid "SAVE 40%%"
+msgstr "40%% 割引"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:225
+msgid "Family Fun Package"
+msgstr "ファミリー・ファンパッケージ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:226
+msgid "Kids stay free with complimentary activities and meals included."
+msgstr ""
+"お子様は無料のアクティビティと食事が含まれており、無料でご宿泊いただけます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:230
+msgid "Summer season"
+msgstr "夏季限定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\offers.html:233
+msgid "Book Family"
+msgstr "ファミリー予約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment.html:4
+msgid "Booking Confirmation and Payment"
+msgstr "予約確認と支払い"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment.html:8
+msgid "Complete Payment"
+msgstr "支払いを完了する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:9
+msgid "Payment Successful"
+msgstr "支払いが成功しました"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:125
+msgid "Registration Successful Message Example"
+msgstr "登録成功メッセージの例"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:126
+msgid "A registration successful message box in HTML and CSS."
+msgstr "HTMLとCSSによる登録成功メッセージボックス。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:155
+msgid "Success"
+msgstr "成功"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:158
+msgid "Congratulations, your account has been successfully created."
+msgstr "おめでとうございます。アカウントが正常に作成されました。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\payment_success.html:159
+msgid "Continue"
+msgstr "続ける"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:8
+msgid "Privacy - Lonergarden Stay"
+msgstr "プライバシー - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:119
+msgid "Effective Date: February 27, 2025"
+msgstr "発効日: 2025年2月27日"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:120
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:121
+msgid ""
+"This Privacy Policy describes how we collect, use, process, and disclose "
+"your information, including personal information, in conjunction with your "
+"access to and use of our services."
+msgstr ""
+"このプライバシーポリシーは、お客様が当社のサービスにアクセスし、使用すること"
+"に関連して、個人情報を含むお客様の情報を当社がどのように収集、使用、処理、お"
+"よび開示するかを説明しています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:129
+msgid "1. Introduction"
+msgstr "1. はじめに"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:130
+msgid ""
+"When you use our services, you're trusting us with your information. We "
+"understand this is a big responsibility and work hard to protect your "
+"information and put you in control."
+msgstr ""
+"お客様が当社のサービスをご利用になる際、お客様はご自身の情報を当社に委ねてく"
+"ださっています。当社は、これが重大な責任であることを理解し、お客様の情報を保"
+"護し、お客様自身が管理できるように懸命に取り組んでいます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:131
+msgid ""
+"This Privacy Policy is meant to help you understand what information we "
+"collect, why we collect it, and how you can update, manage, export, and "
+"delete your information."
+msgstr ""
+"このプライバシーポリシーは、当社がどのような情報を収集するか、なぜ収集するの"
+"か、そしてお客様がご自身の情報をどのように更新、管理、エクスポート、および削"
+"除できるかを理解していただくことを目的としています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:136
+msgid "2. Information We Collect"
+msgstr "2. 収集する情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:137
+msgid ""
+"We collect information to provide better services to our users. The types of "
+"information we collect include:"
+msgstr ""
+"当社は、ユーザーにより良いサービスを提供するために情報を収集します。収集する"
+"情報の種類には以下が含まれます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:139
+msgid "2.1 Information You Provide"
+msgstr "2.1 お客様が提供する情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:140
+msgid ""
+"When you create an account or use our services, you provide us with personal "
+"information that includes:"
+msgstr ""
+"お客様がアカウントを作成したり、当社のサービスを利用したりする際に、以下を含"
+"む個人情報をご提供いただきます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:142
+msgid "Your name and contact information"
+msgstr "お名前と連絡先情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:143
+msgid "Account credentials"
+msgstr "アカウントの認証情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:144
+msgid "Payment information when required"
+msgstr "必要な場合の支払い情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:145
+msgid "Communication preferences"
+msgstr "コミュニケーション設定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:148
+msgid "2.2 Automatic Information"
+msgstr "2.2 自動的に収集される情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:149
+msgid ""
+"We automatically collect and store certain information when you use our "
+"services:"
+msgstr ""
+"お客様が当社のサービスを利用する際、当社は特定の情報を自動的に収集し、保存し"
+"ます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:151
+msgid "Device information and identifiers"
+msgstr "デバイス情報と識別子"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:152
+msgid "Log information and usage statistics"
+msgstr "ログ情報と利用統計"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:153
+msgid "Location information when enabled"
+msgstr "有効になっている場合の現在地情報"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:154
+msgid "Browser type and settings"
+msgstr "ブラウザの種類と設定"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:160
+msgid "3. How We Use Your Information"
+msgstr "3. お客様の情報の利用方法"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:161
+msgid ""
+"We use the information we collect to provide, maintain, and improve our "
+"services. Specifically, we use your information to:"
+msgstr ""
+"当社は、収集した情報をサービスの提供、維持、および改善のために利用します。具"
+"体的には、お客様の情報を以下の目的で使用します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:163
+msgid "Provide and personalize our services"
+msgstr "サービス提供とパーソナライズ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:164
+msgid "Process transactions and send related information"
+msgstr "取引の処理と関連情報の送信"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:165
+msgid "Send notifications and updates about our services"
+msgstr "サービスに関する通知と更新情報の送信"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:166
+msgid "Maintain security and verify identity"
+msgstr "セキュリティの維持と身元確認"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:167
+msgid "Analyze and improve our services"
+msgstr "サービスの分析と改善"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:173
+msgid "4. Information Sharing and Disclosure"
+msgstr "4. 情報の共有と開示"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:174
+msgid ""
+"We do not share personal information with companies, organizations, or "
+"individuals outside of our company except in the following cases:"
+msgstr ""
+"当社は、以下の場合を除き、当社の外部の企業、組織、または個人と個人情報を共有"
+"することはありません。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:176
+msgid "4.1 With Your Consent"
+msgstr "4.1 お客様の同意に基づく場合"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:177
+msgid ""
+"We will share personal information with companies, organizations, or "
+"individuals outside of our company when we have your consent to do so."
+msgstr ""
+"お客様の同意がある場合、当社は当社の外部の企業、組織、または個人と個人情報を"
+"共有します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:179
+msgid "4.2 For Legal Reasons"
+msgstr "4.2 法的な理由に基づく場合"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:180
+msgid ""
+"We will share personal information if we have a good-faith belief that "
+"access, use, preservation, or disclosure of the information is reasonably "
+"necessary to:"
+msgstr ""
+"当社は、情報のアクセス、使用、保存、または開示が以下の目的のために合理的に必"
+"要であると誠実に信じる場合、個人情報を共有します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:182
+msgid ""
+"Meet any applicable law, regulation, legal process, or enforceable "
+"governmental request"
+msgstr ""
+"適用される法令、規制、法的手続き、または強制力のある政府の要求を満たすため"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:183
+msgid "Enforce applicable Terms of Service"
+msgstr "適用される利用規約の施行"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:184
+msgid ""
+"Detect, prevent, or otherwise address fraud, security, or technical issues"
+msgstr ""
+"不正行為、セキュリティ、または技術的な問題を検出、防止、またはその他の方法で"
+"対処するため"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:185
+msgid "Protect against harm to the rights, property, or safety of our users"
+msgstr "ユーザーの権利、財産、または安全への危害からの保護"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:191
+msgid "5. Data Security"
+msgstr "5. データセキュリティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:192
+msgid ""
+"We work hard to protect our users from unauthorized access to or "
+"unauthorized alteration, disclosure, or destruction of information we hold. "
+"In particular:"
+msgstr ""
+"当社は、お客様の情報を不正なアクセス、不正な改ざん、開示、または破壊から保護"
+"するために尽力しています。特に："
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:194
+msgid "We encrypt our services using SSL"
+msgstr "SSLを使用してサービスを暗号化しています"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:195
+msgid "We review our information collection, storage, and processing practices"
+msgstr "情報の収集、保管、処理に関する慣行を見直しています"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:196
+msgid ""
+"We restrict access to personal information to employees who need that "
+"information"
+msgstr "個人情報へのアクセスを、その情報を必要とする従業員に制限しています"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:202
+msgid "6. Your Rights and Choices"
+msgstr "6. お客様の権利と選択"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:203
+msgid "You have certain rights regarding your personal information, including:"
+msgstr "お客様の個人情報に関して、以下を含む特定の権利を有しています:"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:205
+msgid "The right to access your personal information"
+msgstr "個人情報にアクセスする権利"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:206
+msgid "The right to correct inaccurate information"
+msgstr "不正確な情報を修正する権利"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:207
+msgid "The right to request deletion of your information"
+msgstr "情報の削除を要求する権利"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:208
+msgid "The right to restrict or object to our processing of your information"
+msgstr "情報の処理を制限または異議を申し立てる権利"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:214
+msgid "7. Changes to This Policy"
+msgstr "7. 本ポリシーの変更"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:215
+msgid ""
+"We may update this Privacy Policy from time to time. We will notify you of "
+"any changes by posting the new Privacy Policy on this page and updating the "
+"effective date at the top."
+msgstr ""
+"当社は、このプライバシーポリシーを随時更新する場合があります。変更があった場"
+"合は、このページに新しいプライバシーポリシーを掲載し、上部の施行日を更新する"
+"ことで通知します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:216
+msgid ""
+"Your continued use of our services after any changes to this Privacy Policy "
+"constitutes your acceptance of such changes."
+msgstr ""
+"このプライバシーポリシーの変更後も当社のサービスを継続して利用される場合、お"
+"客様はそのような変更に同意したものとみなされます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:222
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:223
+msgid ""
+"If you have any questions about this Privacy Policy or our practices, please "
+"contact us:"
+msgstr ""
+"このプライバシーポリシーまたは当社の慣行についてご質問がある場合は、以下にご"
+"連絡ください。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:225
+msgid "privacy@example.com"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:226
+msgid "Address:"
+msgstr "住所:"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\privacy.html:226
+msgid "123 Privacy Street, Security City, 12345"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:8
+msgid "Restaurant - Lonergarden Stay"
+msgstr "レストラン - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:120
+msgid "Experience Our Unique Approach"
+msgstr "独自のサービスを体験する"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:121
+msgid ""
+"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. "
+"Vestibulum id ligula porta felis euismod semper."
+msgstr ""
+"賢明なる配置は常に前にあり、揺るぎない確信をもたらす。門に宿る魂は、永遠に優"
+"美なる装飾を身に纏うだろう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:122
+msgid ""
+"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo "
+"quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur "
+"blandit tempus porttitor."
+msgstr ""
+"獅子は静かに立ち上がり、知恵の扉が開かれ、時の流れが止まる。高貴なる魂は装飾"
+"を望み、その場所で安息を得るだろう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:128
+msgid "Exceptional Service"
+msgstr "格別なサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:129
+msgid "Donec sed odio dui. Nulla vitae elit libero, a pharetra augue."
+msgstr ""
+"完成された道筋は憎悪へと向かう。自由な人生は存在し得ず、幻影の先にある未来を"
+"渇望する。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:135
+msgid "Industry Recognition"
+msgstr "業界の評価"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:136
+msgid "Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+msgstr "偉大なる知識の道は実在し、恐怖を克服する知恵の成就を意味する。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:142
+msgid "Jane Smith, Head of Operations"
+msgstr "ジェーン・スミス、オペレーション責任者"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:160
+msgid "Years of Dedication"
+msgstr "長年の献身"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:178
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:179
+msgid "Menu"
+msgstr "メニュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:189
+msgid "All"
+msgstr "すべて"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:190
+msgid "Starters"
+msgstr "前菜"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:191
+msgid "Main Courses"
+msgstr "メインコース"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:192
+msgid "Desserts"
+msgstr "デザート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:193
+msgid "Drinks"
+msgstr "ドリンク"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:204
+msgid "Bruschetta Trio"
+msgstr "ブルスケッタ トリオ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:204
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:226
+msgid "Vegetarian"
+msgstr "ベジタリアン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:205
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:216
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:227
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:238
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:249
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:260
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:271
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:282
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed."
+msgstr ""
+"無意味な言葉の連なりは、知恵を追求する者には不毛な土壌である。彼は静かに座"
+"し、熟考するだろう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:215
+msgid "Calamari Fritti"
+msgstr "カラマリ フリット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:215
+msgid "Seafood"
+msgstr "シーフード"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:226
+msgid "Wild Mushroom Risotto"
+msgstr "ワイルドマッシュルームのリゾット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:237
+msgid "Braised Lamb Shank"
+msgstr "ラムシャンクの煮込み"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:237
+msgid "Chef's Choice"
+msgstr "シェフのおすすめ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:248
+msgid "Chocolate Lava Cake"
+msgstr "チョコレートラバケーキ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:248
+msgid "Gluten Free"
+msgstr "グルテンフリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:259
+msgid "Tiramisu"
+msgstr "ティラミス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:259
+msgid "Classic"
+msgstr "クラシック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:270
+msgid "Signature Cocktail"
+msgstr "シグネチャーカクテル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:270
+msgid "Alcoholic"
+msgstr "アルコール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:281
+msgid "Berry Smoothie"
+msgstr "ベリーのスムージー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:281
+msgid "Non-Alcoholic"
+msgstr "ノンアルコール"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:293
+msgid "Download Full Menu"
+msgstr "フルメニューをダウンロード"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:299
+msgid "Chef's Specials"
+msgstr "シェフのスペシャル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:308
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:324
+msgid "Special"
+msgstr "特別"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:309
+msgid "Vegan"
+msgstr "ヴィーガン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:313
+msgid "Mediterranean Grilled Salmon"
+msgstr "地中海風グリルサーモン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:314
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut aliquam "
+"metus. Vivamus fermentum magna quis."
+msgstr ""
+"この文章は意味を持たぬ仮の文言であり、知識と技術の配置確認にのみ使用される。"
+"大いなる生命力は揺るぎない信念を育むだろう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:325
+msgid "Spicy"
+msgstr "スパイシー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:329
+msgid "Signature Ribeye Steak"
+msgstr "シグネチャー・リブアイステーキ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\restaurant.html:330
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan risus "
+"ut dui pretium, eget elementum nisi."
+msgstr ""
+"天地創造の根源たる知恵は、苦痛の中にこそ宿る。彼の名は蓄積された知識であり、"
+"対価を払い、真の要素を自ら獲得せしめよ。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:8
+msgid "Room Details - Lonergarden Stay"
+msgstr "客室詳細 - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:123
+msgid "Premium Suite"
+msgstr "プレミアムスイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:130
+msgid "4.8"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:138
+msgid "(127 reviews)"
+msgstr "（127件のレビュー）"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:140
+msgid "Deluxe Ocean View Suite"
+msgstr "デラックス・オーシャンビュー・スイート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:141
+msgid "Experience luxury with breathtaking ocean views and premium amenities"
+msgstr "息をのむような海の景色とプレミアムアメニティで贅沢な体験を"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:145
+msgid "Up to 4 guests"
+msgstr "最大4名様まで"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:149
+msgid "850 sq ft"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:153
+msgid "King bed + Sofa bed"
+msgstr "キングベッド + ソファベッド"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:167
+msgid "Room Gallery"
+msgstr "客室ギャラリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:195
+msgid "Room Overview"
+msgstr "客室概要"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:196
+msgid ""
+"Indulge in the ultimate luxury experience with our Deluxe Ocean View Suite. "
+"This spacious retreat features floor-to-ceiling windows showcasing panoramic "
+"ocean vistas, creating a serene atmosphere perfect for romantic getaways or "
+"family vacations. The elegantly appointed living space seamlessly blends "
+"modern comfort with coastal charm, featuring premium furnishings and "
+"thoughtful design elements."
+msgstr ""
+"デラックス・オーシャンビュー・スイートで究極の贅沢な体験に浸ってください。こ"
+"の広々とした隠れ家は、床から天井までの窓からパノラマの海の景色を眺めることが"
+"でき、ロマンチックな休暇や家族旅行に最適な穏やかな雰囲気を作り出します。エレ"
+"ガントに整えられたリビング空間は、プレミアムな家具と思慮深いデザイン要素を備"
+"え、モダンな快適さと沿岸の魅力をシームレスに融合させています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:197
+msgid ""
+"The suite includes a separate living area with comfortable seating, a work "
+"desk for business travelers, and a private balcony where you can enjoy your "
+"morning coffee while watching the sunrise over the ocean. The bedroom "
+"features a plush king-size bed with luxury linens, ensuring a restful "
+"night's sleep, while the sofa bed in the living area provides additional "
+"accommodation for up to two guests."
+msgstr ""
+"このスイートには、快適な座席を備えた独立したリビングエリア、ビジネス旅行者向"
+"けのワークデスク、そして海から昇る日の出を眺めながらモーニングコーヒーを楽し"
+"めるプライベートバルコニーが含まれます。ベッドルームには、安らかな眠りを保証"
+"する高級リネンを備えた豪華なキングサイズベッドがあり、リビングエリアのソファ"
+"ベッドは最大2名様に追加の宿泊施設を提供します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:205
+msgid "Premium Experience"
+msgstr "プレミアム体験"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:206
+msgid "\"The most beautiful suite we\\"
+msgstr ""
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:208
+msgid "- Sarah M., Verified Guest"
+msgstr "- Sarah M.、認証済みゲスト"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:216
+msgid "Room Amenities"
+msgstr "客室アメニティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:220
+msgid "Sleeping"
+msgstr "睡眠"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:222
+msgid "King size bed"
+msgstr "キングサイズのベッド"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:223
+msgid "Premium linens"
+msgstr "プレミアムリネン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:224
+msgid "Memory foam pillows"
+msgstr "低反発枕"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:225
+msgid "Blackout curtains"
+msgstr "遮光カーテン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:231
+msgid "Technology"
+msgstr "テクノロジー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:233
+msgid "High-speed WiFi"
+msgstr "高速WiFi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:234
+#, fuzzy
+#| msgid "Smart TV"
+msgid "\"55\" Smart TV"
+msgstr "スマートテレビ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:235
+msgid "Bluetooth speakers"
+msgstr "Bluetoothスピーカー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:236
+msgid "USB charging ports"
+msgstr "USB充電ポート"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:242
+msgid "Comfort"
+msgstr "快適さ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:244
+msgid "Climate control"
+msgstr "温度調節"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:245
+msgid "Mini refrigerator"
+msgstr "ミニ冷蔵庫"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:246
+msgid "Coffee machine"
+msgstr "コーヒーメーカー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:247
+msgid "Safe deposit box"
+msgstr "セーフティボックス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:253
+msgid "Bathroom"
+msgstr "バスルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:255
+msgid "Marble bathroom"
+msgstr "大理石のバスルーム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:256
+msgid "Rain shower"
+msgstr "レインシャワー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:257
+msgid "Luxury toiletries"
+msgstr "高級バスアメニティ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:258
+msgid "Heated floors"
+msgstr "床暖房"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:269
+msgid "Policies"
+msgstr "ポリシー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:283
+msgid "Check-in / Check-out"
+msgstr "チェックイン / チェックアウト"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:284
+msgid "Check-in: 3:00 PM"
+msgstr "チェックイン: 午後3時"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:287
+msgid "Cancellation"
+msgstr "キャンセル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:288
+msgid "Free cancellation up to 24 hours before arrival"
+msgstr "到着の24時間前まで無料でキャンセル可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:291
+msgid "Pets"
+msgstr "ペット"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:292
+msgid "Pet-friendly with additional fee"
+msgstr "追加料金でペット同伴可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:301
+msgid "Nearby Attractions"
+msgstr "近隣のアトラクション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:303
+msgid "Beach access - 2 minutes walk"
+msgstr "ビーチアクセス - 徒歩2分"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:304
+msgid "Marina District - 0.5 miles"
+msgstr "マリーナ地区 - 0.5マイル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:305
+msgid "Historic Downtown - 1.2 miles"
+msgstr "歴史的なダウンタウン - 1.2マイル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:306
+msgid "Shopping Center - 0.8 miles"
+msgstr "ショッピングセンター - 0.8マイル"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:312
+msgid "Airport shuttle available"
+msgstr "空港シャトルが利用可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:314
+msgid "Public transportation nearby"
+msgstr "公共交通機関が近くにあります"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:315
+msgid "Car rental desk in lobby"
+msgstr "ロビーにレンタカーデスク"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:326
+msgid "24/7 concierge service for reservations and recommendations"
+msgstr "予約やおすすめに関する24時間年中無休のコンシェルジュサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:330
+msgid "Available 6:00 AM - 11:00 PM daily"
+msgstr "毎日午前6時 - 午後11時まで利用可能"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:333
+msgid "Housekeeping"
+msgstr "ハウスキーピング"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:334
+msgid "Daily housekeeping and turndown service"
+msgstr "毎日のハウスキーピングとターンダウンサービス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:344
+msgid "Enhance Your Stay"
+msgstr "ご滞在をより充実させる"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:351
+msgid "Breakfast Package"
+msgstr "朝食パッケージ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:352
+msgid ""
+"Start your day with our signature breakfast buffet featuring fresh local "
+"ingredients"
+msgstr ""
+"新鮮な地元の食材を特徴とする私たちの特製朝食ビュッフェで一日を始めましょう"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:353
+msgid "+$35 per person"
+msgstr "お一人様あたり追加$35"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:361
+msgid "Spa Access"
+msgstr "スパアクセス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:362
+msgid "Enjoy unlimited access to our luxury spa facilities during your stay"
+msgstr "ご滞在中、当ホテルの豪華なスパ施設を無制限にご利用いただけます"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:363
+msgid "+$75 per day"
+msgstr "一日あたり追加$75"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:371
+msgid "Airport Transfer"
+msgstr "空港送迎"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:372
+msgid "Private luxury vehicle transfer to and from the airport"
+msgstr "空港への往復のプライベート高級車両送迎"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:373
+msgid "+$95 round trip"
+msgstr "往復追加$95"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:384
+msgid "Ready to book your stay?"
+msgstr "ご滞在を予約する準備はできましたか？"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:385
+msgid ""
+"Experience luxury and comfort in our Deluxe Ocean View Suite. Book now and "
+"create unforgettable memories."
+msgstr ""
+"デラックス・オーシャンビュー・スイートで、贅沢と快適さをご体験ください。今す"
+"ぐご予約いただき、忘れられない思い出を作りましょう。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\room-details.html:392
+msgid "Check Availability"
+msgstr "空室状況を確認"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:10
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:150
+msgid "Ocean View"
+msgstr "オーシャンビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:12
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:151
+msgid "City View"
+msgstr "シティビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:13
+msgid "Mountain View"
+msgstr "マウンテンビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:14
+msgid "Pool View"
+msgstr "プールビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:15
+msgid "Popular"
+msgstr "人気"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:16
+msgid "Business"
+msgstr "ビジネス"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:17
+msgid "Family Friendly"
+msgstr "家族向け"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:18
+msgid "Romantic"
+msgstr "ロマンチック"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:19
+msgid "Premium"
+msgstr "プレミアム"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:20
+msgid "Luxury"
+msgstr "ラグジュアリー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:44
+msgid "Free WiFi"
+msgstr "無料WiFi"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:46
+msgid "Work Desk"
+msgstr "ワークデスク"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:47
+msgid "Mini Kitchen"
+msgstr "ミニキッチン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:48
+msgid "Game Console"
+msgstr "ゲーム機"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:49
+msgid "Parking"
+msgstr "駐車場"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:50
+msgid "Jacuzzi"
+msgstr "ジャグジー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:51
+msgid "Coffee Machine"
+msgstr "コーヒーメーカー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:52
+msgid "King Size Bed"
+msgstr "キングサイズベッド"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:53
+msgid "Safe"
+msgstr "金庫"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:54
+msgid "Business Phone"
+msgstr "ビジネスフォン"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:59
+msgid "From"
+msgstr "から"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:61
+msgid "/ night"
+msgstr "／泊"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:63
+msgid "View Details"
+msgstr "詳細を見る"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms-grid.html:69
+msgid "No rooms found matching your filters."
+msgstr "フィルターに一致する客室は見つかりませんでした。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:8
+msgid "Rooms - Lonergarden Stay"
+msgstr "客室 - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:129
+msgid "Price Range"
+msgstr "価格帯"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:131
+msgid "All Prices"
+msgstr "すべての価格"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:138
+msgid "Guest Capacity"
+msgstr "ゲスト定員"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:140
+msgid "Any Capacity"
+msgstr "任意の定員"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:141
+msgid "1-2 Guests"
+msgstr "1〜2名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:142
+msgid "3-4 Guests"
+msgstr "3〜4名"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:147
+msgid "View Type"
+msgstr "ビュータイプ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:149
+msgid "All Views"
+msgstr "すべてのビュー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:156
+msgid "Sort By"
+msgstr "並べ替え"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:158
+msgid "Popularity"
+msgstr "人気順"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:159
+msgid "Price: Low to High"
+msgstr "価格: 安い順"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:160
+msgid "Price: High to Low"
+msgstr "価格: 高い順"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:161
+msgid "Room Size"
+msgstr "客室サイズ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:176
+msgid "Load More Rooms"
+msgstr "さらに多くの客室を読み込む"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\rooms.html:402
+msgid "Error loading rooms"
+msgstr "客室の読み込みエラー"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:8
+msgid "Starter Page - Lonergarden Stay"
+msgstr "スターターページ - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:117
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:118
+msgid "Starter Section"
+msgstr "スターターセクション"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\starter-page.html:123
+msgid "Use this page as a starter for your own custom pages."
+msgstr "このページを独自のカスタムページのスターターとして使用してください。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:8
+msgid "Terms - Lonergarden Stay"
+msgstr "利用規約 - ローナーガーデン・ステイ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:101
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:105
+msgid "Terms"
+msgstr "利用規約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:117
+msgid "Last Updated: February 27, 2025"
+msgstr "最終更新日: 2025年2月27日"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:118
+msgid "Terms of Service"
+msgstr "利用規約"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:119
+msgid "Please read these terms of service carefully before using our services"
+msgstr "当社のサービスを利用する前に、これらの利用規約をよくお読みください"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:126
+msgid "1. Agreement to Terms"
+msgstr "1. 規約への同意"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:127
+msgid ""
+"By accessing our website and services, you agree to be bound by these Terms "
+"of Service and all applicable laws and regulations. If you do not agree with "
+"any of these terms, you are prohibited from using or accessing our services."
+msgstr ""
+"当社のウェブサイトおよびサービスにアクセスすることにより、お客様は本利用規約"
+"および適用される全ての法令・規制に拘束されることに同意するものとします。これ"
+"らの規約のいずれかに同意されない場合、当社のサービスのご利用またはアクセスは"
+"禁止されています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:130
+msgid ""
+"These terms apply to all users, visitors, and others who access or use our "
+"services."
+msgstr ""
+"これらの規約は、当社のサービスにアクセスまたは使用するすべてのユーザー、訪問"
+"者、およびその他の人々に適用されます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:136
+msgid "2. Intellectual Property Rights"
+msgstr "2. 知的財産権"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:137
+msgid ""
+"Our service and its original content, features, and functionality are owned "
+"by us and are protected by international copyright, trademark, patent, trade "
+"secret, and other intellectual property laws."
+msgstr ""
+"当社のサービスおよびそのオリジナルのコンテンツ、機能、および機能性は当社が所"
+"有しており、国際的な著作権、商標、特許、企業秘密、およびその他の知的財産法に"
+"よって保護されています。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:139
+msgid "All content is our exclusive property"
+msgstr "すべてのコンテンツは当社の独占的な財産です"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:140
+msgid "You may not copy or modify the content"
+msgstr "コンテンツをコピーまたは変更することはできません"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:141
+msgid "Our trademarks may not be used without permission"
+msgstr "当社の商標は許可なく使用することはできません"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:142
+msgid "Content is for personal, non-commercial use only"
+msgstr "コンテンツは個人的、非商業的な使用のみを目的としています"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:148
+msgid "3. User Accounts"
+msgstr "3. ユーザーアカウント"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:149
+msgid ""
+"When you create an account with us, you must provide accurate, complete, and "
+"current information. Failure to do so constitutes a breach of the Terms, "
+"which may result in immediate termination of your account."
+msgstr ""
+"お客様が当社でアカウントを作成する際は、正確、完全、かつ最新の情報を提供する"
+"必要があります。これが行われなかった場合、本規約の違反となり、お客様のアカウ"
+"ントが直ちに解約される可能性があります。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:153
+msgid "Important Notice"
+msgstr "重要なお知らせ"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:154
+msgid ""
+"You are responsible for safeguarding the password and for all activities "
+"that occur under your account."
+msgstr ""
+"お客様は、パスワードの保護と、お客様のアカウントで発生するすべての活動に対し"
+"て責任を負います。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:161
+msgid "4. Prohibited Activities"
+msgstr "4. 禁止されている行為"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:162
+msgid ""
+"You may not access or use the Service for any purpose other than that for "
+"which we make it available."
+msgstr ""
+"お客様は、当社がサービスを利用可能にした目的以外で、サービスにアクセスしたり"
+"使用したりすることはできません。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:166
+msgid "Systematic retrieval of data or content"
+msgstr "データまたはコンテンツの体系的な取得"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:170
+msgid "Publishing malicious content"
+msgstr "悪意のあるコンテンツの公開"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:174
+msgid "Engaging in unauthorized framing"
+msgstr "不正なフレーミングへの関与"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:178
+msgid "Attempting to gain unauthorized access"
+msgstr "不正アクセスを試みること"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:185
+msgid "5. Disclaimers"
+msgstr "5. 免責事項"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:186
+msgid ""
+"Your use of our service is at your sole risk. The service is provided \"AS "
+"IS\" and \"AS AVAILABLE\" without warranties of any kind, whether express or "
+"implied."
+msgstr ""
+"お客様による当社のサービスのご利用は、お客様自身の責任において行われるものとします。本サービスは現状有姿で提供されており、"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:188
+msgid "We do not guarantee that:"
+msgstr "当社は以下を保証しません:"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:190
+msgid "The service will meet your requirements"
+msgstr "サービスがお客様の要件を満たすこと"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:191
+msgid "The service will be uninterrupted or error-free"
+msgstr "サービスが中断されないこと、またはエラーがないこと"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:192
+msgid "Results from using the service will be accurate"
+msgstr "サービスの使用による結果が正確であること"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:193
+msgid "Any errors will be corrected"
+msgstr "あらゆるエラーが修正されること"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:200
+msgid "6. Limitation of Liability"
+msgstr "6. 責任の制限"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:201
+msgid ""
+"In no event shall we be liable for any indirect, punitive, incidental, "
+"special, consequential, or exemplary damages arising out of or in connection "
+"with your use of the service."
+msgstr ""
+"いかなる場合においても、当社は、お客様のサービスの利用に起因または関連する間"
+"接的、懲罰的、付随的、特別、結果的、または懲戒的損害に対して責任を負わないも"
+"のとします。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:206
+msgid "7. Indemnification"
+msgstr "7. 補償"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:207
+msgid ""
+"You agree to defend, indemnify, and hold us harmless from and against any "
+"claims, liabilities, damages, losses, and expenses arising out of your use "
+"of the service."
+msgstr ""
+"お客様は、本サービスのご利用に起因するあらゆる請求、負債、損害、損失、および"
+"費用から、当社を防御し、補償し、免責することに同意するものとします。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:212
+msgid "8. Termination"
+msgstr "8. 終了"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:213
+msgid ""
+"We may terminate or suspend your account immediately, without prior notice "
+"or liability, for any reason whatsoever, including without limitation if you "
+"breach the Terms."
+msgstr ""
+"当社は、お客様が規約に違反した場合を含むがこれに限定されない、いかなる理由で"
+"あれ、事前の通知または責任なしに、お客様のアカウントを直ちに解約または停止す"
+"ることができます。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:218
+msgid "9. Governing Law"
+msgstr "9. 準拠法"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:219
+msgid ""
+"These Terms shall be governed by and construed in accordance with the laws "
+"of [Your Country], without regard to its conflict of law provisions."
+msgstr ""
+"これらの規約は、[Your Country]の法律に準拠し、その法の抵触の規定に関係なく解"
+"釈されるものとします。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:224
+msgid "10. Changes to Terms"
+msgstr "10. 規約の変更"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:225
+msgid ""
+"We reserve the right to modify or replace these Terms at any time. We will "
+"provide notice of any changes by posting the new Terms on this page."
+msgstr ""
+"当社は、本規約をいつでも変更または置き換える権利を留保します。変更がある場合"
+"は、新しい規約をこのページに掲載することで通知します。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:228
+msgid ""
+"By continuing to access or use our service after those revisions become "
+"effective, you agree to be bound by the revised terms."
+msgstr ""
+"これらの改訂が有効になった後も当社のサービスにアクセスまたは使用を継続するこ"
+"とにより、お客様は改訂された規約に拘束されることに同意するものとします。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:240
+msgid "Questions About Terms?"
+msgstr "規約に関するご質問はありますか？"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:241
+msgid "If you have any questions about these Terms, please contact us."
+msgstr "これらの規約についてご質問がある場合は、当社までご連絡ください。"
+
+#: .\Lonergarden_site\frontend_templates\userinterface\terms.html:242
+msgid "Contact Support"
+msgstr "サポートに連絡する"

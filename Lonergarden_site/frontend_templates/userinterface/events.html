@@ -1,11 +1,11 @@
-{% load static %}
+{% load static %} {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Events - Lonergarden Stay</title>
+  <title>{% trans "Events - Lonergarden Stay" %}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,8 +38,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">lonergarden@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">{% trans "lonergarden@gmail.com" %}</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>{% trans "+1 5589 55488 55" %}</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -56,47 +56,33 @@
         <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="{% static 'img/logo.webp' %}" alt=""> -->
-          <h1 class="sitename">Lonergarden</h1>
+          <h1 class="sitename">{% trans "Lonergarden" %}</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li><a href="{% url 'render-page' page='about' %}">About</a></li>
-            <li><a href="{% url 'render-page' page='rooms' %}">Rooms</a></li>
-            <li><a href="{% url 'render-page' page='amenities' %}">Amenities</a></li>
-            <li><a href="{% url 'render-page' page='location' %}">Location</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'render-page' page='about' %}">{% trans "About" %}</a></li>
+            <li><a href="{% url 'render-page' page='rooms' %}">{% trans "Rooms" %}</a></li>
+            <li><a href="{% url 'render-page' page='amenities' %}">{% trans "Amenities" %}</a></li>
+            <li><a href="{% url 'render-page' page='location' %}">{% trans "Location" %}</a></li>
+            <li class="dropdown"><a href="#"><span>{% trans "Pages" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="{% url 'render-page' page='room-details' %}">Room Details</a></li>
-                <li><a href="{% url 'render-page' page='restaurant' %}">Restaurant</a></li>
-                <li><a href="{% url 'render-page' page='offers' %}">Offers</a></li>
-                <li><a href="{% url 'render-page' page='events' %}" class="active">Events</a></li>
-                <li><a href="{% url 'render-page' page='gallery' %}">Gallery</a></li>
-                <li><a href="{% url 'render-page' page='booking' %}">Booking</a></li>
-                <li><a href="{% url 'render-page' page='terms' %}">Terms Page</a></li>
-                <li><a href="{% url 'render-page' page='privacy' %}">Privacy Page</a></li>
-                <li><a href="{% url 'render-page' page='404' %}">404 Page</a></li>
-                <li><a href="{% url 'render-page' page='starter-page' %}">Starter Page</a></li>
+                <li><a href="{% url 'render-page' page='room-details' %}">{% trans "Room Details" %}</a></li>
+                <li><a href="{% url 'render-page' page='restaurant' %}">{% trans "Restaurant" %}</a></li>
+                <li><a href="{% url 'render-page' page='offers' %}">{% trans "Offers" %}</a></li>
+                <li><a href="{% url 'render-page' page='events' %}" class="active">{% trans "Events" %}</a></li>
+                <li><a href="{% url 'render-page' page='gallery' %}">{% trans "Gallery" %}</a></li>
+                <li><a href="{% url 'render-page' page='booking' %}">{% trans "Booking" %}</a></li>
+                <li><a href="{% url 'render-page' page='terms' %}">{% trans "Terms Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='privacy' %}">{% trans "Privacy Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='404' %}">{% trans "404 Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='starter-page' %}">{% trans "Starter Page" %}</a></li>
               </ul>
             </li>
-            <li><a href="{% url 'render-page' page='contact' %}">Contact</a></li>
+            <li><a href="{% url 'render-page' page='contact' %}">{% trans "Contact" %}</a></li>
 
-            <li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>
+            {% include "userinterface/language.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,11 +99,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Events</h1>
+        <h1 class="mb-2 mb-lg-0">{% trans "Events" %}</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li class="current">Events</li>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Events" %}</li>
           </ol>
         </nav>
       </div>
@@ -129,8 +115,8 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="hero-content text-center mb-5" data-aos="fade-up" data-aos-delay="200">
-          <h2>Exceptional Events &amp; Celebrations</h2>
-          <p class="lead">Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+          <h2>{% trans "Exceptional Events &amp; Celebrations" %}</h2>
+          <p class="lead">{% trans "Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a." %}</p>
         </div>
 
         <div class="event-venues-grid" data-aos="fade-up" data-aos-delay="300">
@@ -141,8 +127,8 @@
                   <img src="{% static 'img/hotel/event-2.webp' %}" alt="Ballroom" class="img-fluid">
                   <div class="venue-overlay">
                     <div class="venue-info">
-                      <h4>Grand Ballroom</h4>
-                      <span class="capacity">Up to 400 guests</span>
+                      <h4>{% trans "Grand Ballroom" %}</h4>
+                      <span class="capacity">{% trans "Up to 400 guests" %}</span>
                     </div>
                   </div>
                 </div>
@@ -155,8 +141,8 @@
                   <img src="{% static 'img/hotel/event-4.webp' %}" alt="Garden Space" class="img-fluid">
                   <div class="venue-overlay">
                     <div class="venue-info">
-                      <h4>Rooftop Terrace</h4>
-                      <span class="capacity">Up to 200 guests</span>
+                      <h4>{% trans "Rooftop Terrace" %}</h4>
+                      <span class="capacity">{% trans "Up to 200 guests" %}</span>
                     </div>
                   </div>
                 </div>
@@ -169,8 +155,8 @@
                   <img src="{% static 'img/hotel/event-7.webp' %}" alt="Meeting Room" class="img-fluid">
                   <div class="venue-overlay">
                     <div class="venue-info">
-                      <h4>Conference Suite</h4>
-                      <span class="capacity">Up to 80 guests</span>
+                      <h4>{% trans "Conference Suite" %}</h4>
+                      <span class="capacity">{% trans "Up to 80 guests" %}</span>
                     </div>
                   </div>
                 </div>
@@ -183,8 +169,8 @@
           <div class="row align-items-center gy-5">
             <div class="col-lg-6">
               <div class="features-content">
-                <h3>World-Class Event Facilities</h3>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.</p>
+                <h3>{% trans "World-Class Event Facilities" %}</h3>
+                <p>{% trans "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet." %}</p>
 
                 <div class="feature-list">
                   <div class="feature-item" data-aos="slide-right" data-aos-delay="100">
@@ -192,8 +178,8 @@
                       <i class="bi bi-soundwave"></i>
                     </div>
                     <div class="feature-details">
-                      <h5>Advanced Audio/Visual</h5>
-                      <p>State-of-the-art sound systems and projection equipment</p>
+                      <h5>{% trans "Advanced Audio/Visual" %}</h5>
+                      <p>{% trans "State-of-the-art sound systems and projection equipment" %}</p>
                     </div>
                   </div>
 
@@ -202,8 +188,8 @@
                       <i class="bi bi-wifi"></i>
                     </div>
                     <div class="feature-details">
-                      <h5>High-Speed Connectivity</h5>
-                      <p>Complimentary high-speed internet throughout all venues</p>
+                      <h5>{% trans "High-Speed Connectivity" %}</h5>
+                      <p>{% trans "Complimentary high-speed internet throughout all venues" %}</p>
                     </div>
                   </div>
 
@@ -212,8 +198,8 @@
                       <i class="bi bi-cup-hot"></i>
                     </div>
                     <div class="feature-details">
-                      <h5>Premium Catering</h5>
-                      <p>Exceptional culinary experiences with customizable menus</p>
+                      <h5>{% trans "Premium Catering" %}</h5>
+                      <p>{% trans "Exceptional culinary experiences with customizable menus" %}</p>
                     </div>
                   </div>
                 </div>
@@ -240,8 +226,8 @@
 
         <div class="event-packages" data-aos="fade-up" data-aos-delay="500">
           <div class="section-header text-center">
-            <h3>Tailored Event Packages</h3>
-            <p>Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Proin eget tortor risus.</p>
+            <h3>{% trans "Tailored Event Packages" %}</h3>
+            <p>{% trans "Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Proin eget tortor risus." %}</p>
           </div>
 
           <div class="packages-container">
@@ -252,39 +238,37 @@
                     <div class="package-icon">
                       <i class="bi bi-briefcase-fill"></i>
                     </div>
-                    <h4>Corporate Meetings</h4>
-                    <p>Professional meeting spaces with all essential amenities for productive business events and conferences.</p>
+                    <h4>{% trans "Corporate Meetings" %}</h4>
+                    <p>{% trans "Professional meeting spaces with all essential amenities for productive business events and conferences." %}</p>
                     <div class="package-highlights">
-                      <span class="highlight">Meeting rooms</span>
-                      <span class="highlight">AV equipment</span>
-                      <span class="highlight">Catering options</span>
+                      <span class="highlight">{% trans "Meeting rooms" %}</span>
+                      <span class="highlight">{% trans "AV equipment" %}</span>
+                      <span class="highlight">{% trans "Catering options" %}</span>
                     </div>
-                    <div class="package-price">
-                      Starting from <strong>$95/person</strong>
+                    <div class="package-price">{% trans "Starting from" %}<strong>$95/person</strong>
                     </div>
-                    <a href="#" class="btn-package">Learn More</a>
+                    <a href="#" class="btn-package">{% trans "Learn More" %}</a>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="package-item featured" data-aos="zoom-out" data-aos-delay="200">
-                  <div class="featured-label">Most Popular</div>
+                  <div class="featured-label">{% trans "Most Popular" %}</div>
                   <div class="package-content">
                     <div class="package-icon">
                       <i class="bi bi-heart-fill"></i>
                     </div>
-                    <h4>Wedding Celebrations</h4>
-                    <p>Unforgettable wedding experiences with elegant venues, exquisite dining, and personalized service for your special day.</p>
+                    <h4>{% trans "Wedding Celebrations" %}</h4>
+                    <p>{% trans "Unforgettable wedding experiences with elegant venues, exquisite dining, and personalized service for your special day." %}</p>
                     <div class="package-highlights">
-                      <span class="highlight">Bridal suite</span>
-                      <span class="highlight">Ceremony setup</span>
-                      <span class="highlight">Reception dinner</span>
+                      <span class="highlight">{% trans "Bridal suite" %}</span>
+                      <span class="highlight">{% trans "Ceremony setup" %}</span>
+                      <span class="highlight">{% trans "Reception dinner" %}</span>
                     </div>
-                    <div class="package-price">
-                      Starting from <strong>$185/person</strong>
+                    <div class="package-price">{% trans "Starting from" %}<strong>$185/person</strong>
                     </div>
-                    <a href="#" class="btn-package">Learn More</a>
+                    <a href="#" class="btn-package">{% trans "Learn More" %}</a>
                   </div>
                 </div>
               </div>
@@ -295,17 +279,16 @@
                     <div class="package-icon">
                       <i class="bi bi-calendar-event"></i>
                     </div>
-                    <h4>Special Occasions</h4>
-                    <p>Celebrate milestones and special moments with customized party packages designed to create lasting memories.</p>
+                    <h4>{% trans "Special Occasions" %}</h4>
+                    <p>{% trans "Celebrate milestones and special moments with customized party packages designed to create lasting memories." %}</p>
                     <div class="package-highlights">
-                      <span class="highlight">Custom decor</span>
-                      <span class="highlight">Entertainment</span>
-                      <span class="highlight">Photography</span>
+                      <span class="highlight">{% trans "Custom decor" %}</span>
+                      <span class="highlight">{% trans "Entertainment" %}</span>
+                      <span class="highlight">{% trans "Photography" %}</span>
                     </div>
-                    <div class="package-price">
-                      Starting from <strong>$135/person</strong>
+                    <div class="package-price">{% trans "Starting from" %}<strong>$135/person</strong>
                     </div>
-                    <a href="#" class="btn-package">Learn More</a>
+                    <a href="#" class="btn-package">{% trans "Learn More" %}</a>
                   </div>
                 </div>
               </div>
@@ -316,17 +299,16 @@
                     <div class="package-icon">
                       <i class="bi bi-people-fill"></i>
                     </div>
-                    <h4>Social Gatherings</h4>
-                    <p>Intimate social events with flexible arrangements, perfect for family reunions, anniversaries, and casual celebrations.</p>
+                    <h4>{% trans "Social Gatherings" %}</h4>
+                    <p>{% trans "Intimate social events with flexible arrangements, perfect for family reunions, anniversaries, and casual celebrations." %}</p>
                     <div class="package-highlights">
-                      <span class="highlight">Flexible seating</span>
-                      <span class="highlight">Bar service</span>
-                      <span class="highlight">Live music</span>
+                      <span class="highlight">{% trans "Flexible seating" %}</span>
+                      <span class="highlight">{% trans "Bar service" %}</span>
+                      <span class="highlight">{% trans "Live music" %}</span>
                     </div>
-                    <div class="package-price">
-                      Starting from <strong>$115/person</strong>
+                    <div class="package-price">{% trans "Starting from" %}<strong>$115/person</strong>
                     </div>
-                    <a href="#" class="btn-package">Learn More</a>
+                    <a href="#" class="btn-package">{% trans "Learn More" %}</a>
                   </div>
                 </div>
               </div>
@@ -338,9 +320,9 @@
           <div class="row gy-5">
             <div class="col-lg-4">
               <div class="planning-content">
-                <h3>Complete Event Planning</h3>
-                <p>Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh.</p>
-                <a href="#" class="btn-contact">Contact Our Team</a>
+                <h3>{% trans "Complete Event Planning" %}</h3>
+                <p>{% trans "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh." %}</p>
+                <a href="#" class="btn-contact">{% trans "Contact Our Team" %}</a>
               </div>
             </div>
 
@@ -350,48 +332,48 @@
                   <div class="service-icon">
                     <i class="bi bi-person-check"></i>
                   </div>
-                  <h5>Event Coordination</h5>
-                  <p>Dedicated coordinators to manage every detail</p>
+                  <h5>{% trans "Event Coordination" %}</h5>
+                  <p>{% trans "Dedicated coordinators to manage every detail" %}</p>
                 </div>
 
                 <div class="service-box" data-aos="slide-up" data-aos-delay="200">
                   <div class="service-icon">
                     <i class="bi bi-flower1"></i>
                   </div>
-                  <h5>Decoration &amp; Styling</h5>
-                  <p>Custom themes and elegant decoration packages</p>
+                  <h5>{% trans "Decoration &amp; Styling" %}</h5>
+                  <p>{% trans "Custom themes and elegant decoration packages" %}</p>
                 </div>
 
                 <div class="service-box" data-aos="slide-up" data-aos-delay="300">
                   <div class="service-icon">
                     <i class="bi bi-camera-reels"></i>
                   </div>
-                  <h5>Photography &amp; Video</h5>
-                  <p>Professional documentation of your special moments</p>
+                  <h5>{% trans "Photography &amp; Video" %}</h5>
+                  <p>{% trans "Professional documentation of your special moments" %}</p>
                 </div>
 
                 <div class="service-box" data-aos="slide-up" data-aos-delay="400">
                   <div class="service-icon">
                     <i class="bi bi-car-front"></i>
                   </div>
-                  <h5>Transportation</h5>
-                  <p>Convenient shuttle and transportation arrangements</p>
+                  <h5>{% trans "Transportation" %}</h5>
+                  <p>{% trans "Convenient shuttle and transportation arrangements" %}</p>
                 </div>
 
                 <div class="service-box" data-aos="slide-up" data-aos-delay="500">
                   <div class="service-icon">
                     <i class="bi bi-gift"></i>
                   </div>
-                  <h5>Guest Amenities</h5>
-                  <p>Welcome packages and accommodation assistance</p>
+                  <h5>{% trans "Guest Amenities" %}</h5>
+                  <p>{% trans "Welcome packages and accommodation assistance" %}</p>
                 </div>
 
                 <div class="service-box" data-aos="slide-up" data-aos-delay="600">
                   <div class="service-icon">
                     <i class="bi bi-headset"></i>
                   </div>
-                  <h5>24/7 Support</h5>
-                  <p>Round-the-clock assistance during your event</p>
+                  <h5>{% trans "24/7 Support" %}</h5>
+                  <p>{% trans "Round-the-clock assistance during your event" %}</p>
                 </div>
               </div>
             </div>
@@ -411,57 +393,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
-              <span class="sitename">Lonergarden</span>
+              <span class="sitename">{% trans "Lonergarden" %}</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>{% trans "A108 Adam Street" %}</p>
+              <p>{% trans "New York, NY 535022" %}</p>
+              <p class="mt-3"><strong>{% trans "Phone:" %}</strong> <span>{% trans "+1 5589 55488 55" %}</span></p>
+              <p><strong>{% trans "Email:" %}</strong> <span>{% trans "info@example.com" %}</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{% trans "Useful Links" %}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">{% trans "Home" %}</a></li>
+              <li><a href="#">{% trans "About us" %}</a></li>
+              <li><a href="#">{% trans "Services" %}</a></li>
+              <li><a href="#">{% trans "Terms of service" %}</a></li>
+              <li><a href="#">{% trans "Privacy policy" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>{% trans "Our Services" %}</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">{% trans "Web Design" %}</a></li>
+              <li><a href="#">{% trans "Web Development" %}</a></li>
+              <li><a href="#">{% trans "Product Management" %}</a></li>
+              <li><a href="#">{% trans "Marketing" %}</a></li>
+              <li><a href="#">{% trans "Graphic Design" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>{% trans "Hic solutasetp" %}</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">{% trans "Molestiae accusamus iure" %}</a></li>
+              <li><a href="#">{% trans "Excepturi dignissimos" %}</a></li>
+              <li><a href="#">{% trans "Suscipit distinctio" %}</a></li>
+              <li><a href="#">{% trans "Dilecta" %}</a></li>
+              <li><a href="#">{% trans "Sit quas consectetur" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>{% trans "Nobis illum" %}</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">{% trans "Ipsam" %}</a></li>
+              <li><a href="#">{% trans "Laudantium dolorum" %}</a></li>
+              <li><a href="#">{% trans "Dinera" %}</a></li>
+              <li><a href="#">{% trans "Trodelas" %}</a></li>
+              <li><a href="#">{% trans "Flexo" %}</a></li>
             </ul>
           </div>
 
@@ -473,15 +455,12 @@
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
+          <div>{% trans "© Copyright" %}<strong><span>{% trans "MyWebsite" %}</span></strong>{% trans ". All Rights Reserved" %}</div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->{% trans "Designed by" %}<a href="https://bootstrapmade.com/">{% trans "BootstrapMade" %}</a>
           </div>
         </div>
 
@@ -515,6 +494,9 @@
 
   <!-- Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+  <!-- refer to js/language-dropdown.js -->
+  <script src="{% static 'js/language-dropdown.js' %}"></script>
 
 </body>
 

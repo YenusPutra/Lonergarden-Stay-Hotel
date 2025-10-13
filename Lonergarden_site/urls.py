@@ -17,11 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from Lonergarden_site.backend_apps.admin import custom_admin_site
+from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     re_path(r'^admin/?', custom_admin_site.urls),
-    path('', include('Lonergarden_site.backend_apps.urls')),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
+
+urlpatterns += i18n_patterns(
+    path('', include('Lonergarden_site.backend_apps.urls')),    # Other apps will also get language prefix
+    prefix_default_language=False,  # Optional: /en/ vs no prefix for default
+)
 
 
 handler404 = 'Lonergarden_site.backend_apps.views.custom_404_view'

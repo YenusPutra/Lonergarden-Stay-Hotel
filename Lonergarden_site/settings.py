@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,17 +41,35 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Lonergarden_site.backend_apps',    
+    'Lonergarden_site.backend_apps',
+    'modeltranslation'    
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',  #  This handles language switching
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+#Language Switch
+USE_I18N = True          # turn on Django internationalization
+USE_L10N = True
+LANGUAGE_CODE = 'en'     # default language (fallback)
+LANGUAGES = [            # languages your site supports
+    ('en', 'English'),
+    ('id', 'Indonesian'),
+    ('ja', 'Japanese'),
+    ('fr', 'French'),
+    ('de', 'Deutsch'),
+    ('es', 'Spanish'),
+]
+LOCALE_PATHS = [         
+    os.path.join(BASE_DIR, 'locale'),    # where translation files (.po / .mo) live
 ]
 
 ROOT_URLCONF = 'Lonergarden_site.urls'
@@ -144,7 +162,7 @@ EMAIL_HOST_PASSWORD = 'nfib fgpc jmhq goyp'  # Gmail App Password
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 #django handle image
-import os
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -157,3 +175,7 @@ MIDTRANS_CALLBACK_URL = 'http://127.0.0.1:8000/midtrans/notification/' # Change 
 CSRF_TRUSTED_ORIGINS = [
     "https://uneradicative-noreen-swashingly.ngrok-free.dev",
 ]
+
+# Authentication settings
+LOGIN_REDIRECT_URL = '/admin/'  # Where to redirect after successful login
+LOGOUT_REDIRECT_URL = '/login/'  # Where to redirect after logout

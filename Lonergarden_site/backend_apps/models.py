@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.exceptions import ValidationError # Import this!
+from django.utils.translation import get_language
 
 # Create your models here.
 
@@ -13,7 +14,20 @@ class Room(models.Model):
     #roomdetails
     image = models.ImageField(upload_to='room_images/', null=True)  # Room photo
     name = models.CharField(max_length=100)  # e.g. "Deluxe Ocean Suite"
-    description = models.TextField()  # Full paragraph about the room
+    description = models.TextField()  # Full paragraph about the room     # Will store current language's description    # Keep the original description as main field for backward compatibility
+    
+    # model description languages
+    description_en = models.TextField("English Description")
+    description_id = models.TextField("Indonesian Description", blank=True)
+    description_ja = models.TextField("Japanese Description", blank=True)
+    description_fr = models.TextField("French Description", blank=True)
+    description_de = models.TextField("German Description", blank=True)
+    description_es = models.TextField("Spanish Description", blank=True)
+
+    # def save(self, *args, **kwargs):
+    #     # Set the main description to English by default (or current language)
+    #     self.description = self.description_en
+    #     super().save(*args, **kwargs)
 
     # Tags
     tag_ocean_view = models.BooleanField(default=False)
@@ -44,6 +58,24 @@ class Room(models.Model):
 
     #price
     price = models.DecimalField(max_digits=8, decimal_places=2) # e.g. 289.00  
+
+    # Localization helpers
+    def get_localized_field(self, base_name, default=''):
+        lang = (get_language() or 'en').split('-')[0]
+        field_name = f'{base_name}_{lang}'
+        value = getattr(self, field_name, None)
+        if value:
+            return value
+        # fallback to English then base field
+        en_value = getattr(self, f'{base_name}_en', None)
+        if en_value:
+            return en_value
+        base_value = getattr(self, base_name, None)
+        return base_value or default
+
+    @property
+    def localized_description(self):
+        return self.get_localized_field('description', default='')
 
     def __str__(self):
         return self.name

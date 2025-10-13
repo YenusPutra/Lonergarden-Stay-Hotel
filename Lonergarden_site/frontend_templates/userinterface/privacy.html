@@ -1,11 +1,11 @@
-{% load static %}
+{% load static %} {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Privacy - Lonergarden Stay</title>
+  <title>{% trans "Privacy - Lonergarden Stay" %}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,8 +38,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">lonergarden@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">{% trans "lonergarden@gmail.com" %}</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>{% trans "+1 5589 55488 55" %}</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -56,47 +56,33 @@
         <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="{% static 'img/logo.webp' %}" alt=""> -->
-          <h1 class="sitename">Lonergarden</h1>
+          <h1 class="sitename">{% trans "Lonergarden" %}</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li><a href="{% url 'render-page' page='about' %}">About</a></li>
-            <li><a href="{% url 'render-page' page='rooms' %}">Rooms</a></li>
-            <li><a href="{% url 'render-page' page='amenities' %}">Amenities</a></li>
-            <li><a href="{% url 'render-page' page='location' %}">Location</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'render-page' page='about' %}">{% trans "About" %}</a></li>
+            <li><a href="{% url 'render-page' page='rooms' %}">{% trans "Rooms" %}</a></li>
+            <li><a href="{% url 'render-page' page='amenities' %}">{% trans "Amenities" %}</a></li>
+            <li><a href="{% url 'render-page' page='location' %}">{% trans "Location" %}</a></li>
+            <li class="dropdown"><a href="#"><span>{% trans "Pages" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="{% url 'render-page' page='room-details' %}">Room Details</a></li>
-                <li><a href="{% url 'render-page' page='restaurant' %}">Restaurant</a></li>
-                <li><a href="{% url 'render-page' page='offers' %}">Offers</a></li>
-                <li><a href="{% url 'render-page' page='events' %}">Events</a></li>
-                <li><a href="{% url 'render-page' page='gallery' %}">Gallery</a></li>
-                <li><a href="{% url 'render-page' page='booking' %}">Booking</a></li>
-                <li><a href="{% url 'render-page' page='terms' %}">Terms Page</a></li>
-                <li><a href="{% url 'render-page' page='privacy' %}" class="active">Privacy Page</a></li>
-                <li><a href="{% url 'render-page' page='404' %}">404 Page</a></li>
-                <li><a href="{% url 'render-page' page='starter-page' %}">Starter Page</a></li>
+                <li><a href="{% url 'render-page' page='room-details' %}">{% trans "Room Details" %}</a></li>
+                <li><a href="{% url 'render-page' page='restaurant' %}">{% trans "Restaurant" %}</a></li>
+                <li><a href="{% url 'render-page' page='offers' %}">{% trans "Offers" %}</a></li>
+                <li><a href="{% url 'render-page' page='events' %}">{% trans "Events" %}</a></li>
+                <li><a href="{% url 'render-page' page='gallery' %}">{% trans "Gallery" %}</a></li>
+                <li><a href="{% url 'render-page' page='booking' %}">{% trans "Booking" %}</a></li>
+                <li><a href="{% url 'render-page' page='terms' %}">{% trans "Terms Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='privacy' %}" class="active">{% trans "Privacy Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='404' %}">{% trans "404 Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='starter-page' %}">{% trans "Starter Page" %}</a></li>
               </ul>
             </li>
-            <li><a href="{% url 'render-page' page='contact' %}">Contact</a></li>
+            <li><a href="{% url 'render-page' page='contact' %}">{% trans "Contact" %}</a></li>
 
-            <li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>
+            {% include "userinterface/language.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,11 +99,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Privacy</h1>
+        <h1 class="mb-2 mb-lg-0">{% trans "Privacy" %}</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li class="current">Privacy</li>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Privacy" %}</li>
           </ol>
         </nav>
       </div>
@@ -130,9 +116,9 @@
         <!-- Header -->
         <div class="privacy-header" data-aos="fade-up">
           <div class="header-content">
-            <div class="last-updated">Effective Date: February 27, 2025</div>
-            <h1>Privacy Policy</h1>
-            <p class="intro-text">This Privacy Policy describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of our services.</p>
+            <div class="last-updated">{% trans "Effective Date: February 27, 2025" %}</div>
+            <h1>{% trans "Privacy Policy" %}</h1>
+            <p class="intro-text">{% trans "This Privacy Policy describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of our services." %}</p>
           </div>
         </div>
 
@@ -140,104 +126,104 @@
         <div class="privacy-content" data-aos="fade-up">
           <!-- Introduction -->
           <div class="content-section">
-            <h2>1. Introduction</h2>
-            <p>When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
-            <p>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>
+            <h2>{% trans "1. Introduction" %}</h2>
+            <p>{% trans "When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control." %}</p>
+            <p>{% trans "This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information." %}</p>
           </div>
 
           <!-- Information Collection -->
           <div class="content-section">
-            <h2>2. Information We Collect</h2>
-            <p>We collect information to provide better services to our users. The types of information we collect include:</p>
+            <h2>{% trans "2. Information We Collect" %}</h2>
+            <p>{% trans "We collect information to provide better services to our users. The types of information we collect include:" %}</p>
 
-            <h3>2.1 Information You Provide</h3>
-            <p>When you create an account or use our services, you provide us with personal information that includes:</p>
+            <h3>{% trans "2.1 Information You Provide" %}</h3>
+            <p>{% trans "When you create an account or use our services, you provide us with personal information that includes:" %}</p>
             <ul>
-              <li>Your name and contact information</li>
-              <li>Account credentials</li>
-              <li>Payment information when required</li>
-              <li>Communication preferences</li>
+              <li>{% trans "Your name and contact information" %}</li>
+              <li>{% trans "Account credentials" %}</li>
+              <li>{% trans "Payment information when required" %}</li>
+              <li>{% trans "Communication preferences" %}</li>
             </ul>
 
-            <h3>2.2 Automatic Information</h3>
-            <p>We automatically collect and store certain information when you use our services:</p>
+            <h3>{% trans "2.2 Automatic Information" %}</h3>
+            <p>{% trans "We automatically collect and store certain information when you use our services:" %}</p>
             <ul>
-              <li>Device information and identifiers</li>
-              <li>Log information and usage statistics</li>
-              <li>Location information when enabled</li>
-              <li>Browser type and settings</li>
+              <li>{% trans "Device information and identifiers" %}</li>
+              <li>{% trans "Log information and usage statistics" %}</li>
+              <li>{% trans "Location information when enabled" %}</li>
+              <li>{% trans "Browser type and settings" %}</li>
             </ul>
           </div>
 
           <!-- Use of Information -->
           <div class="content-section">
-            <h2>3. How We Use Your Information</h2>
-            <p>We use the information we collect to provide, maintain, and improve our services. Specifically, we use your information to:</p>
+            <h2>{% trans "3. How We Use Your Information" %}</h2>
+            <p>{% trans "We use the information we collect to provide, maintain, and improve our services. Specifically, we use your information to:" %}</p>
             <ul>
-              <li>Provide and personalize our services</li>
-              <li>Process transactions and send related information</li>
-              <li>Send notifications and updates about our services</li>
-              <li>Maintain security and verify identity</li>
-              <li>Analyze and improve our services</li>
+              <li>{% trans "Provide and personalize our services" %}</li>
+              <li>{% trans "Process transactions and send related information" %}</li>
+              <li>{% trans "Send notifications and updates about our services" %}</li>
+              <li>{% trans "Maintain security and verify identity" %}</li>
+              <li>{% trans "Analyze and improve our services" %}</li>
             </ul>
           </div>
 
           <!-- Information Sharing -->
           <div class="content-section">
-            <h2>4. Information Sharing and Disclosure</h2>
-            <p>We do not share personal information with companies, organizations, or individuals outside of our company except in the following cases:</p>
+            <h2>{% trans "4. Information Sharing and Disclosure" %}</h2>
+            <p>{% trans "We do not share personal information with companies, organizations, or individuals outside of our company except in the following cases:" %}</p>
 
-            <h3>4.1 With Your Consent</h3>
-            <p>We will share personal information with companies, organizations, or individuals outside of our company when we have your consent to do so.</p>
+            <h3>{% trans "4.1 With Your Consent" %}</h3>
+            <p>{% trans "We will share personal information with companies, organizations, or individuals outside of our company when we have your consent to do so." %}</p>
 
-            <h3>4.2 For Legal Reasons</h3>
-            <p>We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to:</p>
+            <h3>{% trans "4.2 For Legal Reasons" %}</h3>
+            <p>{% trans "We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to:" %}</p>
             <ul>
-              <li>Meet any applicable law, regulation, legal process, or enforceable governmental request</li>
-              <li>Enforce applicable Terms of Service</li>
-              <li>Detect, prevent, or otherwise address fraud, security, or technical issues</li>
-              <li>Protect against harm to the rights, property, or safety of our users</li>
+              <li>{% trans "Meet any applicable law, regulation, legal process, or enforceable governmental request" %}</li>
+              <li>{% trans "Enforce applicable Terms of Service" %}</li>
+              <li>{% trans "Detect, prevent, or otherwise address fraud, security, or technical issues" %}</li>
+              <li>{% trans "Protect against harm to the rights, property, or safety of our users" %}</li>
             </ul>
           </div>
 
           <!-- Data Security -->
           <div class="content-section">
-            <h2>5. Data Security</h2>
-            <p>We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:</p>
+            <h2>{% trans "5. Data Security" %}</h2>
+            <p>{% trans "We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:" %}</p>
             <ul>
-              <li>We encrypt our services using SSL</li>
-              <li>We review our information collection, storage, and processing practices</li>
-              <li>We restrict access to personal information to employees who need that information</li>
+              <li>{% trans "We encrypt our services using SSL" %}</li>
+              <li>{% trans "We review our information collection, storage, and processing practices" %}</li>
+              <li>{% trans "We restrict access to personal information to employees who need that information" %}</li>
             </ul>
           </div>
 
           <!-- Your Rights -->
           <div class="content-section">
-            <h2>6. Your Rights and Choices</h2>
-            <p>You have certain rights regarding your personal information, including:</p>
+            <h2>{% trans "6. Your Rights and Choices" %}</h2>
+            <p>{% trans "You have certain rights regarding your personal information, including:" %}</p>
             <ul>
-              <li>The right to access your personal information</li>
-              <li>The right to correct inaccurate information</li>
-              <li>The right to request deletion of your information</li>
-              <li>The right to restrict or object to our processing of your information</li>
+              <li>{% trans "The right to access your personal information" %}</li>
+              <li>{% trans "The right to correct inaccurate information" %}</li>
+              <li>{% trans "The right to request deletion of your information" %}</li>
+              <li>{% trans "The right to restrict or object to our processing of your information" %}</li>
             </ul>
           </div>
 
           <!-- Policy Updates -->
           <div class="content-section">
-            <h2>7. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top.</p>
-            <p>Your continued use of our services after any changes to this Privacy Policy constitutes your acceptance of such changes.</p>
+            <h2>{% trans "7. Changes to This Policy" %}</h2>
+            <p>{% trans "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top." %}</p>
+            <p>{% trans "Your continued use of our services after any changes to this Privacy Policy constitutes your acceptance of such changes." %}</p>
           </div>
         </div>
 
         <!-- Contact Section -->
         <div class="privacy-contact" data-aos="fade-up">
-          <h2>Contact Us</h2>
-          <p>If you have any questions about this Privacy Policy or our practices, please contact us:</p>
+          <h2>{% trans "Contact Us" %}</h2>
+          <p>{% trans "If you have any questions about this Privacy Policy or our practices, please contact us:" %}</p>
           <div class="contact-details">
-            <p><strong>Email:</strong> privacy@example.com</p>
-            <p><strong>Address:</strong> 123 Privacy Street, Security City, 12345</p>
+            <p><strong>{% trans "Email:" %}</strong>{% trans "privacy@example.com" %}</p>
+            <p><strong>{% trans "Address:" %}</strong>{% trans "123 Privacy Street, Security City, 12345" %}</p>
           </div>
         </div>
 
@@ -254,57 +240,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
-              <span class="sitename">Lonergarden</span>
+              <span class="sitename">{% trans "Lonergarden" %}</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>{% trans "A108 Adam Street" %}</p>
+              <p>{% trans "New York, NY 535022" %}</p>
+              <p class="mt-3"><strong>{% trans "Phone:" %}</strong> <span>{% trans "+1 5589 55488 55" %}</span></p>
+              <p><strong>{% trans "Email:" %}</strong> <span>{% trans "info@example.com" %}</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{% trans "Useful Links" %}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">{% trans "Home" %}</a></li>
+              <li><a href="#">{% trans "About us" %}</a></li>
+              <li><a href="#">{% trans "Services" %}</a></li>
+              <li><a href="#">{% trans "Terms of service" %}</a></li>
+              <li><a href="#">{% trans "Privacy policy" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>{% trans "Our Services" %}</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">{% trans "Web Design" %}</a></li>
+              <li><a href="#">{% trans "Web Development" %}</a></li>
+              <li><a href="#">{% trans "Product Management" %}</a></li>
+              <li><a href="#">{% trans "Marketing" %}</a></li>
+              <li><a href="#">{% trans "Graphic Design" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>{% trans "Hic solutasetp" %}</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">{% trans "Molestiae accusamus iure" %}</a></li>
+              <li><a href="#">{% trans "Excepturi dignissimos" %}</a></li>
+              <li><a href="#">{% trans "Suscipit distinctio" %}</a></li>
+              <li><a href="#">{% trans "Dilecta" %}</a></li>
+              <li><a href="#">{% trans "Sit quas consectetur" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>{% trans "Nobis illum" %}</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">{% trans "Ipsam" %}</a></li>
+              <li><a href="#">{% trans "Laudantium dolorum" %}</a></li>
+              <li><a href="#">{% trans "Dinera" %}</a></li>
+              <li><a href="#">{% trans "Trodelas" %}</a></li>
+              <li><a href="#">{% trans "Flexo" %}</a></li>
             </ul>
           </div>
 
@@ -316,15 +302,12 @@
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
+          <div>{% trans "© Copyright" %}<strong><span>{% trans "MyWebsite" %}</span></strong>{% trans ". All Rights Reserved" %}</div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->{% trans "Designed by" %}<a href="https://bootstrapmade.com/">{% trans "BootstrapMade" %}</a>
           </div>
         </div>
 
@@ -358,6 +341,9 @@
 
   <!-- Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+  <!-- refer to js/language-dropdown.js -->
+  <script src="{% static 'js/language-dropdown.js' %}"></script> 
 
 </body>
 

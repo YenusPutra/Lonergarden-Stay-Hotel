@@ -1,11 +1,11 @@
-{% load static %}
+{% load static %} {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Location - Lonergarden Stay</title>
+  <title>{% trans "Location - Lonergarden Stay" %}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,8 +38,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">lonergarden@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">{% trans "lonergarden@gmail.com" %}</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>{% trans "+1 5589 55488 55" %}</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -56,47 +56,33 @@
         <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="{% static 'img/logo.webp' %}" alt=""> -->
-          <h1 class="sitename">Lonergarden</h1>
+          <h1 class="sitename">{% trans "Lonergarden" %}</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li><a href="{% url 'render-page' page='about' %}">About</a></li>
-            <li><a href="{% url 'render-page' page='rooms' %}">Rooms</a></li>
-            <li><a href="{% url 'render-page' page='amenities' %}">Amenities</a></li>
-            <li><a href="{% url 'render-page' page='location' %}" class="active">Location</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'render-page' page='about' %}">{% trans "About" %}</a></li>
+            <li><a href="{% url 'render-page' page='rooms' %}">{% trans "Rooms" %}</a></li>
+            <li><a href="{% url 'render-page' page='amenities' %}">{% trans "Amenities" %}</a></li>
+            <li><a href="{% url 'render-page' page='location' %}" class="active">{% trans "Location" %}</a></li>
+            <li class="dropdown"><a href="#"><span>{% trans "Pages" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="{% url 'render-page' page='room-details' %}">Room Details</a></li>
-                <li><a href="{% url 'render-page' page='restaurant' %}">Restaurant</a></li>
-                <li><a href="{% url 'render-page' page='offers' %}">Offers</a></li>
-                <li><a href="{% url 'render-page' page='events' %}">Events</a></li>
-                <li><a href="{% url 'render-page' page='gallery' %}">Gallery</a></li>
-                <li><a href="{% url 'render-page' page='booking' %}">Booking</a></li>
-                <li><a href="{% url 'render-page' page='terms' %}">Terms Page</a></li>
-                <li><a href="{% url 'render-page' page='privacy' %}">Privacy Page</a></li>
-                <li><a href="{% url 'render-page' page='404' %}">404 Page</a></li>
-                <li><a href="{% url 'render-page' page='starter-page' %}">Starter Page</a></li>
+                <li><a href="{% url 'render-page' page='room-details' %}">{% trans "Room Details" %}</a></li>
+                <li><a href="{% url 'render-page' page='restaurant' %}">{% trans "Restaurant" %}</a></li>
+                <li><a href="{% url 'render-page' page='offers' %}">{% trans "Offers" %}</a></li>
+                <li><a href="{% url 'render-page' page='events' %}">{% trans "Events" %}</a></li>
+                <li><a href="{% url 'render-page' page='gallery' %}">{% trans "Gallery" %}</a></li>
+                <li><a href="{% url 'render-page' page='booking' %}">{% trans "Booking" %}</a></li>
+                <li><a href="{% url 'render-page' page='terms' %}">{% trans "Terms Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='privacy' %}">{% trans "Privacy Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='404' %}">{% trans "404 Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='starter-page' %}">{% trans "Starter Page" %}</a></li>
               </ul>
             </li>
-            <li><a href="{% url 'render-page' page='contact' %}">Contact</a></li>
+            <li><a href="{% url 'render-page' page='contact' %}">{% trans "Contact" %}</a></li>
 
-            <li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>
+            {% include "userinterface/language.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,11 +99,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Location</h1>
+        <h1 class="mb-2 mb-lg-0">{% trans "Location" %}</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li class="current">Location</li>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Location" %}</li>
           </ol>
         </nav>
       </div>
@@ -136,10 +122,10 @@
             <div class="location-content">
               <div class="location-badge">
                 <i class="bi bi-geo-alt-fill"></i>
-                <span>Prime Location</span>
+                <span>{% trans "Prime Location" %}</span>
               </div>
-              <h2 class="location-title">Luxury Downtown Experience</h2>
-              <p class="location-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec rutrum congue leo eget malesuada. Proin eget tortor risus cras ultricies ligula sed magna dictum porta.</p>
+              <h2 class="location-title">{% trans "Luxury Downtown Experience" %}</h2>
+              <p class="location-description">{% trans "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec rutrum congue leo eget malesuada. Proin eget tortor risus cras ultricies ligula sed magna dictum porta." %}</p>
 
               <div class="info-grid">
                 <div class="info-item">
@@ -147,8 +133,8 @@
                     <i class="bi bi-building"></i>
                   </div>
                   <div class="info-text">
-                    <h6>Address</h6>
-                    <p>789 Madison Street<br>Chicago, IL 60601</p>
+                    <h6>{% trans "Address" %}</h6>
+                    <p>{% trans "789 Madison Street" %}<br>{% trans "Chicago, IL 60601" %}</p>
                   </div>
                 </div>
 
@@ -157,8 +143,8 @@
                     <i class="bi bi-airplane"></i>
                   </div>
                   <div class="info-text">
-                    <h6>Airport Access</h6>
-                    <p>O'Hare - 35 min<br>Midway - 25 min</p>
+                    <h6>{% trans "Airport Access" %}</h6>
+                    <p>{% trans "O'Hare - 35 min" %}<br>{% trans "Midway - 25 min" %}</p>
                   </div>
                 </div>
 
@@ -167,8 +153,8 @@
                     <i class="bi bi-telephone"></i>
                   </div>
                   <div class="info-text">
-                    <h6>Contact</h6>
-                    <p>+1 (555) 876-5432<br>reservations@example.com</p>
+                    <h6>{% trans "Contact" %}</h6>
+                    <p>{% trans "+1 (555) 876-5432" %}<br>{% trans "reservations@example.com" %}</p>
                   </div>
                 </div>
 
@@ -177,15 +163,15 @@
                     <i class="bi bi-clock"></i>
                   </div>
                   <div class="info-text">
-                    <h6>Check-in</h6>
-                    <p>3:00 PM - 11:00 PM<br>Check-out: 11:00 AM</p>
+                    <h6>{% trans "Check-in" %}</h6>
+                    <p>{% trans "3:00 PM - 11:00 PM" %}<br>{% trans "Check-out: 11:00 AM" %}</p>
                   </div>
                 </div>
               </div>
 
               <div class="action-buttons">
-                <a href="#" class="btn btn-primary">View on Map</a>
-                <a href="#" class="btn btn-outline">Book Now</a>
+                <a href="#" class="btn btn-primary">{% trans "View on Map" %}</a>
+                <a href="#" class="btn btn-outline">{% trans "Book Now" %}</a>
               </div>
             </div>
           </div>
@@ -196,9 +182,7 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-87.623177!3d41.881832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               <div class="map-overlay">
                 <div class="hotel-marker">
-                  <i class="bi bi-building"></i>
-                  Grand Luxury Hotel
-                </div>
+                  <i class="bi bi-building"></i>{% trans "Grand Luxury Hotel" %}</div>
               </div>
             </div>
           </div>
@@ -210,8 +194,8 @@
           <div class="row">
             <div class="col-12">
               <div class="section-header">
-                <h3>Getting Here is Easy</h3>
-                <p>Multiple convenient transportation options to reach our hotel</p>
+                <h3>{% trans "Getting Here is Easy" %}</h3>
+                <p>{% trans "Multiple convenient transportation options to reach our hotel" %}</p>
               </div>
             </div>
           </div>
@@ -224,15 +208,15 @@
                     <i class="bi bi-car-front-fill"></i>
                   </div>
                   <div class="transport-title">
-                    <h5>By Car</h5>
-                    <span class="transport-time">Most Convenient</span>
+                    <h5>{% trans "By Car" %}</h5>
+                    <span class="transport-time">{% trans "Most Convenient" %}</span>
                   </div>
                 </div>
                 <div class="transport-details">
-                  <p>Complimentary valet service available. Premium parking garage with direct hotel access and EV charging stations.</p>
+                  <p>{% trans "Complimentary valet service available. Premium parking garage with direct hotel access and EV charging stations." %}</p>
                   <div class="transport-features">
-                    <span class="feature-tag">Valet Service</span>
-                    <span class="feature-tag">EV Charging</span>
+                    <span class="feature-tag">{% trans "Valet Service" %}</span>
+                    <span class="feature-tag">{% trans "EV Charging" %}</span>
                   </div>
                 </div>
               </div>
@@ -245,15 +229,15 @@
                     <i class="bi bi-train-front-fill"></i>
                   </div>
                   <div class="transport-title">
-                    <h5>By Metro</h5>
-                    <span class="transport-time">5 min walk</span>
+                    <h5>{% trans "By Metro" %}</h5>
+                    <span class="transport-time">{% trans "5 min walk" %}</span>
                   </div>
                 </div>
                 <div class="transport-details">
-                  <p>State Street Station directly connects to all major lines. Blue line to airports, Red line to suburbs and entertainment districts.</p>
+                  <p>{% trans "State Street Station directly connects to all major lines. Blue line to airports, Red line to suburbs and entertainment districts." %}</p>
                   <div class="transport-features">
-                    <span class="feature-tag">Blue Line</span>
-                    <span class="feature-tag">Red Line</span>
+                    <span class="feature-tag">{% trans "Blue Line" %}</span>
+                    <span class="feature-tag">{% trans "Red Line" %}</span>
                   </div>
                 </div>
               </div>
@@ -266,15 +250,15 @@
                     <i class="bi bi-airplane-fill"></i>
                   </div>
                   <div class="transport-title">
-                    <h5>Airport Shuttle</h5>
-                    <span class="transport-time">Every 30 min</span>
+                    <h5>{% trans "Airport Shuttle" %}</h5>
+                    <span class="transport-time">{% trans "Every 30 min" %}</span>
                   </div>
                 </div>
                 <div class="transport-details">
-                  <p>Luxury shuttle service to both major airports. Premium comfort with WiFi, refreshments, and luggage assistance included.</p>
+                  <p>{% trans "Luxury shuttle service to both major airports. Premium comfort with WiFi, refreshments, and luggage assistance included." %}</p>
                   <div class="transport-features">
-                    <span class="feature-tag">WiFi</span>
-                    <span class="feature-tag">Refreshments</span>
+                    <span class="feature-tag">{% trans "WiFi" %}</span>
+                    <span class="feature-tag">{% trans "Refreshments" %}</span>
                   </div>
                 </div>
               </div>
@@ -287,15 +271,15 @@
                     <i class="bi bi-taxi-front-fill"></i>
                   </div>
                   <div class="transport-title">
-                    <h5>Ride Share</h5>
-                    <span class="transport-time">24/7 Available</span>
+                    <h5>{% trans "Ride Share" %}</h5>
+                    <span class="transport-time">{% trans "24/7 Available" %}</span>
                   </div>
                 </div>
                 <div class="transport-details">
-                  <p>Dedicated pickup zones for all ride-sharing services. Professional concierge assistance for booking and special requests.</p>
+                  <p>{% trans "Dedicated pickup zones for all ride-sharing services. Professional concierge assistance for booking and special requests." %}</p>
                   <div class="transport-features">
-                    <span class="feature-tag">Concierge Help</span>
-                    <span class="feature-tag">Express Pickup</span>
+                    <span class="feature-tag">{% trans "Concierge Help" %}</span>
+                    <span class="feature-tag">{% trans "Express Pickup" %}</span>
                   </div>
                 </div>
               </div>
@@ -308,8 +292,8 @@
           <div class="row">
             <div class="col-12">
               <div class="section-header">
-                <h3>Explore the Neighborhood</h3>
-                <p>World-class attractions and entertainment right at your doorstep</p>
+                <h3>{% trans "Explore the Neighborhood" %}</h3>
+                <p>{% trans "World-class attractions and entertainment right at your doorstep" %}</p>
               </div>
             </div>
           </div>
@@ -321,13 +305,13 @@
                   <img src="{% static 'img/hotel/location-5.webp' %}" alt="Millennium Park" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>2 blocks</span>
+                    <span>{% trans "2 blocks" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Millennium Park</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 8 minute walk</p>
-                  <p>Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Experience iconic Cloud Gate sculpture.</p>
+                  <h5>{% trans "Millennium Park" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "8 minute walk" %}</p>
+                  <p>{% trans "Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Experience iconic Cloud Gate sculpture." %}</p>
                 </div>
               </div>
             </div>
@@ -338,13 +322,13 @@
                   <img src="{% static 'img/hotel/location-6.webp' %}" alt="Art Institute" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>4 blocks</span>
+                    <span>{% trans "4 blocks" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Art Institute</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 12 minute walk</p>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas world-renowned collection.</p>
+                  <h5>{% trans "Art Institute" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "12 minute walk" %}</p>
+                  <p>{% trans "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas world-renowned collection." %}</p>
                 </div>
               </div>
             </div>
@@ -355,13 +339,13 @@
                   <img src="{% static 'img/hotel/location-7.webp' %}" alt="Navy Pier" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>1.2 miles</span>
+                    <span>{% trans "1.2 miles" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Navy Pier</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 18 minute walk</p>
-                  <p>Vivamus magna justo lacinia eget consectetur sed convallis at tellus. Entertainment, dining, and stunning lake views.</p>
+                  <h5>{% trans "Navy Pier" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "18 minute walk" %}</p>
+                  <p>{% trans "Vivamus magna justo lacinia eget consectetur sed convallis at tellus. Entertainment, dining, and stunning lake views." %}</p>
                 </div>
               </div>
             </div>
@@ -372,13 +356,13 @@
                   <img src="{% static 'img/hotel/location-8.webp' %}" alt="Theater District" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>3 blocks</span>
+                    <span>{% trans "3 blocks" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Theater District</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 10 minute walk</p>
-                  <p>Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Broadway shows and world-class performances nightly.</p>
+                  <h5>{% trans "Theater District" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "10 minute walk" %}</p>
+                  <p>{% trans "Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Broadway shows and world-class performances nightly." %}</p>
                 </div>
               </div>
             </div>
@@ -389,13 +373,13 @@
                   <img src="{% static 'img/hotel/location-9.webp' %}" alt="Shopping District" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>1 block</span>
+                    <span>{% trans "1 block" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Magnificent Mile</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 5 minute walk</p>
-                  <p>Donec rutrum congue leo eget malesuada. Premium shopping, luxury brands, and upscale dining experiences.</p>
+                  <h5>{% trans "Magnificent Mile" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "5 minute walk" %}</p>
+                  <p>{% trans "Donec rutrum congue leo eget malesuada. Premium shopping, luxury brands, and upscale dining experiences." %}</p>
                 </div>
               </div>
             </div>
@@ -406,13 +390,13 @@
                   <img src="{% static 'img/hotel/location-10.webp' %}" alt="Lakefront" class="img-fluid" loading="lazy">
                   <div class="distance-badge">
                     <i class="bi bi-geo-alt"></i>
-                    <span>6 blocks</span>
+                    <span>{% trans "6 blocks" %}</span>
                   </div>
                 </div>
                 <div class="attraction-info">
-                  <h5>Lake Michigan Shore</h5>
-                  <p class="walk-time"><i class="bi bi-clock"></i> 15 minute walk</p>
-                  <p>Sed porttitor lectus nibh mauris blandit aliquet elit. Beach access, recreational trails, and scenic waterfront dining.</p>
+                  <h5>{% trans "Lake Michigan Shore" %}</h5>
+                  <p class="walk-time"><i class="bi bi-clock"></i>{% trans "15 minute walk" %}</p>
+                  <p>{% trans "Sed porttitor lectus nibh mauris blandit aliquet elit. Beach access, recreational trails, and scenic waterfront dining." %}</p>
                 </div>
               </div>
             </div>
@@ -432,57 +416,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
-              <span class="sitename">Lonergarden</span>
+              <span class="sitename">{% trans "Lonergarden" %}</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>{% trans "A108 Adam Street" %}</p>
+              <p>{% trans "New York, NY 535022" %}</p>
+              <p class="mt-3"><strong>{% trans "Phone:" %}</strong> <span>{% trans "+1 5589 55488 55" %}</span></p>
+              <p><strong>{% trans "Email:" %}</strong> <span>{% trans "info@example.com" %}</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{% trans "Useful Links" %}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">{% trans "Home" %}</a></li>
+              <li><a href="#">{% trans "About us" %}</a></li>
+              <li><a href="#">{% trans "Services" %}</a></li>
+              <li><a href="#">{% trans "Terms of service" %}</a></li>
+              <li><a href="#">{% trans "Privacy policy" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>{% trans "Our Services" %}</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">{% trans "Web Design" %}</a></li>
+              <li><a href="#">{% trans "Web Development" %}</a></li>
+              <li><a href="#">{% trans "Product Management" %}</a></li>
+              <li><a href="#">{% trans "Marketing" %}</a></li>
+              <li><a href="#">{% trans "Graphic Design" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>{% trans "Hic solutasetp" %}</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">{% trans "Molestiae accusamus iure" %}</a></li>
+              <li><a href="#">{% trans "Excepturi dignissimos" %}</a></li>
+              <li><a href="#">{% trans "Suscipit distinctio" %}</a></li>
+              <li><a href="#">{% trans "Dilecta" %}</a></li>
+              <li><a href="#">{% trans "Sit quas consectetur" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>{% trans "Nobis illum" %}</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">{% trans "Ipsam" %}</a></li>
+              <li><a href="#">{% trans "Laudantium dolorum" %}</a></li>
+              <li><a href="#">{% trans "Dinera" %}</a></li>
+              <li><a href="#">{% trans "Trodelas" %}</a></li>
+              <li><a href="#">{% trans "Flexo" %}</a></li>
             </ul>
           </div>
 
@@ -494,15 +478,12 @@
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
+          <div>{% trans "© Copyright" %}<strong><span>{% trans "MyWebsite" %}</span></strong>{% trans ". All Rights Reserved" %}</div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->{% trans "Designed by" %}<a href="https://bootstrapmade.com/">{% trans "BootstrapMade" %}</a>
           </div>
         </div>
 
@@ -536,6 +517,9 @@
 
   <!-- Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+  <!-- refer to js/language-dropdown.js -->
+  <script src="{% static 'js/language-dropdown.js' %}"></script>
 
 </body>
 

@@ -16,11 +16,16 @@ custom_admin_site.register(Group)
 
 from Lonergarden_site.backend_apps.forms import RoomForm
 class RoomAdmin(admin.ModelAdmin):
-    form = RoomForm  # ✅ use the custom form
-
+    form = RoomForm  # use the custom form
+    list_display = ('name', 'price', 'capacity')  # Show useful fields
+    list_filter = ('tag_popular', 'tag_business', 'tag_family_friendly')  # Add filters
+    search_fields = ('name', 'description')  # Add search
     fieldsets = (
+        ('Language Selector', {
+            'fields': ('edit_language', 'description')
+        }),
         ('Room Details', {
-            'fields': ('name', 'price', 'capacity', 'image', 'description')
+            'fields': ('name', 'price', 'capacity', 'image')
         }),
         ('Tags (Max 2 Recommended)', {
             'fields': (
@@ -38,9 +43,20 @@ class RoomAdmin(admin.ModelAdmin):
                 ('has_secure', 'has_bussinessphone'),
             ),
         }),
+        ('Hidden Language Fields', {
+            'fields': (
+                'description_en', 'description_id', 'description_ja',
+                'description_fr', 'description_de', 'description_es'
+            ),
+            'classes': ('collapse',)  # Hide these in a collapsed section
+        }),
     )
+
+    class Media:
+        js = (
+            'js/room_language_switcher.js',
+            'js/admin_unsaved_changes_guard.js',
+        )
 
 custom_admin_site.register(Room, RoomAdmin) # Use the custom RoomAdmin here
 custom_admin_site.register(ContactMessage)
-admin.site.register(Room, RoomAdmin) # Use the custom RoomAdmin here
-admin.site.register(ContactMessage)

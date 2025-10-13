@@ -1,11 +1,11 @@
-{% load static %}
+{% load static %} {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Rooms - Lonergarden Stay</title>
+  <title>{% trans "Rooms - Lonergarden Stay" %}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,8 +38,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">{% trans "contact@example.com" %}</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>{% trans "+1 5589 55488 55" %}</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -56,47 +56,33 @@
         <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="{% static 'img/logo.webp' %}" alt=""> -->
-          <h1 class="sitename">Lonergarden</h1>
+          <h1 class="sitename">{% trans "Lonergarden" %}</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li><a href="{% url 'render-page' page='about' %}">About</a></li>
-            <li><a href="{% url 'render-page' page='rooms' %}" class="active">Rooms</a></li>
-            <li><a href="{% url 'render-page' page='amenities' %}">Amenities</a></li>
-            <li><a href="{% url 'render-page' page='location' %}">Location</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'render-page' page='about' %}">{% trans "About" %}</a></li>
+            <li><a href="{% url 'render-page' page='rooms' %}" class="active">{% trans "Rooms" %}</a></li>
+            <li><a href="{% url 'render-page' page='amenities' %}">{% trans "Amenities" %}</a></li>
+            <li><a href="{% url 'render-page' page='location' %}">{% trans "Location" %}</a></li>
+            <li class="dropdown"><a href="#"><span>{% trans "Pages" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="{% url 'render-page' page='room-details' %}">Room Details</a></li>
-                <li><a href="{% url 'render-page' page='restaurant' %}">Restaurant</a></li>
-                <li><a href="{% url 'render-page' page='offers' %}">Offers</a></li>
-                <li><a href="{% url 'render-page' page='events' %}">Events</a></li>
-                <li><a href="{% url 'render-page' page='gallery' %}">Gallery</a></li>
-                <li><a href="{% url 'render-page' page='booking' %}">Booking</a></li>
-                <li><a href="{% url 'render-page' page='terms' %}">Terms Page</a></li>
-                <li><a href="{% url 'render-page' page='privacy' %}">Privacy Page</a></li>
-                <li><a href="{% url 'render-page' page='404' %}">404 Page</a></li>
-                <li><a href="{% url 'render-page' page='starter-page' %}">Starter Page</a></li>
+                <li><a href="{% url 'render-page' page='room-details' %}">{% trans "Room Details" %}</a></li>
+                <li><a href="{% url 'render-page' page='restaurant' %}">{% trans "Restaurant" %}</a></li>
+                <li><a href="{% url 'render-page' page='offers' %}">{% trans "Offers" %}</a></li>
+                <li><a href="{% url 'render-page' page='events' %}">{% trans "Events" %}</a></li>
+                <li><a href="{% url 'render-page' page='gallery' %}">{% trans "Gallery" %}</a></li>
+                <li><a href="{% url 'render-page' page='booking' %}">{% trans "Booking" %}</a></li>
+                <li><a href="{% url 'render-page' page='terms' %}">{% trans "Terms Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='privacy' %}">{% trans "Privacy Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='404' %}">{% trans "404 Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='starter-page' %}">{% trans "Starter Page" %}</a></li>
               </ul>
             </li>
-            <li><a href="{% url 'render-page' page='contact' %}">Contact</a></li>
+            <li><a href="{% url 'render-page' page='contact' %}">{% trans "Contact" %}</a></li>
 
-            <li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>
+            {% include "userinterface/language.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,7 +99,7 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Rooms</h1>
+        <h1 class="mb-2 mb-lg-0">{% trans "Rooms" %}</h1>
         <nav class="breadcrumbs">
           <ol>
             <li class="custom-search-breadcrumb">
@@ -126,8 +112,8 @@
                 </div>
               </div>
             </li>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li class="current">Rooms</li>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Rooms" %}</li>
           </ol>
         </nav>
       </div>
@@ -140,39 +126,39 @@
         <div class="room-filters" data-aos="fade-up" data-aos-delay="200">
           <div class="row g-3 align-items-center">
               <div class="col-lg-3 col-md-6">
-                  <label class="form-label">Price Range</label>
+                  <label class="form-label">{% trans "Price Range" %}</label>
                   <select class="form-select" name="price_range" onchange="this.form.submit()">
-                      <option value="">All Prices</option>
+                      <option value="">{% trans "All Prices" %}</option>
                       <option value="low" {% if request.GET.price_range == 'low' %}selected{% endif %}>$100 - $200</option>
                       <option value="medium" {% if request.GET.price_range == 'medium' %}selected{% endif %}>$200 - $350</option>
                       <option value="high" {% if request.GET.price_range == 'high' %}selected{% endif %}>$350+</option>
                   </select>
               </div>
               <div class="col-lg-3 col-md-6">
-                  <label class="form-label">Guest Capacity</label>
+                  <label class="form-label">{% trans "Guest Capacity" %}</label>
                   <select class="form-select" name="guest_capacity" onchange="this.form.submit()">
-                      <option value="">Any Capacity</option>
-                      <option value="2" {% if request.GET.guest_capacity == '2' %}selected{% endif %}>1-2 Guests</option>
-                      <option value="4" {% if request.GET.guest_capacity == '4' %}selected{% endif %}>3-4 Guests</option>
-                      <option value="5" {% if request.GET.guest_capacity == '5' %}selected{% endif %}>5+ Guests</option>
+                      <option value="">{% trans "Any Capacity" %}</option>
+                      <option value="2" {% if request.GET.guest_capacity == '2' %}selected{% endif %}>{% trans "1-2 Guests" %}</option>
+                      <option value="4" {% if request.GET.guest_capacity == '4' %}selected{% endif %}>{% trans "3-4 Guests" %}</option>
+                      <option value="5" {% if request.GET.guest_capacity == '5' %}selected{% endif %}>{% trans "5+ Guests" %}</option>
                   </select>
               </div>
               <div class="col-lg-3 col-md-6">
-                  <label class="form-label">View Type</label>
+                  <label class="form-label">{% trans "View Type" %}</label>
                   <select class="form-select" name="view_type" onchange="this.form.submit()">
-                      <option value="">All Views</option>
-                      <option value="Ocean_View" {% if request.GET.view_type == 'Ocean_View' %}selected{% endif %}>Ocean View</option>
-                      <option value="City_View" {% if request.GET.view_type == 'City_View' %}selected{% endif %}>City View</option>
-                      <option value="Garden_View" {% if request.GET.view_type == 'Garden_View' %}selected{% endif %}>Garden View</option>
+                      <option value="">{% trans "All Views" %}</option>
+                      <option value="Ocean_View" {% if request.GET.view_type == 'Ocean_View' %}selected{% endif %}>{% trans "Ocean View" %}</option>
+                      <option value="City_View" {% if request.GET.view_type == 'City_View' %}selected{% endif %}>{% trans "City View" %}</option>
+                      <option value="Garden_View" {% if request.GET.view_type == 'Garden_View' %}selected{% endif %}>{% trans "Garden View" %}</option>
                   </select>
               </div>
               <div class="col-lg-3 col-md-6">
-                  <label class="form-label">Sort By</label>
+                  <label class="form-label">{% trans "Sort By" %}</label>
                   <select class="form-select" name="sort_by" onchange="this.form.submit()">
-                      <option value="">Popularity</option>
-                      <option value="price_low" {% if request.GET.sort_by == 'price_low' %}selected{% endif %}>Price: Low to High</option>
-                      <option value="price_high" {% if request.GET.sort_by == 'price_high' %}selected{% endif %}>Price: High to Low</option>
-                      <option value="room_size" {% if request.GET.sort_by == 'room_size' %}selected{% endif %}>Room Size</option>
+                      <option value="">{% trans "Popularity" %}</option>
+                      <option value="price_low" {% if request.GET.sort_by == 'price_low' %}selected{% endif %}>{% trans "Price: Low to High" %}</option>
+                      <option value="price_high" {% if request.GET.sort_by == 'price_high' %}selected{% endif %}>{% trans "Price: High to Low" %}</option>
+                      <option value="room_size" {% if request.GET.sort_by == 'room_size' %}selected{% endif %}>{% trans "Room Size" %}</option>
                   </select>
               </div>
           </div>
@@ -182,14 +168,12 @@
         <div id="rooms-container">
             {% include 'userinterface/rooms-grid.html' %}
         </div>
-        
+
         {% if has_more %}
         <div class="load-more-section" id= "load-more-section" data-aos="fade-up" data-aos-delay="400">
           <div class="text-center">
             <button class="btn-load-more" data-offset="{{ next_offset }}" type="button">
-              <i class="bi bi-arrow-down-circle"></i>
-              Load More Rooms
-            </button>
+              <i class="bi bi-arrow-down-circle"></i>{% trans "Load More Rooms" %}</button>
           </div>
         </div>
         {% endif %}
@@ -208,57 +192,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
-              <span class="sitename">Lonergarden</span>
+              <span class="sitename">{% trans "Lonergarden" %}</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>{% trans "A108 Adam Street" %}</p>
+              <p>{% trans "New York, NY 535022" %}</p>
+              <p class="mt-3"><strong>{% trans "Phone:" %}</strong> <span>{% trans "+1 5589 55488 55" %}</span></p>
+              <p><strong>{% trans "Email:" %}</strong> <span>{% trans "info@example.com" %}</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{% trans "Useful Links" %}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">{% trans "Home" %}</a></li>
+              <li><a href="#">{% trans "About us" %}</a></li>
+              <li><a href="#">{% trans "Services" %}</a></li>
+              <li><a href="#">{% trans "Terms of service" %}</a></li>
+              <li><a href="#">{% trans "Privacy policy" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>{% trans "Our Services" %}</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">{% trans "Web Design" %}</a></li>
+              <li><a href="#">{% trans "Web Development" %}</a></li>
+              <li><a href="#">{% trans "Product Management" %}</a></li>
+              <li><a href="#">{% trans "Marketing" %}</a></li>
+              <li><a href="#">{% trans "Graphic Design" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>{% trans "Hic solutasetp" %}</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">{% trans "Molestiae accusamus iure" %}</a></li>
+              <li><a href="#">{% trans "Excepturi dignissimos" %}</a></li>
+              <li><a href="#">{% trans "Suscipit distinctio" %}</a></li>
+              <li><a href="#">{% trans "Dilecta" %}</a></li>
+              <li><a href="#">{% trans "Sit quas consectetur" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>{% trans "Nobis illum" %}</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">{% trans "Ipsam" %}</a></li>
+              <li><a href="#">{% trans "Laudantium dolorum" %}</a></li>
+              <li><a href="#">{% trans "Dinera" %}</a></li>
+              <li><a href="#">{% trans "Trodelas" %}</a></li>
+              <li><a href="#">{% trans "Flexo" %}</a></li>
             </ul>
           </div>
 
@@ -270,15 +254,12 @@
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
+          <div>{% trans "© Copyright" %}<strong><span>{% trans "MyWebsite" %}</span></strong>{% trans ". All Rights Reserved" %}</div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->{% trans "Designed by" %}<a href="https://bootstrapmade.com/">{% trans "BootstrapMade" %}</a>
           </div>
         </div>
 
@@ -329,7 +310,8 @@
             currentParams.set('search', searchQuery);
             }
 
-            fetch(`/rooms/?${currentParams.toString()}`, {
+            const basePath = window.location.pathname;
+            fetch(`${basePath}?${currentParams.toString()}`, {
             headers: {
                 'X-Requested-With': 'XMLHttpRequest'
                 }
@@ -418,7 +400,7 @@
             })
           .catch(error => {
               console.error('Error:', error);              // Step 9: If something goes wrong, show an error message
-              roomsContainer.innerHTML = '<div class="text-center text-danger">Error loading rooms</div>';
+              roomsContainer.innerHTML = '<div class="text-center text-danger">{% trans "Error loading rooms" %}</div>';
               searchContainer.classList.remove('loading');
             });
       }
@@ -439,6 +421,9 @@
 
   <!-- Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+  <!-- refer to js/language-dropdown.js -->
+  <script src="{% static 'js/language-dropdown.js' %}"></script>
 
 </body>
 

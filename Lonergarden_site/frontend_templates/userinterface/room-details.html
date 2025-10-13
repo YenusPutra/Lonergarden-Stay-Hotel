@@ -1,11 +1,11 @@
-{% load static %}
+{% load static %} {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Room Details - Lonergarden Stay</title>
+  <title>{% trans "Room Details - Lonergarden Stay" %}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,8 +38,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">lonergarden@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lonergarden@gmail.com">{% trans "lonergarden@gmail.com" %}</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>{% trans "+1 5589 55488 55" %}</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -56,47 +56,33 @@
         <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="{% static 'img/logo.webp' %}" alt=""> -->
-          <h1 class="sitename">Lonergarden</h1>
+          <h1 class="sitename">{% trans "Lonergarden" %}</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li><a href="{% url 'render-page' page='about' %}">About</a></li>
-            <li><a href="{% url 'render-page' page='rooms' %}">Rooms</a></li>
-            <li><a href="{% url 'render-page' page='amenities' %}">Amenities</a></li>
-            <li><a href="{% url 'render-page' page='location' %}">Location</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'render-page' page='about' %}">{% trans "About" %}</a></li>
+            <li><a href="{% url 'render-page' page='rooms' %}">{% trans "Rooms" %}</a></li>
+            <li><a href="{% url 'render-page' page='amenities' %}">{% trans "Amenities" %}</a></li>
+            <li><a href="{% url 'render-page' page='location' %}">{% trans "Location" %}</a></li>
+            <li class="dropdown"><a href="#"><span>{% trans "Pages" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="{% url 'render-page' page='room-details' %}" class="active">Room Details</a></li>
-                <li><a href="{% url 'render-page' page='restaurant' %}">Restaurant</a></li>
-                <li><a href="{% url 'render-page' page='offers' %}">Offers</a></li>
-                <li><a href="{% url 'render-page' page='events' %}">Events</a></li>
-                <li><a href="{% url 'render-page' page='gallery' %}">Gallery</a></li>
-                <li><a href="{% url 'render-page' page='booking' %}">Booking</a></li>
-                <li><a href="{% url 'render-page' page='terms' %}">Terms Page</a></li>
-                <li><a href="{% url 'render-page' page='privacy' %}">Privacy Page</a></li>
-                <li><a href="{% url 'render-page' page='404' %}">404 Page</a></li>
-                <li><a href="{% url 'render-page' page='starter-page' %}">Starter Page</a></li>
+                <li><a href="{% url 'render-page' page='room-details' %}" class="active">{% trans "Room Details" %}</a></li>
+                <li><a href="{% url 'render-page' page='restaurant' %}">{% trans "Restaurant" %}</a></li>
+                <li><a href="{% url 'render-page' page='offers' %}">{% trans "Offers" %}</a></li>
+                <li><a href="{% url 'render-page' page='events' %}">{% trans "Events" %}</a></li>
+                <li><a href="{% url 'render-page' page='gallery' %}">{% trans "Gallery" %}</a></li>
+                <li><a href="{% url 'render-page' page='booking' %}">{% trans "Booking" %}</a></li>
+                <li><a href="{% url 'render-page' page='terms' %}">{% trans "Terms Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='privacy' %}">{% trans "Privacy Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='404' %}">{% trans "404 Page" %}</a></li>
+                <li><a href="{% url 'render-page' page='starter-page' %}">{% trans "Starter Page" %}</a></li>
               </ul>
             </li>
-            <li><a href="{% url 'render-page' page='contact' %}">Contact</a></li>
+            <li><a href="{% url 'render-page' page='contact' %}">{% trans "Contact" %}</a></li>
 
-            <li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>
+            {% include "userinterface/language.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,11 +99,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Room Details</h1>
+        <h1 class="mb-2 mb-lg-0">{% trans "Room Details" %}</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{% url 'render-page' page='index' %}">Home</a></li>
-            <li class="current">Room Details</li>
+            <li><a href="{% url 'render-page' page='index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Room Details" %}</li>
           </ol>
         </nav>
       </div>
@@ -134,14 +120,14 @@
             <div class="room-header-image">
               <img src="{% static 'img/hotel/room-15.webp' %}" alt="Deluxe Ocean View Suite" class="img-fluid rounded">
               <div class="room-badge">
-                <span class="text-white">Premium Suite</span>
+                <span class="text-white">{% trans "Premium Suite" %}</span>
               </div>
             </div>
           </div>
           <div class="col-lg-5" data-aos="fade-left" data-aos-delay="300">
             <div class="room-header-content">
               <div class="room-rating mb-3">
-                <span class="rating-score">4.8</span>
+                <span class="rating-score">{% trans "4.8" %}</span>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -149,36 +135,36 @@
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                 </div>
-                <span class="reviews-count">(127 reviews)</span>
+                <span class="reviews-count">{% trans "(127 reviews)" %}</span>
               </div>
-              <h1 class="room-title">Deluxe Ocean View Suite</h1>
-              <p class="room-tagline">Experience luxury with breathtaking ocean views and premium amenities</p>
+              <h1 class="room-title">{% trans "Deluxe Ocean View Suite" %}</h1>
+              <p class="room-tagline">{% trans "Experience luxury with breathtaking ocean views and premium amenities" %}</p>
               <div class="room-capacity mb-4">
                 <div class="capacity-item">
                   <i class="bi bi-people"></i>
-                  <span>Up to 4 guests</span>
+                  <span>{% trans "Up to 4 guests" %}</span>
                 </div>
                 <div class="capacity-item">
                   <i class="bi bi-grid"></i>
-                  <span>850 sq ft</span>
+                  <span>{% trans "850 sq ft" %}</span>
                 </div>
                 <div class="capacity-item">
                   <i class="bi bi-bed"></i>
-                  <span>King bed + Sofa bed</span>
+                  <span>{% trans "King bed + Sofa bed" %}</span>
                 </div>
               </div>
               <div class="room-price">
                 <span class="price-amount">$395</span>
-                <span class="price-period">per night</span>
+                <span class="price-period">{% trans "per night" %}</span>
               </div>
-              <a href="{% url 'render-page' page='booking' %}" class="btn btn-book-now">Book Now</a>
+              <a href="{% url 'render-page' page='booking' %}" class="btn btn-book-now">{% trans "Book Now" %}</a>
             </div>
           </div>
         </div>
 
         <!-- Room Gallery -->
         <div class="room-gallery mb-5" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="section-subtitle mb-4">Room Gallery</h3>
+          <h3 class="section-subtitle mb-4">{% trans "Room Gallery" %}</h3>
           <div class="gallery-grid">
             <div class="gallery-main">
               <a href="{% static 'img/hotel/room-12.webp' %}" class="glightbox">
@@ -206,9 +192,9 @@
         <div class="row mb-5">
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
             <div class="room-description">
-              <h3 class="section-subtitle">Room Overview</h3>
-              <p>Indulge in the ultimate luxury experience with our Deluxe Ocean View Suite. This spacious retreat features floor-to-ceiling windows showcasing panoramic ocean vistas, creating a serene atmosphere perfect for romantic getaways or family vacations. The elegantly appointed living space seamlessly blends modern comfort with coastal charm, featuring premium furnishings and thoughtful design elements.</p>
-              <p>The suite includes a separate living area with comfortable seating, a work desk for business travelers, and a private balcony where you can enjoy your morning coffee while watching the sunrise over the ocean. The bedroom features a plush king-size bed with luxury linens, ensuring a restful night's sleep, while the sofa bed in the living area provides additional accommodation for up to two guests.</p>
+              <h3 class="section-subtitle">{% trans "Room Overview" %}</h3>
+              <p>{% trans "Indulge in the ultimate luxury experience with our Deluxe Ocean View Suite. This spacious retreat features floor-to-ceiling windows showcasing panoramic ocean vistas, creating a serene atmosphere perfect for romantic getaways or family vacations. The elegantly appointed living space seamlessly blends modern comfort with coastal charm, featuring premium furnishings and thoughtful design elements." %}</p>
+              <p>{% trans "The suite includes a separate living area with comfortable seating, a work desk for business travelers, and a private balcony where you can enjoy your morning coffee while watching the sunrise over the ocean. The bedroom features a plush king-size bed with luxury linens, ensuring a restful night's sleep, while the sofa bed in the living area provides additional accommodation for up to two guests." %}</p>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
@@ -216,10 +202,10 @@
               <div class="highlight-icon">
                 <i class="bi bi-star"></i>
               </div>
-              <h4>Premium Experience</h4>
-              <p>"The most beautiful suite we've ever stayed in. The ocean view is absolutely breathtaking and the attention to detail is remarkable."</p>
+              <h4>{% trans "Premium Experience" %}</h4>
+              <p>{% trans '"The most beautiful suite we\'ve ever stayed in. The ocean view is absolutely breathtaking and the attention to detail is remarkable."' %}</p>
               <div class="quote-author">
-                <span>- Sarah M., Verified Guest</span>
+                <span>{% trans "- Sarah M., Verified Guest" %}</span>
               </div>
             </div>
           </div>
@@ -227,49 +213,49 @@
 
         <!-- Amenities and Features -->
         <div class="room-amenities mb-5" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="section-subtitle mb-4">Room Amenities</h3>
+          <h3 class="section-subtitle mb-4">{% trans "Room Amenities" %}</h3>
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="amenity-category">
-                <h5>Sleeping</h5>
+                <h5>{% trans "Sleeping" %}</h5>
                 <ul>
-                  <li><i class="bi bi-check2"></i> King size bed</li>
-                  <li><i class="bi bi-check2"></i> Premium linens</li>
-                  <li><i class="bi bi-check2"></i> Memory foam pillows</li>
-                  <li><i class="bi bi-check2"></i> Blackout curtains</li>
+                  <li><i class="bi bi-check2"></i>{% trans "King size bed" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Premium linens" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Memory foam pillows" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Blackout curtains" %}</li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="amenity-category">
-                <h5>Technology</h5>
+                <h5>{% trans "Technology" %}</h5>
                 <ul>
-                  <li><i class="bi bi-check2"></i> High-speed WiFi</li>
-                  <li><i class="bi bi-check2"></i> 55" Smart TV</li>
-                  <li><i class="bi bi-check2"></i> Bluetooth speakers</li>
-                  <li><i class="bi bi-check2"></i> USB charging ports</li>
+                  <li><i class="bi bi-check2"></i>{% trans "High-speed WiFi" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans '"55" Smart TV' %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Bluetooth speakers" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "USB charging ports" %}</li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="amenity-category">
-                <h5>Comfort</h5>
+                <h5>{% trans "Comfort" %}</h5>
                 <ul>
-                  <li><i class="bi bi-check2"></i> Climate control</li>
-                  <li><i class="bi bi-check2"></i> Mini refrigerator</li>
-                  <li><i class="bi bi-check2"></i> Coffee machine</li>
-                  <li><i class="bi bi-check2"></i> Safe deposit box</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Climate control" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Mini refrigerator" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Coffee machine" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Safe deposit box" %}</li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="amenity-category">
-                <h5>Bathroom</h5>
+                <h5>{% trans "Bathroom" %}</h5>
                 <ul>
-                  <li><i class="bi bi-check2"></i> Marble bathroom</li>
-                  <li><i class="bi bi-check2"></i> Rain shower</li>
-                  <li><i class="bi bi-check2"></i> Luxury toiletries</li>
-                  <li><i class="bi bi-check2"></i> Heated floors</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Marble bathroom" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Rain shower" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Luxury toiletries" %}</li>
+                  <li><i class="bi bi-check2"></i>{% trans "Heated floors" %}</li>
                 </ul>
               </div>
             </div>
@@ -280,13 +266,13 @@
         <div class="room-tabs mb-5" data-aos="fade-up" data-aos-delay="200">
           <ul class="nav nav-tabs" id="room-detailsRoomTabs" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="room-details-policies-tab" data-bs-toggle="tab" data-bs-target="#room-details-policies" type="button" role="tab">Policies</button>
+              <button class="nav-link active" id="room-details-policies-tab" data-bs-toggle="tab" data-bs-target="#room-details-policies" type="button" role="tab">{% trans "Policies" %}</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="room-details-location-tab" data-bs-toggle="tab" data-bs-target="#room-details-location" type="button" role="tab">Location</button>
+              <button class="nav-link" id="room-details-location-tab" data-bs-toggle="tab" data-bs-target="#room-details-location" type="button" role="tab">{% trans "Location" %}</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="room-details-services-tab" data-bs-toggle="tab" data-bs-target="#room-details-services" type="button" role="tab">Services</button>
+              <button class="nav-link" id="room-details-services-tab" data-bs-toggle="tab" data-bs-target="#room-details-services" type="button" role="tab">{% trans "Services" %}</button>
             </li>
           </ul>
           <div class="tab-content" id="room-detailsRoomTabsContent">
@@ -294,16 +280,16 @@
               <div class="tab-content-wrapper">
                 <div class="row">
                   <div class="col-md-4">
-                    <h6>Check-in / Check-out</h6>
-                    <p>Check-in: 3:00 PM<br>Check-out: 11:00 AM</p>
+                    <h6>{% trans "Check-in / Check-out" %}</h6>
+                    <p>{% trans "Check-in: 3:00 PM" %}<br>{% trans "Check-out: 11:00 AM" %}</p>
                   </div>
                   <div class="col-md-4">
-                    <h6>Cancellation</h6>
-                    <p>Free cancellation up to 24 hours before arrival</p>
+                    <h6>{% trans "Cancellation" %}</h6>
+                    <p>{% trans "Free cancellation up to 24 hours before arrival" %}</p>
                   </div>
                   <div class="col-md-4">
-                    <h6>Pets</h6>
-                    <p>Pet-friendly with additional fee</p>
+                    <h6>{% trans "Pets" %}</h6>
+                    <p>{% trans "Pet-friendly with additional fee" %}</p>
                   </div>
                 </div>
               </div>
@@ -312,21 +298,21 @@
               <div class="tab-content-wrapper">
                 <div class="row">
                   <div class="col-md-6">
-                    <h6>Nearby Attractions</h6>
+                    <h6>{% trans "Nearby Attractions" %}</h6>
                     <ul>
-                      <li>Beach access - 2 minutes walk</li>
-                      <li>Marina District - 0.5 miles</li>
-                      <li>Historic Downtown - 1.2 miles</li>
-                      <li>Shopping Center - 0.8 miles</li>
+                      <li>{% trans "Beach access - 2 minutes walk" %}</li>
+                      <li>{% trans "Marina District - 0.5 miles" %}</li>
+                      <li>{% trans "Historic Downtown - 1.2 miles" %}</li>
+                      <li>{% trans "Shopping Center - 0.8 miles" %}</li>
                     </ul>
                   </div>
                   <div class="col-md-6">
-                    <h6>Transportation</h6>
+                    <h6>{% trans "Transportation" %}</h6>
                     <ul>
-                      <li>Airport shuttle available</li>
+                      <li>{% trans "Airport shuttle available" %}</li>
                       <li>Valet parking - $25/night</li>
-                      <li>Public transportation nearby</li>
-                      <li>Car rental desk in lobby</li>
+                      <li>{% trans "Public transportation nearby" %}</li>
+                      <li>{% trans "Car rental desk in lobby" %}</li>
                     </ul>
                   </div>
                 </div>
@@ -336,16 +322,16 @@
               <div class="tab-content-wrapper">
                 <div class="row">
                   <div class="col-md-4">
-                    <h6>Concierge</h6>
-                    <p>24/7 concierge service for reservations and recommendations</p>
+                    <h6>{% trans "Concierge" %}</h6>
+                    <p>{% trans "24/7 concierge service for reservations and recommendations" %}</p>
                   </div>
                   <div class="col-md-4">
-                    <h6>Room Service</h6>
-                    <p>Available 6:00 AM - 11:00 PM daily</p>
+                    <h6>{% trans "Room Service" %}</h6>
+                    <p>{% trans "Available 6:00 AM - 11:00 PM daily" %}</p>
                   </div>
                   <div class="col-md-4">
-                    <h6>Housekeeping</h6>
-                    <p>Daily housekeeping and turndown service</p>
+                    <h6>{% trans "Housekeeping" %}</h6>
+                    <p>{% trans "Daily housekeeping and turndown service" %}</p>
                   </div>
                 </div>
               </div>
@@ -355,16 +341,16 @@
 
         <!-- Optional Add-ons -->
         <div class="room-addons mb-5" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="section-subtitle mb-4">Enhance Your Stay</h3>
+          <h3 class="section-subtitle mb-4">{% trans "Enhance Your Stay" %}</h3>
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="addon-card">
                 <div class="addon-icon">
                   <i class="bi bi-cup-hot"></i>
                 </div>
-                <h5>Breakfast Package</h5>
-                <p>Start your day with our signature breakfast buffet featuring fresh local ingredients</p>
-                <div class="addon-price">+$35 per person</div>
+                <h5>{% trans "Breakfast Package" %}</h5>
+                <p>{% trans "Start your day with our signature breakfast buffet featuring fresh local ingredients" %}</p>
+                <div class="addon-price">{% trans "+$35 per person" %}</div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
@@ -372,9 +358,9 @@
                 <div class="addon-icon">
                   <i class="bi bi-flower1"></i>
                 </div>
-                <h5>Spa Access</h5>
-                <p>Enjoy unlimited access to our luxury spa facilities during your stay</p>
-                <div class="addon-price">+$75 per day</div>
+                <h5>{% trans "Spa Access" %}</h5>
+                <p>{% trans "Enjoy unlimited access to our luxury spa facilities during your stay" %}</p>
+                <div class="addon-price">{% trans "+$75 per day" %}</div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
@@ -382,9 +368,9 @@
                 <div class="addon-icon">
                   <i class="bi bi-airplane"></i>
                 </div>
-                <h5>Airport Transfer</h5>
-                <p>Private luxury vehicle transfer to and from the airport</p>
-                <div class="addon-price">+$95 round trip</div>
+                <h5>{% trans "Airport Transfer" %}</h5>
+                <p>{% trans "Private luxury vehicle transfer to and from the airport" %}</p>
+                <div class="addon-price">{% trans "+$95 round trip" %}</div>
               </div>
             </div>
           </div>
@@ -395,15 +381,15 @@
           <div class="booking-card">
             <div class="row align-items-center">
               <div class="col-lg-8">
-                <h4>Ready to book your stay?</h4>
-                <p>Experience luxury and comfort in our Deluxe Ocean View Suite. Book now and create unforgettable memories.</p>
+                <h4>{% trans "Ready to book your stay?" %}</h4>
+                <p>{% trans "Experience luxury and comfort in our Deluxe Ocean View Suite. Book now and create unforgettable memories." %}</p>
               </div>
               <div class="col-lg-4 text-center text-lg-end">
                 <div class="price-display">
                   <span class="price">$395</span>
-                  <span class="period">per night</span>
+                  <span class="period">{% trans "per night" %}</span>
                 </div>
-                <a href="{% url 'render-page' page='booking' %}" class="btn btn-primary btn-lg">Check Availability</a>
+                <a href="{% url 'render-page' page='booking' %}" class="btn btn-primary btn-lg">{% trans "Check Availability" %}</a>
               </div>
             </div>
           </div>
@@ -422,57 +408,57 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="{% url 'render-page' page='index' %}" class="logo d-flex align-items-center">
-              <span class="sitename">Lonergarden</span>
+              <span class="sitename">{% trans "Lonergarden" %}</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>{% trans "A108 Adam Street" %}</p>
+              <p>{% trans "New York, NY 535022" %}</p>
+              <p class="mt-3"><strong>{% trans "Phone:" %}</strong> <span>{% trans "+1 5589 55488 55" %}</span></p>
+              <p><strong>{% trans "Email:" %}</strong> <span>{% trans "info@example.com" %}</span></p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{% trans "Useful Links" %}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">{% trans "Home" %}</a></li>
+              <li><a href="#">{% trans "About us" %}</a></li>
+              <li><a href="#">{% trans "Services" %}</a></li>
+              <li><a href="#">{% trans "Terms of service" %}</a></li>
+              <li><a href="#">{% trans "Privacy policy" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>{% trans "Our Services" %}</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">{% trans "Web Design" %}</a></li>
+              <li><a href="#">{% trans "Web Development" %}</a></li>
+              <li><a href="#">{% trans "Product Management" %}</a></li>
+              <li><a href="#">{% trans "Marketing" %}</a></li>
+              <li><a href="#">{% trans "Graphic Design" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>{% trans "Hic solutasetp" %}</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="#">{% trans "Molestiae accusamus iure" %}</a></li>
+              <li><a href="#">{% trans "Excepturi dignissimos" %}</a></li>
+              <li><a href="#">{% trans "Suscipit distinctio" %}</a></li>
+              <li><a href="#">{% trans "Dilecta" %}</a></li>
+              <li><a href="#">{% trans "Sit quas consectetur" %}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>{% trans "Nobis illum" %}</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">{% trans "Ipsam" %}</a></li>
+              <li><a href="#">{% trans "Laudantium dolorum" %}</a></li>
+              <li><a href="#">{% trans "Dinera" %}</a></li>
+              <li><a href="#">{% trans "Trodelas" %}</a></li>
+              <li><a href="#">{% trans "Flexo" %}</a></li>
             </ul>
           </div>
 
@@ -484,15 +470,12 @@
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
+          <div>{% trans "© Copyright" %}<strong><span>{% trans "MyWebsite" %}</span></strong>{% trans ". All Rights Reserved" %}</div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->{% trans "Designed by" %}<a href="https://bootstrapmade.com/">{% trans "BootstrapMade" %}</a>
           </div>
         </div>
 
@@ -526,6 +509,9 @@
 
   <!-- Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+  <!-- refer to js/language-dropdown.js -->
+  <script src="{% static 'js/language-dropdown.js' %}"></script>
 
 </body>
 

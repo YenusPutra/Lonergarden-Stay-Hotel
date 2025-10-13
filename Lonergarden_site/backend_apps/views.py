@@ -16,6 +16,20 @@ from django.template.loader import render_to_string
 
 # Create your views here.
 
+from django.utils import translation
+from django.utils.translation import check_for_language
+# def set_language(request):
+#     if request.method == "POST":       # 1) only accept POST requests (we're changing server state)
+#         lang_code = request.POST.get("language")
+#         if not lang_code or not check_for_language(lang_code):      # 2) basic validation
+#             return JsonResponse({"success": False, "message": "Invalid or unsupported language."}, status=400)
+#         translation.activate(lang_code)     # 3) activate language for this request/thread
+#         request.session['django_language'] = lang_code        # 4) persist the choice in the session so LocaleMiddleware will remember it (Django checks the session key when deciding which language to use).
+#         response = JsonResponse({"success": True, "message": f"Language set to {lang_code}"})        # 5) respond with JSON (AJAX-friendly). Also set cookie so it persists across sessions if you want.
+#         response.set_cookie(settings.LANGUAGE_COOKIE_NAME, lang_code)
+#         return response
+#     return JsonResponse({"success": False, "message": "Method not allowed."}, status=405)    # if not POST, tell the client it's not allowed
+
 def contact(request):
     form = ContactForm(request.POST or None)
     if request.method == 'POST' and form.is_valid():
@@ -70,39 +84,42 @@ def room_list(request):
             term_query = Q()
             term_query |= Q(name__icontains=term)             # Basic text search
             term_query |= Q(description__icontains=term)
-            feature_mapping = {             # Feature tags search
-                'ocean': 'tag_ocean_view', 'garden': 'tag_garden_view', 
-                'city': 'tag_city_view', 'mountain': 'tag_mountain_view',
-                'pool': 'tag_pool_view', 'popular': 'tag_popular',
-                'business': 'tag_business', 'family': 'tag_family_friendly',
-                'friendly': 'tag_family_friendly', 'romantic': 'tag_romantic',
-                'premium': 'tag_premium', 'luxury': 'tag_luxury',
-            }
-            for keyword, field in feature_mapping.items():            # Check feature mapping
-                if keyword in term.lower():
-                    term_query |= Q(**{f'{field}': True})
+            for lang_code, lang_name in settings.LANGUAGES:
+                term_query |= Q(name__icontains=term)
+                term_query |= Q(description__icontains=term)
+                feature_mapping = {           # Feature tags search
+                    'ocean': 'tag_ocean_view', 'garden': 'tag_garden_view', 
+                    'city': 'tag_city_view', 'mountain': 'tag_mountain_view',
+                    'pool': 'tag_pool_view', 'popular': 'tag_popular',
+                    'business': 'tag_business', 'family': 'tag_family_friendly',
+                    'friendly': 'tag_family_friendly', 'romantic': 'tag_romantic',
+                    'premium': 'tag_premium', 'luxury': 'tag_luxury',
+                }
+                for keyword, field in feature_mapping.items():            # Check feature mapping
+                    if keyword in term.lower():
+                        term_query |= Q(**{f'{field}': True})
 
-            amenity_mapping = {             # Amenities search
-                'wifi': 'has_wifi', 'tv': 'has_tv',
-                'television': 'has_tv', 'workspace': 'has_workspace',
-                'work': 'has_workspace', 'desk': 'has_workspace',
-                'kitchen': 'has_kitchen', 'mini': 'has_kitchen',
-                'game': 'has_game_console', 'console': 'has_game_console',
-                'parking': 'has_parking', 'jacuzzi': 'has_jacuzzi',
-                'coffee': 'has_coffeemachine', 'machine': 'has_coffeemachine',
-                'king': 'has_kingsize_bed', 'bed': 'has_kingsize_bed',
-                'safe': 'has_secure', 'secure': 'has_secure', 'phone': 'has_bussinessphone',
-            }
-            for keyword, field in amenity_mapping.items():            # Check amenity mapping  
-                if keyword in term.lower():
-                    term_query |= Q(**{f'{field}': True})
+                amenity_mapping = {             # Amenities search
+                    'wifi': 'has_wifi', 'tv': 'has_tv',
+                    'television': 'has_tv', 'workspace': 'has_workspace',
+                    'work': 'has_workspace', 'desk': 'has_workspace',
+                    'kitchen': 'has_kitchen', 'mini': 'has_kitchen',
+                    'game': 'has_game_console', 'console': 'has_game_console',
+                    'parking': 'has_parking', 'jacuzzi': 'has_jacuzzi',
+                    'coffee': 'has_coffeemachine', 'machine': 'has_coffeemachine',
+                    'king': 'has_kingsize_bed', 'bed': 'has_kingsize_bed',
+                    'safe': 'has_secure', 'secure': 'has_secure', 'phone': 'has_bussinessphone',
+                }
+                for keyword, field in amenity_mapping.items():            # Check amenity mapping  
+                    if keyword in term.lower():
+                        term_query |= Q(**{f'{field}': True})
 
-            # Add view keyword search, This would catch "oceanview" but not just "view"
-            if 'view' in term.lower() and len(term) > 3: 
-                pass
+                # Add view keyword search, This would catch "oceanview" but not just "view"
+                if 'view' in term.lower() and len(term) > 3: 
+                    pass
 
-            query |= term_query         # Combine with OR logic for each term
-        
+                query |= term_query         # Combine with OR logic for each term
+            
         rooms = rooms.filter(query).distinct()
 
     # 1. Filter by price range
@@ -170,8 +187,6 @@ def room_list(request):
             }
     
     return render(request, 'userinterface/rooms.html', context)
-
-    
 
 def booking(request):
     if request.method == "POST":
@@ -301,11 +316,9 @@ def booking(request):
             })
     else: 
         return render(request, "userinterface/booking.html")
-    
-    
+       
 def payment_finish(request):
     return render(request, "userinterface/payment_success.html")
-
 
 @csrf_exempt  # Midtrans can't send CSRF token, so we disable it for this endpoint
 def midtrans_notification(request):
@@ -338,17 +351,42 @@ def midtrans_notification(request):
             return JsonResponse({"status": "error", "message": str(e)}, status=400)
     return JsonResponse({"status": "invalid method"}, status=405)
 
+from django.contrib.auth import authenticate, login
+def custom_login_view(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(request, username=username, password=password)
+        
+        if user is not None:
+            login(request, user)
+            messages.success(request, "✅ Successfully logged in! Welcome back!")
+            return redirect('/admin/')  # Redirect to your admin page
+        else:
+            # Handle failed login
+            return render(request, 'userinterface/admin/login.html', {'error': True})
+    
+    return render(request, 'userinterface/admin/login.html')
 
 # Custom 404 view for catch-all pattern !!Must be put at the very last line!!
 ALLOWED_TEMPLATES = [
     'about', 'amenities', 'booking', '404', 'contact', 'events', 'gallery',
     'index', 'location', 'offers', 'privacy', 'restaurant', 'room-details',
     'rooms', 'starter-page', 'terms',
-]
+    ]
+LANGUAGE_CODES = [
+    'en', 'ja', 'id', 'fr', 'de', 'es'
+    ]
+
 def render_page_admin(request):
     return render(request, 'userinterface/admin/login.html')
 
 def render_page(request, page):
+    if page in LANGUAGE_CODES:    # Check if this is actually a language code
+        from django.utils import translation        # If it's a language code, redirect to home page in that language
+        translation.activate(page)
+        request.LANGUAGE_CODE = page
+        return render(request, 'userinterface/index.html')
     if page not in ALLOWED_TEMPLATES:
         raise Http404("Page not found")
     return render(request, f'userinterface/{page}.html')
