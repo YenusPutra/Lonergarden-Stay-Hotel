@@ -2,23 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "lonergarden_site/wsgi.py",
+      "src": "Lonergarden_site/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
         "runtime": "python3.9"
       }
-    },
-    {
-      "src": "build_files.sh",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "staticfiles"
-      }
-    },
-    {
-        "src": "manage.py", 
-        "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -32,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "lonergarden_site/wsgi.py"
+      "dest": "Lonergarden_site/wsgi.py"
     }
   ]
 }
