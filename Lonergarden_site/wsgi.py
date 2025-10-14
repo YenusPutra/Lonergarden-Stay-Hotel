@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Lonergarden_site.settings')
 
 application = get_wsgi_application()
+
+# 💡 VERCEL FIX: Expose the WSGI application as 'app'
+app = application
