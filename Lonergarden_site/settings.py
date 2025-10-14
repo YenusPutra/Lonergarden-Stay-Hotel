@@ -104,7 +104,7 @@ DATABASES = {
     #     'PORT': '5432',
     # }
     'default': dj_database_url.config(
-        default='postgres://postgres:admin@localhost:5432/LonergardenHotelDB', #// Fallback for local testing
+        default='postgres://admin:admin@localhost:5432/LonergardenHotelDB', #// Fallback for local testing
         conn_max_age=600
     )
 }
