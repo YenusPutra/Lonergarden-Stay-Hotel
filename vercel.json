@@ -6,14 +6,14 @@
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
-        "runtime": "python3.9"
+        "runtime": "python3.11"
       }
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "/Lonergarden_site/frontend_templates/static/$1"
     },
     {
       "src": "/media/(.*)",
